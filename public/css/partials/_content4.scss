@@ -1,0 +1,83 @@
+    .four{
+        position: relative;
+        background: white;
+        min-height: 50%;
+       
+        height:550px;
+        overflow-x: hidden;
+        overflow-y:hidden;
+        width:auto;
+     
+        
+      
+        .btn{
+            margin-top:30px;
+        }
+        
+        .wrapper{
+            display:grid;
+            grid-template-columns: 3fr 3fr 3fr;
+            justify-content: center;
+            align-items: center;
+            margin-top:15px;
+            transform:scale(1.1);
+
+            .three_one{
+                @extend %four_slide_div;
+                margin-left:140px;
+                margin-top:60px;
+
+                img{
+                    @extend %four_slide_image;
+                }
+            
+                @extend %inside_text;
+
+            }
+
+           
+
+            .three_two{
+                @extend %four_slide_div;
+                margin-left:75px;
+                margin-top:60px;
+                img{
+                    @extend%four_slide_image;
+                }
+
+
+                @extend %inside_text;
+            }
+
+            .three_three{
+                @extend %four_slide_div;
+                margin-left:10px;
+                margin-top:60px;
+                img{
+                    @extend%four_slide_image;
+                }
+
+               @extend %inside_text;
+            }
+
+          
+        }
+
+        .see_all{
+            color:#5190DE;
+            width:250px;
+            margin-top:90px;
+            height:40px;
+            border:0px;
+            border: 1px solid #5190DE;
+            background: white;
+            margin-left:580px;
+        }
+
+        .fa-long-arrow-right{
+            margin-left:20px;
+           
+        }
+
+      
+    }
