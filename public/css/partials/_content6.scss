@@ -1,0 +1,236 @@
+.six{
+    position:relative;
+    min-height:100%;
+    background:white;
+    .rotate-img{
+        display:grid;
+        grid-template-columns: 3fr 3fr;
+        justify-content: center;
+        align-content: center;
+
+        .rotation{
+            figure{
+                margin-top:-45%;
+                margin-left: 70px;
+                text-align:center;
+                img{
+                    position:relative;
+                    width:150px;
+                    height:150px;
+                }
+            }
+
+            
+        .circle{
+            width:430px;
+            height:430px;
+            border:2px dashed #BFBFBF;
+            border-radius: 50%;
+            margin-left:120px;
+            margin-top:-100px;
+            // /
+
+            img{
+                width:50px;
+                height:50px;
+                border-radius:50%;
+                position:absolute;
+            }
+
+            .cir-img1{
+                margin-left:105px;
+                margin-top:-20px;
+            }
+
+            .cir-img2{
+                margin-left: 300px;
+            }
+            .cir-img3{
+                margin-top: 110px;
+                margin-left: -10px;
+            }
+
+            .cir-img4{
+                margin-top: 110px;
+                margin-left: 385px;
+            }
+
+            .cir-img5{
+                margin-top: 260px;
+                margin-left: -12px;
+            }
+
+            .cir-img6{
+                margin-top: 260px;
+                margin-left: 390px;
+            }
+            
+            .cir-img7{
+                margin-top: 390px;
+                margin-left: 105px;
+            }
+
+            .cir-img8{
+                margin-top: 385px;
+                margin-left: 300px;
+            }
+
+           
+        }
+        }
+
+
+        
+
+        .fb-snap{
+            margin-left:50px;
+            margin-top:-100px;
+            .space{
+                width:500px;
+                height:300px;
+                border:2px dashed #BFBFBF;
+               
+            }
+
+            p{
+                opacity:0.5;
+                font-size:22px;
+            }
+
+            a{
+                text-decoration:none;
+                img{
+                    width: 180px;
+                    height: 80px;
+                    margin-left: 55px;
+                }
+
+                .playstore{
+                    width: 150px;
+                    height: 50px;
+                    margin-top: 15px;
+                    position: absolute;
+                }
+            }
+        }
+
+        
+    }
+   
+}
+
+.footer{
+    background:#2F313D;
+    display:grid;
+    grid-template-columns:2fr 2fr 1fr 2fr;
+    
+    margin-top:20px;
+    color:white;
+    height:295px;
+   .fungry_logo{
+       padding-top:70px;
+       padding-left:70px;
+       height:222px;
+       img{
+           width:75px;
+           height:75px;
+           border-radius:5px;
+       }
+
+       
+        h3{
+        position: absolute;
+        padding-left: 120px;
+        color:$footer_normal_text;
+        }
+
+        p{
+            margin-top: 100px;
+            color:$footer_colo_text_color;
+            height: 20px;
+            line-height: 1.5;
+            font-size:$footer_font_size;
+        }
+
+        span{
+            font-size:$footer_font_size;
+            line-height: 8;
+            color:$footer_normal_text;
+        }
+       
+   }
+
+   .address{
+       padding-top:70px;
+       color:$footer_colo_text_color;
+       p{
+           margin-top:40px;
+           font-size:$footer_font_size;
+           margin-left:35px;
+       }
+   }
+
+   .menu{
+      @extend %footer_menu;
+      li .half-line{
+             
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 10%; /* Change this to whatever width you want. */
+        padding-top: 0px; /* This creates some space between the element and the border. */
+        border-bottom: 3px solid $footer_colo_text_color; /* This creates the border. Replace black with whatever color you want. */
+        margin-left:-2px;
+    }
+   }
+
+   .help{
+        @extend %footer_menu;
+        li .half-line1{
+             
+            content: ""; /* This is necessary for the pseudo element to work. */ 
+            display: block; /* This will put the pseudo element on its own line. */
+            margin: 0 auto; /* This will center the border. */
+            width: 5%; /* Change this to whatever width you want. */
+            padding-top: 0px; /* This creates some space between the element and the border. */
+            border-bottom: 3px solid $footer_colo_text_color; /* This creates the border. Replace black with whatever color you want. */
+            margin-left:-2px;
+        }
+    }
+
+        .social-media{
+            ul{
+                overflow:auto;
+                margin-left:150px;
+                li{
+                    list-style-type: none;
+                    float:left;
+
+                    a i{
+                        background:transparent;
+                        color: $footer_normal_text;
+                        width : 15px;
+                        height: 10px;
+                        border-radius: 50%;
+                        border:1px solid white;
+                        font-size: 10px;
+                        text-align: center;
+                        margin-right: 10px;
+                        padding-top:20%;
+                    }
+
+                    a .fa-instagram{
+                        border:0px;
+                        font-size:18px;
+                        margin-top:5px;
+                    }
+
+                    a .fa-envelope{
+                        border:0px;
+                        font-size:18px;
+                        margin-top:5px;
+                    }
+                }
+            }
+        }
+    }

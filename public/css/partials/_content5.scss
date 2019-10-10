@@ -1,0 +1,148 @@
+.five{
+    position:relative;
+    min-height:100%;
+    background:white;
+    margin-top:-120px;
+    
+    .meal{
+        width:600px;
+        height:450px;
+        border:1px solid #5190DE;
+        margin-left:140px;
+
+        .meals{
+           // width:80px;
+            height:80px;
+            position:relative;
+            z-index:4;
+            margin-left:900px;
+            margin-top:-180px;
+            border-radius:5px;
+        }
+       
+        .up-to-date{
+            width:350px;
+            height:190px;
+            background:white;
+            border:0px;
+            position:static;
+            z-index:5;
+            margin-left:-40px;
+            margin-top:135px;
+            
+            h1{
+                padding-top:5px;
+                word-spacing:0px;
+               
+            }
+
+            span{
+                font-size:15px;
+            }
+
+            
+        .slide_group{
+            display: flex;
+            flex-wrap: nowrap;
+            height: 350px;
+            overflow-x: hidden;
+            overflow-y:hidden;
+            width: 1100px;
+            position:static;
+            z-index:1;
+            margin-left:130px;
+           //z-index:3;
+            margin-top:-270px;
+            //transform: translateX(430px);
+           
+            min-width:750px;
+            max-height:500px;
+            background:transparent;
+
+            .card {
+                @extend %scroll_group;
+               transform: translateX(350px);
+                
+                .fa-heart{
+                    font-family: "Font Awesome 5 Free";
+                    font-size: 20px;
+                    position: relative;
+                    float: right;
+                    margin-top: -40px;
+                    margin-right: 20px;
+                    color: white;
+                    opacity:2.5;
+                }
+            
+                span{
+                    font-size:25px;
+                    margin-left:10px;
+                }
+              }
+
+              .card_1 {
+                @extend %scroll_group;
+                margin-left:25px;
+                transform: translateX(350px);
+
+                .fa-heart{
+                    font-family: "Font Awesome 5 Free";
+                    font-size: 20px;
+                    position: relative;
+                    float: right;
+                    margin-top: -40px;
+                    margin-right: 20px;
+                    color: white;
+                    opacity:2.5;
+                }
+            
+                span{
+                    font-size:20px;
+                    margin-left:10px;
+                }
+              }
+
+              .card_2 {
+                @extend %scroll_group;
+                margin-left:20px;
+                transform: translateX(350px);
+
+
+                .fa-heart{
+                    font-family: "Font Awesome 5 Free";
+                    font-size: 20px;
+                    position: relative;
+                    float: right;
+                    margin-top: -40px;
+                    margin-right: 20px;
+                    color: white;
+                    opacity:2.5;
+                }
+            
+                span{
+                    font-size:20px;
+                    margin-left:10px;
+                }
+              }
+              
+          
+        }
+    }
+
+
+        .slide_group.active{
+            cursor:grabbing;
+            position:relative;
+            z-index:10;
+            cursor:-webkit-grabbing;
+            
+            .card,.card_1,.card_2{
+               
+               transform:translateX(100px);
+             
+            }
+
+        }
+
+    }
+}
