@@ -1,0 +1,406 @@
+
+body,html{
+    height:100%;
+    margin:0;
+  
+}
+
+.section{
+    font-family: 'Roboto', sans-serif;
+    position:relative;
+    min-height:50%;
+   
+    height:400px;
+    .one{
+            display:grid;
+            grid-template-columns: 2fr 2fr 2fr;
+        }
+
+    .textone{
+        line-height:20px;
+        margin-top:150px;
+        margin-left:80px
+        
+    }
+    .hungry{
+        font-weight: 700px;
+        color: $accent_color;
+        font-weight: bold;
+    }
+    
+    .tetone{
+        margin-left:30px;
+        padding-top: 100px;
+      
+        
+    }
+    .corner{
+        background:$circle_shape;
+        width:300px;
+        height:300px;
+        border-radius:50%;
+        position:absolute;
+        margin-top:30px;
+        margin-left:-190px;
+        z-index: 0;
+        opacity:0.5;
+    }
+
+    
+    .font-myan {
+        font-family: 'Pyidaungsu', sans-serif; }
+
+    .wrapper{
+        display:flex;
+        margin-top:60px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .shadow1,.shadow2,.shadow3{
+        // background:#5a4c4c;
+        // border-radius:10px;
+        // box-shadow: 0px 12px 15px -8px #111;    
+    img{
+        width: 10px;
+        height: 200px;
+    }
+    }
+    .shadow1{
+        img{
+            margin-right: -145px;
+            margin-top:50px;
+            width:265px;
+            height:265px;
+        }
+    }
+
+    .shadow3{
+        img{
+            margin-left: -145px;
+            margin-top:50px;
+            width:265px;
+            height:265px;
+        }
+    }
+
+
+    .count{
+        margin-top: 110px;
+        .num::after{
+            content:'+';
+            color:blue;
+            margin-left:3px;
+        }
+        .num{
+            font-size: 20px;
+            font-weight: bolder;
+        }
+    }
+
+    .numcount1,.numcount2,.numcount3,.numcount4{
+        text-align:right;
+        margin-left:20px;
+        text-size-adjust: 80px;
+        padding: 0px;
+        margin-right:80px;
+    }
+
+    .numcount1{
+       color:$meal_text_color;
+        // line-height:0.2;  
+        .vertical-line1{
+            border-right: 3px solid $meal_text_color;
+            padding-right: 10px;    
+            line-height: 10px;
+            // position:absolute;
+            // margin-left:292px;
+            // font-size:50px;
+        }
+
+        span{
+                font-size:12px;
+            }  
+    }
+
+    .numcount2{
+        color:$view_text_count_color;
+        .vertical-line2{
+            border-right: 3px solid $view_text_count_color;
+            padding-right: 10px; 
+            line-height: 10px;       
+        }
+        span{
+            font-size: 12px;
+            line-height: 0.6;
+        }
+    }
+
+    .numcount3{
+        color:$restuarant_text_count_color;
+        .vertical-line3{
+            border-right: 3px solid $restuarant_text_count_color;
+            padding-right: 10px;
+            line-height: 10px;
+        }
+        span{
+            font-size: 12px;
+            line-height: 0.6;
+        }
+    }
+
+    .numcount4{
+       color:  $update_view_text_count_color;
+        .vertical-line4{
+            border-right: 3px solid  $update_view_text_count_color;
+            padding-right: 10px;
+            line-height: 10px;
+        }
+
+        span{
+            font-size: 12px;
+            line-height: 0.6;
+        }
+    }
+
+    .stores{
+         
+            margin-left: 500px;
+            
+            margin-top: 45px;
+            // width:500px;
+        .playstore{
+            width:160px;
+            height:50px;
+        }
+
+        .applestore{
+            width:160px;
+            height:50px;
+            margin-left: 20px;
+            }
+    }
+}
+
+
+.font-align .text2 {
+    line-height: 1px;
+    animation-name:text2;
+    animation-duration:1.5s;
+    animation-timing-function:ease;
+    animation-delay:0;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+    @keyframes text2{
+        0%{
+            //transform:scale(.3);
+            opacity:0;
+            margin-left:-30px;
+        }
+
+        100%{
+            //transform:scale(1);
+            opacity:1;
+            // margin-left:12px;
+        }
+    }
+
+    .textwo{
+        font-family: 'Pyidaungsu', sans-serif;
+        font-size:15px;
+        line-height:40px;
+        margin-top:20px;
+        margin-left:100px;
+      
+    }
+
+    .textwo_below{
+        font-family: 'Pyidaungsu', sans-serif;
+        color:$accent_color;
+        font-size:15px;
+        margin-left: 160px;
+        span{
+            color: black;
+            padding-left: 7px;
+        }
+    }
+}
+
+.one{
+    .wrapper{
+
+        .shadow3{
+            animation-name:shadowone;
+            animation-duration:1.5s;
+            animation-delay:0;
+            animation-iteration-count: initial;
+            @keyframes shadowone{
+                0%{
+                    transform:scale(0.5);
+                    opacity:0;
+                }
+        
+        
+                100%{
+                    transform:scale(1);
+                    opacity:1;
+                }
+            }
+        }
+        .shadow1{
+            animation-name:shadowtwo;
+        animation-duration:1.5s;
+        animation-timing-function:ease;
+        animation-delay:0;
+        animation-iteration-count: initial;
+        z-index: 10;
+        @keyframes shadowtwo{
+            0%{
+                transform:scale(0.5);
+                opacity:0;
+            }
+            100%{
+                transform:scale(1);
+                opacity:1;
+            }
+        }
+        }
+
+      
+
+        .shadow2{
+            animation-name:shadowtwo;
+            animation-duration:1.5s;
+            animation-timing-function:ease;
+            animation-delay:0;
+            animation-iteration-count: initial;
+            z-index: 10;
+            @keyframes shadowtwo{
+                0%{
+                    transform:scale(0.5);
+                    opacity:0;
+                }
+                100%{
+                    transform:scale(1);
+                    opacity:1;
+                }
+            }
+         }
+    }
+}
+ 
+// .one{
+//    .font-align{
+//       .text2{
+//            animation-name:fadeout;
+//            animation-duration:1.5s;
+//            animation-timing-function:ease;
+//            animation-delay:0;
+//            animation-iteration-count: initial;
+//            @keyframes fadeout{
+//                0%{
+//                    //transform:scale(.3);
+//                    opacity:0;
+//                    margin-left:-30px;
+//                }
+   
+//                100%{
+//                    //transform:scale(1);
+//                    opacity:1;
+//                    // margin-left:12px;
+//                }
+//            }
+//        }
+//    }
+   
+// }
+
+.font-align.animated .text2 {
+    // line-height: 1px;
+    animation-name:fadeout;
+    animation-duration:1.5s;
+    animation-timing-function:ease;
+    animation-delay:0;
+    animation-iteration-count: inherit;
+    @keyframes fadeout{
+        0%{
+            //transform:scale(.3);
+            opacity:0;
+            margin-left:-30px;
+        }
+
+        100%{
+            //transform:scale(1);
+            opacity:1;
+            // margin-left:12px;
+        }
+    }
+}
+
+
+ .wrapper.animated  .shadow3{
+    animation-name:shadowthree;
+    animation-duration:1.5s;
+    animation-delay:0;
+    animation-iteration-count: initial;
+    @keyframes shadowthree{
+        0%{
+            transform:scale(0.5);
+            opacity:0;
+        }
+
+
+        100%{
+            transform:scale(1);
+            opacity:1;
+        }
+    }
+ }
+
+ .wrapper.animated  .shadow1{
+    animation-name:shadowone;
+    animation-duration:1.5s;
+    animation-delay:0;
+    animation-iteration-count: initial;
+    @keyframes shadowone{
+        0%{
+            transform:scale(0.5);
+            opacity:0;
+        }
+
+
+        100%{
+            transform:scale(1);
+            opacity:1;
+        }
+    }
+ }
+ .wrapper .shadow2{
+    img{
+        position: relative;
+        width:265px;
+        height:330px;
+        z-index:9;
+    }
+ }
+
+ .wrapper.animated .shadow2{
+    animation-name:shawdow2;
+    animation-duration:1.5s;
+    animation-timing-function:ease;
+    animation-delay:0;
+    animation-iteration-count: initial;
+    
+    @keyframes shawdow2{
+        0%{
+            transform:scale(0.5);
+            opacity:0;
+        }
+        100%{
+            transform:scale(1);
+            opacity:1;
+        }
+    }
+ }
+
+

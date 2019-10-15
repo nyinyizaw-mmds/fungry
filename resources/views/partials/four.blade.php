@@ -39,38 +39,38 @@
         
     </div>
 <script>
-        function isElementInViewport(el) {
-            var rect = el.getBoundingClientRect();
-            return (
-                rect.top >= 0 &&
-                rect.left >= 0 &&
-                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-            );
-        }
-        document.addEventListener("scroll", function () {
-            /*Animating div on entering viewport*/
-            const secondDiv = document.querySelector("#four");
-            isElementInViewport(secondDiv) ?
-                secondDiv.classList.add('animated') :
-                secondDiv.classList.remove('animated');
-            /*Paralexing an item*/
+        // function isElementInViewport(el) {
+        //     var rect = el.getBoundingClientRect();
+        //     return (
+        //         rect.top >= 0 &&
+        //         rect.left >= 0 &&
+        //         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        //         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        //     );
+        // }
+        // document.addEventListener("scroll", function () {
+        //     /*Animating div on entering viewport*/
+        //     const secondDiv = document.querySelector("#four");
+        //     isElementInViewport(secondDiv) ?
+        //         secondDiv.classList.add('animated') :
+        //         secondDiv.classList.remove('animated');
+        //     /*Paralexing an item*/
 
-            const scrolled = window.pageYOffset;
+        //     const scrolled = window.pageYOffset;
 
-            const four = document.querySelector(".four");
-            four.style.marginTop = -scrolled * 0.09 + "px";
+        //     const four = document.querySelector(".four");
+        //     four.style.marginTop = -scrolled * 0.09 + "px";
 
-            const wrap = document.querySelector(".wrapper");
-            wrap.style.marginTop = -scrolled * 0.05 + "px";
-           // wrap.style.transform = 'scale('+1.1+')';
+        //     const wrap = document.querySelector(".wrapper");
+        //     wrap.style.marginTop = -scrolled * 0.05 + "px";
+        //    // wrap.style.transform = 'scale('+1.1+')';
 
-            // const corner = document.querySelector(".right-corner");
-            // corner.style.marginTop = -scrolled * 0.025 + "px";
+        //     // const corner = document.querySelector(".right-corner");
+        //     // corner.style.marginTop = -scrolled * 0.025 + "px";
            
-            // wrap.style.marginRight =  scrolled * .1 + "px";
+        //     // wrap.style.marginRight =  scrolled * .1 + "px";
 
-        });
+        // });
     </script>
 
 
