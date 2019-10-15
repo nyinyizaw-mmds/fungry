@@ -50,48 +50,47 @@ document.addEventListener("scroll", function () {
                 secondDiv.classList.remove('animated');
             /*Paralexing an item*/
              const scrolled1= window.pageYOffset;
-         
+             const scrollamount =  -scrolled1 * .07 + "px";
 
             const parallaxEle2 = document.querySelector(".btn2");
-            parallaxEle2.style.top =  -scrolled1 * .09 + "px";
+            parallaxEle2.style.top = scrollamount;
 
             const parall = document.querySelector(".first");
-            parall.style.top =  -scrolled1 * .09 + "px";
+            parall.style.top =  scrollamount;
 
             const parallaxEle3 = document.querySelector(".btn3");
-            parallaxEle3.style.top =  -scrolled1 * .09 + "px";
+            parallaxEle3.style.top =  scrollamount;
 
             const parallaxEle4 = document.querySelector(".btn4");
-            parallaxEle4.style.top =  -scrolled1 * .09 + "px";
+            parallaxEle4.style.top =  scrollamount;
 
             const parallaxEle5 = document.querySelector(".btn5");
-            parallaxEle5.style.top =  -scrolled1 * .09 + "px";
+            parallaxEle5.style.top =  scrollamount;
 
             const parallaxEle6 = document.querySelector(".btn6");
-            parallaxEle6.style.top =  -scrolled1 * .09 + "px";
+            parallaxEle6.style.top =  scrollamount;
 
             const parallaxEle7 = document.querySelector(".btn7");
-            parallaxEle7.style.top =  -scrolled1 * .09 + "px";
+            parallaxEle7.style.top = scrollamount;
 
             const parallaxEle8 = document.querySelector(".btn8");
-            parallaxEle8.style.top =  -scrolled1 * .09 + "px";
+            parallaxEle8.style.top = scrollamount;
 
             const phimg = document.querySelector(".phimg");
             phimg.style.top =  -scrolled1 * .2 + "px";
-           // phimg.style.top =  -scrolled * .3 + "px";
-
+          
            const fruit = document.querySelector(".fruit");
             fruit.style.top =  -scrolled1 * .009 + "px";
 
            const figimg = document.querySelector(".fig-img");
-            figimg.style.top =  -scrolled1 * 0.04 + "px";
+            figimg.style.top =  -scrolled1 * 0.07 + "px";
             
             const corner1 = document.querySelector(".corner1");
             corner1.style.top =  -scrolled1 * .025 + "px";
 
 
             const corner = document.querySelector(".corner-img");
-            corner.style.right =  -scrolled1 * .06 + "px";
+            corner.style.right =  -scrolled1 * .05 + "px";
 
             const rightcorner = document.querySelector(".right-corner");
             rightcorner.style.top =  -scrolled1 * 0.01 + "px";
@@ -100,42 +99,18 @@ document.addEventListener("scroll", function () {
             const rotateimg = document.querySelector(".right-rotation");
            rotateimg.style.transform = 'rotate(' + theta + 'rad)';
 
-        //    const nextbtn = document.querySelector(".next-btn");
-        //     nextbtn.style.top =  -scrolled1 * 0.0025 + "px";
+     
+            //for six slide
+            const sixslide = document.querySelector("#slide-six");
+            isElementInViewport(sixslide) ?
+                sixslide.classList.add('animated') :
+                sixslide.classList.remove('animated');
+                const rotatescroll = window.pageYOffset;
 
-
-        //for four slide
-        const fourthDiv = document.querySelector(".four");
-        isElementInViewport(fourthDiv) ?
-            fourthDiv.classList.add('animated') :
-            fourthDiv.classList.remove('animated');
-        /*Paralexing an item*/
-
-        // const scrolled4 = window.pageYOffset;
-
-        // const four = document.querySelector(".four");
-        // four.style.top = -scrolled4 * 0.002 + "px";
-
-        //const wrap = document.querySelector(".wrapper");
-       // wrap.style.top = -scrolled4 * 0.2 + "px";
-        // wrap.style.transform = 'scale('+1.1+')';
-        //wrap.classList.add('playing');
-
-        // const corner = document.querySelector(".right-corner");
-        // corner.style.marginTop = -scrolled * 0.025 + "px";
-        
-        // wrap.style.marginRight =  scrolled * .1 + "px";
-
-        //for six slide
-        const sixslide = document.querySelector("#slide-six");
-        isElementInViewport(sixslide) ?
-            sixslide.classList.add('animated') :
-            sixslide.classList.remove('animated');
-            const rotatescroll = window.pageYOffset;
-        /*Paralexing an item*/
-        var theta = rotatescroll / 1200 + 5 * 0.7;
-        const circle = document.querySelector(".circle");
-        circle.style.transform = 'rotate(' + theta + 'rad)';
+            /*Paralexing an item*/
+            var theta = rotatescroll / 1200 + 5 * 0.7;
+            const circle = document.querySelector(".circle");
+            circle.style.transform = 'rotate(' + theta + 'rad)';
 
         // css({ transform: 'rotate(' + theta + 'rad)' });
 

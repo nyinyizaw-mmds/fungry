@@ -2,9 +2,8 @@
         position: relative;
         background: white;
         min-height: 100%;
-        height:550px;
         overflow-x: hidden;
-        
+
         overflow-y:hidden;
         width:auto;
       
@@ -17,7 +16,7 @@
             grid-template-columns: 3fr 3fr 3fr;
             justify-content: center;
             align-items: center;
-            margin-top:45px;
+            margin-top:0px;
             transform:scale(1.1);
 
             .three_one{
@@ -77,24 +76,12 @@
            
         }
 
-      
+        
     }
 
-    .four.animated  .wrapper{   
-        animation-name:large;
-        animation-duration:1.5s;
-        animation-delay:0;
-        animation-iteration-count: initial;
-        @keyframes large{
-            0%{
-                transform:scale(0.5);
-                opacity:0;
-            }
-    
-    
-            100%{
-                transform:scale(1);
-                opacity:1;
-            }
-        }
-   }
+    #three.animated .add_ani{
+        transform:scale(1.3);
+        border:1px solid red;
+    }
+
+   

@@ -13,7 +13,7 @@
                 </div>
                 <div class="slide_group">
                     <div class="card">
-                        <img src="{{asset('/images/chicken.jpg')}}" alt="phone" class="phimg2">
+                        <img src="{{asset('/images/burger-chips-dinner-70497.jpg')}}" alt="phone" class="phimg2">
                         <i class="far fa-heart" ><span>12</span></i>
                         <div class="container">
                             <span>New Opening</span><br/>
@@ -23,7 +23,7 @@
                     </div>
         
                     <div class="card_1">
-                        <img src="{{asset('/images/chicken.jpg')}}" alt="phone" class="phimg2">
+                        <img src="{{asset('/images/asian-food-bowl-cuisine-699953.jpg')}}" alt="phone" class="phimg2">
                         <i class="far fa-heart" ><span>12</span></i> 
                         <div class="container">
                             <span>New Opening</span><br/>
@@ -32,7 +32,7 @@
                     </div>
                     
                     <div class="card_2">
-                        <img src="{{asset('/images/chicken.jpg')}}" alt="phone" class="phimg2">
+                        <img src="{{asset('/images/appetizer-avocado-bread-566566.jpg')}}" alt="phone" class="phimg2">
                         <i class="far fa-heart" ><span>12</span></i> 
                         <div class="container">
                             <span>New Opening</span><br/>
