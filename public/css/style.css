@@ -1,1 +1,741 @@
+<<<<<<< HEAD
 /* No CSS *//*# sourceMappingURL=style.css.map */
+=======
+@import url("https://mmwebfonts.comquas.com/fonts/?font=pyidaungsu");
+.three .btn1, .three .btn2, .three .btn3, .three .btn5, .three .btn6 {
+  position: absolute;
+  width: 200px;
+  height: 45px;
+  border-radius: 70px;
+  -webkit-box-shadow: 0px 8px 5px 2px #BFBFBF;
+  box-shadow: 0px 8px 5px 2px #BFBFBF;
+}
+
+.three .btn4, .three .btn7, .three .btn8 {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  border-radius: 70px;
+  -webkit-box-shadow: 0px 8px 5px 2px #BFBFBF;
+  box-shadow: 0px 8px 5px 2px #BFBFBF;
+}
+
+.three .btn1:after, .three .btn2:after, .three .btn3:after, .three .btn5:after, .three .btn6:after {
+  content: "\f00c";
+  font-family: Fontawesome;
+  color: white;
+  padding: 8px;
+  font-size: 15px;
+  position: absolute;
+  border: 4px solid white;
+  border-radius: 50%;
+  width: 10%;
+  height: 35%;
+  background: #5B8EDC;
+  margin-top: -40px;
+  margin-left: 70px;
+}
+
+.three .btn1 p, .three .btn2 p, .three .btn3 p, .three .btn5 p, .three .btn6 p {
+  unicode-bidi: bidi-override;
+  color: white;
+  font-size: 18px;
+  margin-top: -15px;
+}
+
+.three .btn4 p, .three .btn7 p, .three .btn8 p {
+  unicode-bidi: bidi-override;
+  color: black;
+  font-size: 13px;
+  margin-top: -12px;
+  opacity: 0.5;
+}
+
+.four .wrapper .three_one h3, .four .wrapper .three_two h3, .four .wrapper .three_three h3 {
+  margin-left: 25px;
+  margin-top: 25px;
+  position: absolute;
+}
+
+.four .wrapper .three_one p, .four .wrapper .three_two p, .four .wrapper .three_three p {
+  margin-top: 65px;
+  margin-left: 25px;
+  color: #5B8EDC;
+}
+
+.four .wrapper .three_one span, .four .wrapper .three_two span, .four .wrapper .three_three span {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-left: 25px;
+}
+
+.three p {
+  text-align: center;
+  color: #3D3D3D;
+  height: 0px;
+}
+
+.three p .btn {
+  border: 0px;
+  border-bottom: 3px solid #DFE4FD;
+  background: white;
+}
+
+.four .wrapper .three_one, .four .wrapper .three_two, .four .wrapper .three_three {
+  width: 250px;
+  height: 170px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  -webkit-box-shadow: -3px 3px 5px 5px rgba(170, 170, 170, 0.54);
+  box-shadow: -3px 3px 5px 5px rgba(170, 170, 170, 0.54);
+}
+
+.four .wrapper .three_one img, .four .wrapper .three_two img, .four .wrapper .three_three img {
+  width: 140px;
+  height: 140px;
+  border-radius: 25px;
+  margin-top: -120px;
+  margin-left: 25px;
+  position: absolute;
+}
+
+.five .meal .up-to-date .slide_group .card, .five .meal .up-to-date .slide_group .card_1, .five .meal .up-to-date .slide_group .card_2 {
+  position: relative;
+  border: 3px solid #e7eaee;
+  -webkit-box-shadow: #e7eaee;
+          box-shadow: #e7eaee;
+  background: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 270px;
+  height: 345px;
+}
+
+.five .meal .up-to-date .slide_group .card img, .five .meal .up-to-date .slide_group .card_1 img, .five .meal .up-to-date .slide_group .card_2 img {
+  width: 270px;
+  height: 230px;
+  opacity: 0.9;
+}
+
+.five .meal .up-to-date .slide_group .card .container, .five .meal .up-to-date .slide_group .card_1 .container, .five .meal .up-to-date .slide_group .card_2 .container {
+  padding: 0px 15px;
+  background: white;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.five .meal .up-to-date .slide_group .card .container span, .five .meal .up-to-date .slide_group .card_1 .container span, .five .meal .up-to-date .slide_group .card_2 .container span {
+  font-size: 13px;
+}
+
+.footer .menu, .footer .help {
+  padding-top: 35px;
+}
+
+.footer .menu ul, .footer .help ul {
+  list-style: none;
+  line-height: 2.4;
+}
+
+.footer .menu ul li a:first-child, .footer .help ul li a:first-child {
+  color: #6B8AFF;
+}
+
+.footer .menu ul li:nth-child(1n+2) a, .footer .help ul li:nth-child(1n+2) a {
+  color: #BFBFBF;
+  font-size: 12px;
+}
+
+.footer .menu ul a, .footer .help ul a {
+  text-decoration: none;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.three {
+  position: relative;
+  background: white;
+  min-height: 100%;
+  height: 800px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.three .next-btn {
+  position: absolute;
+  margin-top: -180px;
+  text-align: center;
+  margin-left: -50px;
+}
+
+.three .btn1 {
+  margin-top: 100px;
+  margin-left: 500px;
+  background: #299042;
+}
+
+.three .btn2 {
+  margin-top: 160px;
+  margin-left: 110px;
+  background: #FCAB27;
+}
+
+.three .btn3 {
+  margin-top: 220px;
+  margin-left: 350px;
+  background: #FD5C42;
+}
+
+.three .btn4 {
+  margin-top: 280px;
+  margin-left: 110px;
+  background: transparent;
+}
+
+.three .btn5 {
+  margin-top: 340px;
+  margin-left: 510px;
+  background: #74DBD3;
+}
+
+.three .btn6 {
+  margin-top: 400px;
+  margin-left: 230px;
+  background: #9CEB48;
+}
+
+.three .btn7 {
+  margin-top: 470px;
+  margin-left: 420px;
+  background: transparent;
+}
+
+.three .btn8 {
+  margin-top: 520px;
+  margin-left: 120px;
+  background: transparent;
+}
+
+.three .rotate-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.three .rotate-img .phimg {
+  margin-top: 50px;
+  height: 630px;
+  position: absolute;
+  margin-left: 550px;
+}
+
+.three .rotate-img .back-img {
+  position: relative;
+  width: 130px;
+  height: 90px;
+  margin-left: 1240px;
+}
+
+.three .rotate-img .fruit {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: 280px;
+  margin-left: 1220px;
+}
+
+.three .rotate-img figure {
+  position: absolute;
+  margin-top: 580px;
+  margin-left: 1060px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.three .rotate-img figure .search {
+  width: 50px;
+  height: 50px;
+}
+
+.three .corner1 {
+  margin-left: -70px;
+  margin-top: 430px;
+  width: 150px;
+  height: 230px;
+  background: #DFE4FD;
+  border-radius: 0px 130px 130px 0px;
+  position: relative;
+  z-index: 10;
+}
+
+.three .corner1 img {
+  width: 150px;
+  height: 100px;
+  position: relative;
+  margin-left: -30px;
+  margin-top: 142px;
+}
+
+.three .right-corner {
+  position: relative;
+  margin-left: 1230px;
+  margin-top: -170px;
+  width: 200px;
+  height: 250px;
+  background: #DFE4FD;
+  border-radius: 74% 25% 95% 48% / 95% 0% 100% 48%;
+}
+
+.three .right-corner img {
+  height: 150px;
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.four {
+  position: relative;
+  background: white;
+  min-height: 50%;
+  height: 550px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: auto;
+}
+
+.four .btn {
+  margin-top: 30px;
+}
+
+.four .wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 3fr 3fr;
+      grid-template-columns: 3fr 3fr 3fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.four .wrapper .three_one {
+  margin-left: 140px;
+  margin-top: 60px;
+}
+
+.four .wrapper .three_two {
+  margin-left: 75px;
+  margin-top: 60px;
+}
+
+.four .wrapper .three_three {
+  margin-left: 10px;
+  margin-top: 60px;
+}
+
+.four .see_all {
+  color: #5190DE;
+  width: 250px;
+  margin-top: 90px;
+  height: 40px;
+  border: 0px;
+  border: 1px solid #5190DE;
+  background: white;
+  margin-left: 580px;
+}
+
+.four .fa-long-arrow-right {
+  margin-left: 20px;
+}
+
+.five {
+  position: relative;
+  min-height: 100%;
+  background: white;
+  margin-top: -120px;
+}
+
+.five .meal {
+  width: 600px;
+  height: 450px;
+  border: 1px solid #5190DE;
+  margin-left: 140px;
+}
+
+.five .meal .meals {
+  height: 80px;
+  position: relative;
+  z-index: 4;
+  margin-left: 900px;
+  margin-top: -180px;
+  border-radius: 5px;
+}
+
+.five .meal .up-to-date {
+  width: 350px;
+  height: 190px;
+  background: white;
+  border: 0px;
+  position: static;
+  z-index: 5;
+  margin-left: -40px;
+  margin-top: 135px;
+}
+
+.five .meal .up-to-date h1 {
+  padding-top: 5px;
+  word-spacing: 0px;
+}
+
+.five .meal .up-to-date span {
+  font-size: 15px;
+}
+
+.five .meal .up-to-date .slide_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 350px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 1100px;
+  position: static;
+  z-index: 1;
+  margin-left: 130px;
+  margin-top: -270px;
+  min-width: 750px;
+  max-height: 500px;
+  background: transparent;
+}
+
+.five .meal .up-to-date .slide_group .card {
+  -webkit-transform: translateX(350px);
+          transform: translateX(350px);
+}
+
+.five .meal .up-to-date .slide_group .card .fa-heart {
+  font-family: "Font Awesome 5 Free";
+  font-size: 20px;
+  position: relative;
+  float: right;
+  margin-top: -40px;
+  margin-right: 20px;
+  color: white;
+  opacity: 2.5;
+}
+
+.five .meal .up-to-date .slide_group .card span {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.five .meal .up-to-date .slide_group .card_1 {
+  margin-left: 25px;
+  -webkit-transform: translateX(350px);
+          transform: translateX(350px);
+}
+
+.five .meal .up-to-date .slide_group .card_1 .fa-heart {
+  font-family: "Font Awesome 5 Free";
+  font-size: 20px;
+  position: relative;
+  float: right;
+  margin-top: -40px;
+  margin-right: 20px;
+  color: white;
+  opacity: 2.5;
+}
+
+.five .meal .up-to-date .slide_group .card_1 span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.five .meal .up-to-date .slide_group .card_2 {
+  margin-left: 20px;
+  -webkit-transform: translateX(350px);
+          transform: translateX(350px);
+}
+
+.five .meal .up-to-date .slide_group .card_2 .fa-heart {
+  font-family: "Font Awesome 5 Free";
+  font-size: 20px;
+  position: relative;
+  float: right;
+  margin-top: -40px;
+  margin-right: 20px;
+  color: white;
+  opacity: 2.5;
+}
+
+.five .meal .up-to-date .slide_group .card_2 span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.five .meal .slide_group.active {
+  cursor: grabbing;
+  position: relative;
+  z-index: 10;
+  cursor: -webkit-grabbing;
+}
+
+.five .meal .slide_group.active .card, .five .meal .slide_group.active .card_1, .five .meal .slide_group.active .card_2 {
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+.six {
+  position: relative;
+  min-height: 100%;
+  background: white;
+}
+
+.six .rotate-img {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 3fr;
+      grid-template-columns: 3fr 3fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.six .rotate-img .rotation figure {
+  margin-top: -45%;
+  margin-left: 70px;
+  text-align: center;
+}
+
+.six .rotate-img .rotation figure img {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.six .rotate-img .rotation .circle {
+  width: 430px;
+  height: 430px;
+  border: 2px dashed #BFBFBF;
+  border-radius: 50%;
+  margin-left: 120px;
+  margin-top: -100px;
+}
+
+.six .rotate-img .rotation .circle img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.six .rotate-img .rotation .circle .cir-img1 {
+  margin-left: 105px;
+  margin-top: -20px;
+}
+
+.six .rotate-img .rotation .circle .cir-img2 {
+  margin-left: 300px;
+}
+
+.six .rotate-img .rotation .circle .cir-img3 {
+  margin-top: 110px;
+  margin-left: -10px;
+}
+
+.six .rotate-img .rotation .circle .cir-img4 {
+  margin-top: 110px;
+  margin-left: 385px;
+}
+
+.six .rotate-img .rotation .circle .cir-img5 {
+  margin-top: 260px;
+  margin-left: -12px;
+}
+
+.six .rotate-img .rotation .circle .cir-img6 {
+  margin-top: 260px;
+  margin-left: 390px;
+}
+
+.six .rotate-img .rotation .circle .cir-img7 {
+  margin-top: 390px;
+  margin-left: 105px;
+}
+
+.six .rotate-img .rotation .circle .cir-img8 {
+  margin-top: 385px;
+  margin-left: 300px;
+}
+
+.six .rotate-img .fb-snap {
+  margin-left: 50px;
+  margin-top: -100px;
+}
+
+.six .rotate-img .fb-snap .space {
+  width: 500px;
+  height: 300px;
+  border: 2px dashed #BFBFBF;
+}
+
+.six .rotate-img .fb-snap p {
+  opacity: 0.5;
+  font-size: 22px;
+}
+
+.six .rotate-img .fb-snap a {
+  text-decoration: none;
+}
+
+.six .rotate-img .fb-snap a img {
+  width: 180px;
+  height: 80px;
+  margin-left: 55px;
+}
+
+.six .rotate-img .fb-snap a .playstore {
+  width: 150px;
+  height: 50px;
+  margin-top: 15px;
+  position: absolute;
+}
+
+.footer {
+  background: #2F313D;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 1fr 2fr;
+      grid-template-columns: 2fr 2fr 1fr 2fr;
+  margin-top: 20px;
+  color: white;
+  height: 295px;
+}
+
+.footer .fungry_logo {
+  padding-top: 70px;
+  padding-left: 70px;
+  height: 222px;
+}
+
+.footer .fungry_logo img {
+  width: 75px;
+  height: 75px;
+  border-radius: 5px;
+}
+
+.footer .fungry_logo h3 {
+  position: absolute;
+  padding-left: 120px;
+  color: #BFBFBF;
+}
+
+.footer .fungry_logo p {
+  margin-top: 100px;
+  color: #6B8AFF;
+  height: 20px;
+  line-height: 1.5;
+  font-size: 12px;
+}
+
+.footer .fungry_logo span {
+  font-size: 12px;
+  line-height: 8;
+  color: #BFBFBF;
+}
+
+.footer .address {
+  padding-top: 70px;
+  color: #6B8AFF;
+}
+
+.footer .address p {
+  margin-top: 40px;
+  font-size: 12px;
+  margin-left: 35px;
+}
+
+.footer .menu li .half-line {
+  content: "";
+  /* This is necessary for the pseudo element to work. */
+  display: block;
+  /* This will put the pseudo element on its own line. */
+  margin: 0 auto;
+  /* This will center the border. */
+  width: 10%;
+  /* Change this to whatever width you want. */
+  padding-top: 0px;
+  /* This creates some space between the element and the border. */
+  border-bottom: 3px solid #6B8AFF;
+  /* This creates the border. Replace black with whatever color you want. */
+  margin-left: -2px;
+}
+
+.footer .help li .half-line1 {
+  content: "";
+  /* This is necessary for the pseudo element to work. */
+  display: block;
+  /* This will put the pseudo element on its own line. */
+  margin: 0 auto;
+  /* This will center the border. */
+  width: 5%;
+  /* Change this to whatever width you want. */
+  padding-top: 0px;
+  /* This creates some space between the element and the border. */
+  border-bottom: 3px solid #6B8AFF;
+  /* This creates the border. Replace black with whatever color you want. */
+  margin-left: -2px;
+}
+
+.footer .social-media ul {
+  overflow: auto;
+  margin-left: 150px;
+}
+
+.footer .social-media ul li {
+  list-style-type: none;
+  float: left;
+}
+
+.footer .social-media ul li a i {
+  background: transparent;
+  color: #BFBFBF;
+  width: 15px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  font-size: 10px;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 20%;
+}
+
+.footer .social-media ul li a .fa-instagram {
+  border: 0px;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.footer .social-media ul li a .fa-envelope {
+  border: 0px;
+  font-size: 18px;
+  margin-top: 5px;
+}
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 1c675e88cab2960430079b78dde1533340c08b2c
