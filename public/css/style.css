@@ -6,6 +6,7 @@
   border-radius: 70px;
   -webkit-box-shadow: 0px 8px 5px 2px #BFBFBF;
   box-shadow: 0px 8px 5px 2px #BFBFBF;
+  border: none;
 }
 
 .three .btn4, .three .btn7, .three .btn8 {
@@ -15,6 +16,7 @@
   border-radius: 70px;
   -webkit-box-shadow: 0px 8px 5px 2px #BFBFBF;
   box-shadow: 0px 8px 5px 2px #BFBFBF;
+  border: none;
 }
 
 .three .btn1:after, .three .btn2:after, .three .btn3:after, .three .btn5:after, .three .btn6:after {
@@ -231,8 +233,8 @@ body, html {
 .section {
   font-family: 'Roboto', sans-serif;
   position: relative;
-  min-height: 50%;
-  height: 400px;
+  min-height: 90vh;
+  height: 350px;
 }
 
 .section .one {
@@ -311,9 +313,27 @@ body, html {
   margin-top: 110px;
 }
 
-.section .count .num::after {
+.section .count .num1::after {
   content: '+';
-  color: blue;
+  color: #6B8AFF;
+  margin-left: 3px;
+}
+
+.section .count .num2::after {
+  content: '+';
+  color: #C59828;
+  margin-left: 3px;
+}
+
+.section .count .num3::after {
+  content: '+';
+  color: #A32222;
+  margin-left: 3px;
+}
+
+.section .count .num4::after {
+  content: '+';
+  color: #409418;
   margin-left: 3px;
 }
 
@@ -394,18 +414,22 @@ body, html {
 
 .section .stores {
   margin-left: 500px;
-  margin-top: 45px;
+  position: absolute;
 }
 
 .section .stores .playstore {
   width: 160px;
   height: 50px;
+  margin-top: 38px;
 }
 
 .section .stores .applestore {
-  width: 160px;
-  height: 50px;
+  width: 190px;
+  height: 90px;
   margin-left: 20px;
+  /* padding-top: 20px; */
+  position: absolute;
+  margin-top: 18px;
 }
 
 .font-align .text2 {
@@ -711,9 +735,9 @@ body, html {
 .section2 {
   font-family: 'Roboto', sans-serif;
   position: relative;
-  min-height: 50%;
+  min-height: 100vh;
+  width: auto;
   overflow: hidden;
-  margin-top: 30px;
 }
 
 .section2 .two {
@@ -723,7 +747,6 @@ body, html {
   display: grid;
   -ms-grid-columns: 1fr 2fr;
       grid-template-columns: 1fr 2fr;
-  overflow: hidden;
   -webkit-transform: rotate(-2deg);
           transform: rotate(-2deg);
   background: #EEF3FF;
@@ -738,7 +761,7 @@ body, html {
   max-width: 780px;
   -webkit-transform: rotate(2deg);
           transform: rotate(2deg);
-  margin-right: 100px;
+  margin-right: 130px;
 }
 
 .section2 .two .border h1 {
@@ -775,8 +798,8 @@ body, html {
   height: 100px;
   position: relative;
   z-index: 2;
-  -webkit-transform: translateX(1185px);
-          transform: translateX(1185px);
+  -webkit-transform: translateX(1180px);
+          transform: translateX(1180px);
 }
 
 .section2 .two .pizza {
@@ -930,8 +953,8 @@ body, html {
   width: 30px;
   height: 30px;
   margin-top: 500px;
-  -webkit-transform: translateX(330px);
-          transform: translateX(330px);
+  -webkit-transform: translateX(730px);
+          transform: translateX(730px);
 }
 
 .section2 .two .icon13 {
@@ -942,8 +965,8 @@ body, html {
   width: 30px;
   height: 30px;
   margin-top: 500px;
-  -webkit-transform: translateX(330px);
-          transform: translateX(330px);
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
 }
 
 .border .description {
@@ -1006,7 +1029,7 @@ body, html {
   position: relative;
   background: white;
   min-height: 100%;
-  height: 900px;
+  height: 850px;
   overflow-x: hidden;
   overflow-y: hidden;
   margin-top: 50px;
@@ -1014,7 +1037,7 @@ body, html {
 
 .three .next-btn {
   position: absolute;
-  margin-top: -50px;
+  margin-top: -95px;
   text-align: center;
   margin-left: -50px;
 }
@@ -1079,7 +1102,7 @@ body, html {
 
 .three .rotate-img .phimg {
   margin-top: 280px;
-  height: 630px;
+  height: 680px;
   position: absolute;
   margin-left: 520px;
 }
@@ -1127,7 +1150,7 @@ body, html {
   width: 150px;
   height: 100px;
   position: relative;
-  margin-left: -35px;
+  margin-left: -45px;
   margin-top: 142px;
 }
 
@@ -1151,7 +1174,6 @@ body, html {
   position: relative;
   background: white;
   min-height: 100%;
-  height: 550px;
   overflow-x: hidden;
   overflow-y: hidden;
   width: auto;
@@ -1172,7 +1194,7 @@ body, html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 45px;
+  margin-top: 0px;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -1207,48 +1229,17 @@ body, html {
   margin-left: 20px;
 }
 
-.four.animated .wrapper {
-  -webkit-animation-name: large;
-          animation-name: large;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-}
-
-@-webkit-keyframes large {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes large {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
+#three.animated .add_ani {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  border: 1px solid red;
 }
 
 .five {
   position: relative;
   min-height: 100%;
   background: white;
-  margin-top: -120px;
+  margin-top: -150px;
 }
 
 .five .meal {

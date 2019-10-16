@@ -36,6 +36,7 @@
         <button class="btn next-btn">Special Meals Around You</button>
         
     </p>
+    
 </div>
 
 
