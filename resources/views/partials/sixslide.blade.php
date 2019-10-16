@@ -14,7 +14,7 @@
                 
             </div>
             <figure>
-                <img src="{{asset('/images/phone.png')}}" alt="phone">
+                <img src="{{asset('/images/logo1.png')}}" alt="phone">
                 <figcaption>Fungry.AI</figcaption>
             </figure>
        </div>
@@ -82,29 +82,29 @@
 </div>
 
 <script>
-      function isElementInViewport(el) {
-            var rect = el.getBoundingClientRect();
-            return (
-                rect.top >= 0 &&
-                rect.left >= 0 &&
-                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-            );
-        }
-        document.addEventListener("scroll", function () {
-            /*Animating div on entering viewport*/
-            const secondDiv = document.querySelector("#slide-six");
-            isElementInViewport(secondDiv) ?
-                secondDiv.classList.add('animated') :
-                secondDiv.classList.remove('animated');
-                const scrolled = window.pageYOffset;
-            /*Paralexing an item*/
-            var theta = scrolled / 1000 -1.7;
-            const circle = document.querySelector(".circle");
-           circle.style.transform = 'rotate(' + theta + 'rad)';
+    //   function isElementInViewport(el) {
+    //         var rect = el.getBoundingClientRect();
+    //         return (
+    //             rect.top >= 0 &&
+    //             rect.left >= 0 &&
+    //             rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    //             rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    //         );
+    //     }
+    //     document.addEventListener("scroll", function () {
+    //         /*Animating div on entering viewport*/
+    //         const secondDiv = document.querySelector("#slide-six");
+    //         isElementInViewport(secondDiv) ?
+    //             secondDiv.classList.add('animated') :
+    //             secondDiv.classList.remove('animated');
+    //             const scrolled = window.pageYOffset;
+    //         /*Paralexing an item*/
+    //         var theta = scrolled / 1000 -1.7;
+    //         const circle = document.querySelector(".circle");
+    //        circle.style.transform = 'rotate(' + theta + 'rad)';
 
-          // css({ transform: 'rotate(' + theta + 'rad)' });
-        });
+    //       // css({ transform: 'rotate(' + theta + 'rad)' });
+    //     });
 </script>
 
 

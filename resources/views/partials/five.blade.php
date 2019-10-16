@@ -45,7 +45,7 @@
      
     </div>
 </div>
-
+{{-- 
 <script>
 const slider =document.querySelector('.slide_group');
 
@@ -97,4 +97,4 @@ const slider =document.querySelector('.slide_group');
             opacity.style.opacity = '';
         }
 
-</script>
+</script> --}}
