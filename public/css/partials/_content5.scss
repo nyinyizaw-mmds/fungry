@@ -74,10 +74,8 @@
                     opacity:2.5;
                 }
             
-                span{
-                    font-size:25px;
-                    margin-left:10px;
-                }
+                
+               @extend %card_text;
               }
 
               .card_1 {
@@ -96,10 +94,8 @@
                     opacity:2.5;
                 }
             
-                span{
-                    font-size:20px;
-                    margin-left:10px;
-                }
+               
+               @extend %card_text;
               }
 
               .card_2 {
@@ -118,11 +114,8 @@
                     color: white;
                     opacity:2.5;
                 }
-            
-                span{
-                    font-size:20px;
-                    margin-left:10px;
-                }
+                
+               @extend %card_text;
               }
               
           

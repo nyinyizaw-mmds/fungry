@@ -61,12 +61,12 @@
         </div>
     </div>
     <div class="stores">
-            <a href=""><img src="{{asset('/images/playstore.png') }}" alt="playstore" class="playstore"> </a>
-            <a href=""><img src="{{asset('/images/appstore.png') }}" alt="applestore" class="applestore"></a>        
+            <a href="http://bit.ly/2wOeZEh"><img src="{{asset('/images/playstore.png') }}" alt="playstore" class="playstore"> </a>
+            <a href="https://apple.co/2WQvvSt"><img src="{{asset('/images/appstore.png') }}" alt="applestore" class="applestore"></a>        
     </div>
 </div>
 
-<div class="section2">
+<div class="section2" id="about">
         <div class="two">   
                 <div class="pizza">
                     <img src="{{asset('/images/piza.png') }}" alt="pizza" class="piz">

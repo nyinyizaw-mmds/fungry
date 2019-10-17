@@ -44,10 +44,39 @@ document.addEventListener("scroll", function () {
     rotate.style.transform = 'rotate(' + theta + 'rad)';
 
     // for third slide
-         const secondDiv = document.querySelector("#three");
-            isElementInViewport(secondDiv) ?
-                secondDiv.classList.add('animated') :
-                secondDiv.classList.remove('animated');
+    const three = document.querySelector(".three");
+    isElementInViewport(three) ?
+    three.classList.add('animated') :
+    three.classList.remove('animated');
+
+        if(three){
+            console.log('right');   
+            const trans = document.querySelector('#trans');
+            trans.classList.add('largescale');
+
+            const tr1 = document.querySelector('#tr1');
+            tr1.classList.add('largescale');
+
+            const tr2 = document.querySelector('#tr2');
+            tr2.classList.add('largescale');
+
+            const tr3 = document.querySelector('#tr3');
+            tr3.classList.add('largescale');
+
+            const tr4 = document.querySelector('#tr4');
+            tr4.classList.add('largescale');
+
+            const tr5 = document.querySelector('#tr5');
+            tr5.classList.add('largescale');
+
+            const tr6 = document.querySelector('#tr6');
+            tr6.classList.add('largescale');
+
+            const tr7 = document.querySelector('#tr7');
+            tr7.classList.add('largescale');
+
+        }
+         
             /*Paralexing an item*/
              const scrolled1= window.pageYOffset;
              const scrollamount =  -scrolled1 * .07 + "px";
@@ -99,6 +128,16 @@ document.addEventListener("scroll", function () {
             const rotateimg = document.querySelector(".right-rotation");
            rotateimg.style.transform = 'rotate(' + theta + 'rad)';
 
+
+           //four slide animation
+           const four = document.querySelector(".four");
+            isElementInViewport(four) ?
+            four.classList.add('animated') :
+            four.classList.remove('animated');
+       
+           const add = document.querySelector('.add_ani');
+
+           add.style.marginTop = -scrolled1 * 0.02 + "px";
      
             //for six slide
             const sixslide = document.querySelector("#slide-six");
