@@ -17,7 +17,7 @@
                         <i class="far fa-heart" ><span>12</span></i>
                         <div class="container">
                             <span>New Opening</span><br/>
-                            <span>Yummy Hot Pot & BBQ ဆိုင္ဠခဲအသစ္ soft openingပါေနာ္</span>
+                            <p>Yummy Hot Pot & BBQ ဆိုင္ဠခဲအသစ္ soft openingပါေနာ္</p>
                          
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                         <i class="far fa-heart" ><span>12</span></i> 
                         <div class="container">
                             <span>New Opening</span><br/>
-                            <span>Yummy Hot Pot & BBQ ဆိုင္ဠခဲအသစ္ soft openingပါေနာ္</span>
+                            <p>Yummy Hot Pot & BBQ ဆိုင္ဠခဲအသစ္ soft openingပါေနာ္</p>
                         </div>
                     </div>
                     
@@ -36,7 +36,7 @@
                         <i class="far fa-heart" ><span>12</span></i> 
                         <div class="container">
                             <span>New Opening</span><br/>
-                         <span>Yummy Hot Pot & BBQ ဆိုင္ဠခဲအသစ္ soft openingပါေနာ္</span>
+                            <p>Yummy Hot Pot & BBQ ဆိုင္ဠခဲအသစ္ soft openingပါေနာ္</p>
                         </div>
                     </div> 
                     

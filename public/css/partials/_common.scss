@@ -104,8 +104,9 @@
     height:170px;
     border:1px solid gray;
     border-radius: 10px;
+    
     -webkit-box-shadow: -3px 3px 5px 5px rgba(170,170,170,0.54); 
-    box-shadow: -3px 3px 5px 5px rgba(170,170,170,0.54);
+    box-shadow: 0px 2px 5px 5px rgba(170,170,170,0.54);
 }
 
 %four_slide_image{
@@ -121,6 +122,19 @@
 //end four slide css
 
 //start fifthslide css
+
+%card_text{
+
+    span{
+        font-size:20px;
+        margin-left:10px;
+    }
+
+    p{
+        font-size:12px;
+        margin-left:10px;
+    }
+}
 
 %scroll_group{
     position:relative;

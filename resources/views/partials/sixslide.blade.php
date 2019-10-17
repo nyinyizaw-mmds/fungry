@@ -37,7 +37,7 @@
         
     <div class="footer">
        <div class="fungry_logo">
-            <img src="{{asset('/images/chicken.jpg')}}" alt="phone" align="left">
+            <img src="{{asset('/images/Fungry-Noti-Outer.png')}}" alt="phone" align="left">
             <h3>Fungry.AI</h3>
           
             <p>Product of <br/>MM Digital Solutions</p>

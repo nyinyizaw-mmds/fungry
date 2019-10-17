@@ -7,7 +7,7 @@
         overflow-x:hidden;
         overflow-y:hidden;
         @extend %menu_center_text;
-        margin-top:50px;
+        margin-top:150px;
 
         .next-btn{
             //margin-top:-200px;
@@ -73,7 +73,8 @@
             margin-top:$third_slide_btn_margin_top+240px;
             margin-left:510px;
             background:#74DBD3;
-    
+            position:absolute;
+            z-index:5;
             @extend %inside_btn_text;
         }
     
@@ -115,13 +116,14 @@
             //height: 350px;
             overflow-x: hidden;
             overflow-y:hidden;
-            
+            background:transparent;
             //min-width:250px;
             .phimg{
-                margin-top:280px;
+                margin-top:330px;
                 height:680px;
                 position:absolute;
-                margin-left:520px;
+                margin-left:500px;
+                z-index:2;
               
             }
     
@@ -178,10 +180,12 @@
 
         .right-corner{
             position:relative;
+            z-index:5;
             margin-left: 1230px;
             margin-top: -170px;
             width: 200px;
             height: 250px;
+        
             background:$circle_underline;
             -webkit-border-radius: 74% 25% 95% 48% / 95% 0% 100% 48%;
             -moz-border-radius: 74% 25% 95% 48% / 95% 0% 100% 48%;
@@ -191,6 +195,7 @@
                 height: 150px;
                 margin-top: 70px;
                 margin-left: 40px;
+            
             }
         }
     

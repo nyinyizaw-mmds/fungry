@@ -30,7 +30,7 @@
         <img src="{{asset('/images/corner-plate.png')}}" alt="phone" class="corner-img">
     </div>
     <div class="right-corner">
-        <img src="{{asset('/images/corner-right.png')}}" alt="phone" class="right-rotation">
+        <img src="{{asset('/images/image.png')}}" alt="phone" class="right-rotation">
     </div>
     <p>
         <button class="btn next-btn">Special Meals Around You</button>

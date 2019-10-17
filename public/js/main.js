@@ -99,6 +99,16 @@ document.addEventListener("scroll", function () {
             const rotateimg = document.querySelector(".right-rotation");
            rotateimg.style.transform = 'rotate(' + theta + 'rad)';
 
+
+           //four slide animation
+           const four = document.querySelector(".four");
+            isElementInViewport(four) ?
+            four.classList.add('animated') :
+            four.classList.remove('animated');
+       
+           const add = document.querySelector('.add_ani');
+
+           add.style.marginTop = -scrolled1 * 0.02 + "px";
      
             //for six slide
             const sixslide = document.querySelector("#slide-six");
