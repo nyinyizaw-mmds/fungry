@@ -32,7 +32,7 @@
     <div class="right-corner">
         <img src="{{asset('/images/image.png')}}" alt="phone" class="right-rotation">
     </div>
-    <p>
+    <p id="special">
         <button class="btn next-btn">Special Meals Around You</button>
         
     </p>

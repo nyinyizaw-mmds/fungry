@@ -235,6 +235,10 @@
   background: #5190DE;
 }
 
+.header nav ul .btn1 a:hover {
+  color: black;
+}
+
 body, html {
   height: 100%;
   margin: 0;
@@ -808,8 +812,8 @@ body, html {
   height: 100px;
   position: relative;
   z-index: 2;
-  -webkit-transform: translateX(1180px);
-          transform: translateX(1180px);
+  -webkit-transform: translateX(1210px);
+          transform: translateX(1210px);
 }
 
 .section2 .two .pizza {
@@ -1042,7 +1046,6 @@ body, html {
   height: 850px;
   overflow-x: hidden;
   overflow-y: hidden;
-  margin-top: 150px;
 }
 
 .three .next-btn {

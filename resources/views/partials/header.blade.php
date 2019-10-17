@@ -66,7 +66,7 @@
     </div>
 </div>
 
-<div class="section2">
+<div class="section2" id="about">
         <div class="two">   
                 <div class="pizza">
                     <img src="{{asset('/images/piza.png') }}" alt="pizza" class="piz">
