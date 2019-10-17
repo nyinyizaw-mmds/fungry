@@ -25,10 +25,10 @@
             </div>
             <p>Download from Apple Store and  Google Play Store</p>
 
-            <a href="http://appstore.com">
+            <a href="https://apple.co/2WQvvSt">
                 <img src="{{asset('/images/appstore.png')}}" alt="appstore" class="appstore">
             </a>
-            <a href="https://play.google.com/store/apps">
+            <a href="http://bit.ly/2wOeZEh">
                 <img src="{{asset('/images/playstore.png')}}" alt="playstore" class="playstore">
             </a>
         </div>

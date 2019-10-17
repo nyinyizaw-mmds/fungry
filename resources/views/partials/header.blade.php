@@ -61,8 +61,8 @@
         </div>
     </div>
     <div class="stores">
-            <a href=""><img src="{{asset('/images/playstore.png') }}" alt="playstore" class="playstore"> </a>
-            <a href=""><img src="{{asset('/images/appstore.png') }}" alt="applestore" class="applestore"></a>        
+            <a href="http://bit.ly/2wOeZEh"><img src="{{asset('/images/playstore.png') }}" alt="playstore" class="playstore"> </a>
+            <a href="https://apple.co/2WQvvSt"><img src="{{asset('/images/appstore.png') }}" alt="applestore" class="applestore"></a>        
     </div>
 </div>
 
