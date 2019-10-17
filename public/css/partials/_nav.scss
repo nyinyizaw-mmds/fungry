@@ -26,11 +26,13 @@
             list-style: none;
             margin:0px;
             li{
+
                 display: inline-block;
                 color:rgb(0, 0, 0);
                 text-decoration:none;
                 padding:10px 30px;
                 position: relative;
+
                 a:active{
                     color: $nav_selected_menu;
                 }
@@ -72,7 +74,24 @@
                     color:black;
                 }
             }
+
+
         }
+
+        // .home{     
+        //     a{
+        //         color: $nav_selected_menu;
+        //         &::before{
+        //             content: "";
+        //             width: 25px;
+        //             height: 3px;
+        //             background: $line_button;
+        //             left: 30px;
+        //             bottom: 0;
+        //             position: absolute;
+        //         }
+        //     }
+        // }
 }
 
 
