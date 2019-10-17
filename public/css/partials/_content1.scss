@@ -8,9 +8,8 @@ body,html{
 .section{
     font-family: 'Roboto', sans-serif;
     position:relative;
-    min-height:50%;
-   
-    height:400px;
+    min-height:85vh;    
+    height:350px;
     .one{
             display:grid;
             grid-template-columns: 2fr 2fr 2fr;
@@ -87,11 +86,31 @@ body,html{
 
     .count{
         margin-top: 110px;
-        .num::after{
+        .num1::after{
             content:'+';
-            color:blue;
+            color:$meal_text_color;
             margin-left:3px;
         }
+        .num2::after{
+            content:'+';
+            color:$view_text_count_color;
+            margin-left:3px;
+        }
+        .num3::after{
+            content:'+';
+            color:$restuarant_text_count_color;
+            margin-left:3px;
+        }
+        .num4::after{
+            content:'+';
+            color: $update_view_text_count_color;
+            margin-left:3px;
+        }
+        // .num::after{
+        //     content:'+';
+        //     color:blue;
+        //     margin-left:3px;
+        // }
         .num{
             font-size: 20px;
             font-weight: bolder;
@@ -166,18 +185,22 @@ body,html{
     .stores{
          
             margin-left: 500px;
-            
-            margin-top: 45px;
-            // width:500px;
+            position:absolute;
+           // margin-top: 45px;
         .playstore{
-            width:160px;
-            height:50px;
+            width: 160px;
+            height: 50px;
+            margin-top: 38px;
+            //position: absolute;
         }
 
         .applestore{
-            width:160px;
-            height:50px;
+            width: 190px;
+            height: 90px;
             margin-left: 20px;
+            /* padding-top: 20px; */
+            position: absolute;
+            margin-top: 18px;
             }
     }
 }

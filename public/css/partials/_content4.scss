@@ -2,9 +2,8 @@
         position: relative;
         background: white;
         min-height: 100%;
-        height:550px;
         overflow-x: hidden;
-        
+
         overflow-y:hidden;
         width:auto;
       
@@ -12,18 +11,19 @@
             margin-top:30px;
         }
         
-        .wrapper{
+        .add_ani{
             display:grid;
             grid-template-columns: 3fr 3fr 3fr;
             justify-content: center;
             align-items: center;
-            margin-top:45px;
+            margin-top:0px;
             transform:scale(1.1);
 
             .three_one{
                 @extend %four_slide_div;
                 margin-left:140px;
                 margin-top:60px;
+                border:0px;
 
                 img{
                     @extend %four_slide_image;
@@ -39,6 +39,7 @@
                 @extend %four_slide_div;
                 margin-left:75px;
                 margin-top:60px;
+                border:0px;
                 img{
                     @extend%four_slide_image;
                 }
@@ -51,6 +52,7 @@
                 @extend %four_slide_div;
                 margin-left:10px;
                 margin-top:60px;
+                border:0px;
                 img{
                     @extend%four_slide_image;
                 }
@@ -77,24 +79,7 @@
            
         }
 
-      
+        
     }
 
-    .four.animated  .wrapper{   
-        animation-name:large;
-        animation-duration:1.5s;
-        animation-delay:0;
-        animation-iteration-count: initial;
-        @keyframes large{
-            0%{
-                transform:scale(0.5);
-                opacity:0;
-            }
-    
-    
-            100%{
-                transform:scale(1);
-                opacity:1;
-            }
-        }
-   }
+  

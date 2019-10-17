@@ -1,16 +1,16 @@
 .section2{
     font-family: 'Roboto', sans-serif;
     position: relative;
-    min-height:50%;
+    min-height:100vh;
+   width:auto;
     overflow:hidden;
-    margin-top:30px;
-
+    
     .two{
         position:relative;
         z-index:5;
         display:grid;
-        grid-template-columns: 1fr 2fr;
-        overflow:hidden;
+        grid-template-columns:1fr 2fr;
+       // overflow:hidden;
         transform:rotate(-2deg);
         background:$seconde_pg_bg_color;
         width:110%;
@@ -22,8 +22,8 @@
             border:1px solid blue;
             max-width: 780px;
             transform:rotate(2deg);
-            margin-right: 100px;  
-            
+            margin-right: 130px;  
+         
             h1{
                 color: $primary_text_color;
                 margin-left:-65px;
@@ -58,7 +58,7 @@
                 height: 100px;
                 position:relative;
                 z-index: 2;
-                transform:translateX(1185px);
+                transform:translateX(1210px);
             }
         }
 
@@ -188,7 +188,7 @@
                 width: 30px;
                 height: 30px;
                 margin-top: 500px;
-                transform: translateX(330px);
+                transform: translateX(730px);
             }
         }
 
@@ -198,7 +198,7 @@
                 width: 30px;
                 height: 30px;
                 margin-top: 500px;
-                transform: translateX(330px);
+                transform: translateX(30px);
             }
         }
     } 

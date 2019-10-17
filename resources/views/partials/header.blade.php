@@ -30,7 +30,7 @@
             <div class="numcount1">
                 <div class="vertical-line1">
                     <div>
-                        <P class="num">34,000</P>
+                        <P class="num num1">34,000</P>
                     </div>
                         
                         <span> MEALS</span>
@@ -40,33 +40,33 @@
 
             <div class="numcount2">
                 <div class="vertical-line2">
-                        <P class="num">24,000</P>
+                        <P class="num num2">24,000</P>
                         <span> VIEWS</span>
                 </div>
             </div>
 
             <div class="numcount3">
                 <div class="vertical-line3">
-                        <P class="num">300</P>
+                        <P class="num num3">300</P>
                         <span> RESTAURANTS</span>
                 </div>
             </div>
 
              <div class="numcount4">
                 <div class="vertical-line4">
-                        <P class="num">34,000</P>
+                        <P class="num num4">34,000</P>
                         <span> UPDATES AND NEWS</span>
                 </div>
             </div>
         </div>
     </div>
     <div class="stores">
-            <a href=""><img src="{{asset('/images/playstore.png') }}" alt="playstore" class="playstore"> </a>
-            <a href=""><img src="{{asset('/images/app-store-logo.png') }}" alt="applestore" class="applestore"></a>        
+            <a href="http://bit.ly/2wOeZEh"><img src="{{asset('/images/playstore.png') }}" alt="playstore" class="playstore"> </a>
+            <a href="https://apple.co/2WQvvSt"><img src="{{asset('/images/appstore.png') }}" alt="applestore" class="applestore"></a>        
     </div>
 </div>
 
-<div class="section2">
+<div class="section2" id="about">
         <div class="two">   
                 <div class="pizza">
                     <img src="{{asset('/images/piza.png') }}" alt="pizza" class="piz">
@@ -127,7 +127,7 @@
                 </div>
 
                 <div class="icon13">
-                    <img src="{{asset('/images/ficons/icons8-restaurant_pickup.png') }}" alt="icon9">
+                    <img src="{{asset('/images/ficons/icons8-ham.png') }}" alt="icon9">
                 </div>
                 <div>
                     <div class="border">

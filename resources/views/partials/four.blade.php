@@ -1,6 +1,6 @@
 <div class="four" id="four">
        
-        <div class="wrapper">
+        <div class="wrapper add_ani">
             <div class="three_one">
                 <h3>
                     Thai Fried<br>
@@ -9,7 +9,7 @@
                 <p>Bost Noodle</p>
                 
                 <span>ေျမနီကုန္း၊ဂမုန္းပြင့္အနီး</span>
-                <img src="{{asset('/images/chicken.jpg')}}" alt="phone" class="phimg">
+                <img src="{{asset('/images/colors-delicious-food-718742.jpg')}}" alt="phone" class="phimg">
             </div>
             <div class="three_two">
                 <h3>
@@ -19,7 +19,7 @@
                     <p>Bost Noodle</p>
                     
                     <span>ေျမနီကုန္း၊ဂမုန္းပြင့္အနီး</span>
-                <img src="{{asset('/images/chicken.jpg')}}" alt="phone" class="phimg1">
+                <img src="{{asset('/images/colors-delicious-food-718742.jpg')}}" alt="phone" class="phimg1">
             </div>
             <div class="three_three">
                 <h3>
@@ -29,7 +29,7 @@
                 <p>Bost Noodle</p>
                 
                 <span>ေျမနီကုန္း၊ဂမုန္းပြင့္အနီး</span>
-                <img src="{{asset('/images/chicken.jpg')}}" alt="phone" class="phimg2">
+                <img src="{{asset('/images/colors-delicious-food-718742.jpg')}}" alt="phone" class="phimg2">
             </div>
     
            
