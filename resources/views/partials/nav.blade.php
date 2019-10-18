@@ -1,4 +1,4 @@
-<div class="header">
+<div class="header"  id="home">
     <div class="logo1">
             <img src="{{asset('/images/logo1.png') }}" alt="logo"><p>Fungry.AI</p>
            

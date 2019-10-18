@@ -208,4 +208,4 @@ function step3(){
 
 
 
-$('.num').counterUp({delay:10,time:1000});
+$('.num').counterUp({delay:15,time:1000});

@@ -72,6 +72,7 @@
   text-align: center;
   color: #3D3D3D;
   height: 0px;
+  font-weight: bolder;
 }
 
 .three p .btn {
@@ -85,8 +86,8 @@
   height: 170px;
   border: 1px solid gray;
   border-radius: 10px;
-  -webkit-box-shadow: -3px 3px 5px 5px rgba(170, 170, 170, 0.54);
-  box-shadow: 0px 2px 5px 5px rgba(170, 170, 170, 0.54);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(170, 170, 170, 0.54);
+  box-shadow: 0px 5px 10px 0px rgba(170, 170, 170, 0.54);
 }
 
 .four .add_ani .three_one img, .four .add_ani .three_two img, .four .add_ani .three_three img {
@@ -96,6 +97,13 @@
   margin-top: -120px;
   margin-left: 25px;
   position: absolute;
+}
+
+.five .meal .up-to-date .slide_group .card .transparent_cover, .five .meal .up-to-date .slide_group .card_1 .transparent_cover, .five .meal .up-to-date .slide_group .card_2 .transparent_cover {
+  position: absolute;
+  height: 230px;
+  width: 270px;
+  background: #010101;
 }
 
 .five .meal .up-to-date .slide_group .card span, .five .meal .up-to-date .slide_group .card_1 span, .five .meal .up-to-date .slide_group .card_2 span {
@@ -233,15 +241,36 @@
   color: white;
   border-radius: 50px;
   background: #5190DE;
+  height: 30px;
+}
+
+.header nav ul .btn1 a {
+  color: white;
+  font-weight: 700;
 }
 
 .header nav ul .btn1 a:hover {
-  color: black;
+  color: #3D3D3D;
+}
+
+.header .home a {
+  color: #6B8AFF;
+}
+
+.header .home a::before {
+  content: "";
+  width: 25px;
+  height: 3px;
+  background: #5B8EDC;
+  left: 30px;
+  bottom: 0;
+  position: absolute;
 }
 
 body, html {
   height: 100%;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .section {
@@ -749,6 +778,7 @@ body, html {
 .section2 {
   font-family: 'Roboto', sans-serif;
   position: relative;
+  z-index: 5;
   min-height: 100vh;
   width: auto;
   overflow: hidden;
@@ -756,7 +786,8 @@ body, html {
 
 .section2 .two {
   position: relative;
-  z-index: 5;
+  margin-top: 20px;
+  z-index: 8;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 2fr;
@@ -766,7 +797,7 @@ body, html {
   background: #EEF3FF;
   width: 110%;
   margin-left: -12px;
-  height: 630px;
+  height: 600px;
 }
 
 .section2 .two .border {
@@ -991,6 +1022,11 @@ body, html {
   padding-left: 35px;
   -webkit-transform: scale(0);
           transform: scale(0);
+  font-weight: 100;
+}
+
+.border .description b {
+  font-weight: 700;
 }
 
 .border.animated .description {
@@ -1507,9 +1543,8 @@ body, html {
 }
 
 .six .rotate-img .fb-snap .space {
-  width: 500px;
   height: 300px;
-  border: 2px dashed #BFBFBF;
+  border: 0px dashed #BFBFBF;
 }
 
 .six .rotate-img .fb-snap p {

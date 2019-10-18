@@ -1,5 +1,5 @@
 <div class="three" id="three">
-    <p><button class="btn">Exclusive Feature for You</button></p>
+    <p><button class="btn"><b>Exclusive Feature for You</b></button></p>
     <button class="btn1 first" id="trans"><p>အသီးအရြက္</p></button>
     <button class="btn2" id="tr1"><p>အခ်ိဳ</p></button>
     <button class="btn3" id="tr2"><p>ခ်ဥ္ခ်ဥ္စပ္စပ္</p></button>
@@ -33,7 +33,7 @@
         <img src="{{asset('/images/image.png')}}" alt="phone" class="right-rotation">
     </div>
     <p id="special">
-        <button class="btn next-btn">Special Meals Around You</button>
+        <button class="btn next-btn"><b>Special Meals Around You</b></button>
         
     </p>
     
