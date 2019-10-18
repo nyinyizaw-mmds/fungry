@@ -19,8 +19,7 @@
         
         }
     nav{
-        // float: right;
-        // margin-top:-50px;
+       
         ul {
       
             list-style: none;
@@ -68,30 +67,36 @@
                     //    margin-top:15px;
                     border-radius:50px;
                     background:$accent_color;
+                    height:30px;
+
+                    a{
+                        color:white;
+                        font-weight:700;
+                    }
                 }
 
                 .btn1 a:hover{
-                    color:black;
+                    color:$primary_text_color;
                 }
             }
 
 
         }
 
-        // .home{     
-        //     a{
-        //         color: $nav_selected_menu;
-        //         &::before{
-        //             content: "";
-        //             width: 25px;
-        //             height: 3px;
-        //             background: $line_button;
-        //             left: 30px;
-        //             bottom: 0;
-        //             position: absolute;
-        //         }
-        //     }
-        // }
+        .home{     
+            a{
+                color: $nav_selected_menu;
+                &::before{
+                    content: "";
+                    width: 25px;
+                    height: 3px;
+                    background: $line_button;
+                    left: 30px;
+                    bottom: 0;
+                    position: absolute;
+                }
+            }
+        }
 }
 
 

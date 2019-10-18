@@ -73,8 +73,8 @@
                     color: white;
                     opacity:2.5;
                 }
-            
                 
+                @extend %background_cover_transparent;
                @extend %card_text;
               }
 
@@ -93,7 +93,8 @@
                     color: white;
                     opacity:2.5;
                 }
-            
+
+               @extend %background_cover_transparent;
                
                @extend %card_text;
               }
@@ -114,6 +115,8 @@
                     color: white;
                     opacity:2.5;
                 }
+
+                @extend %background_cover_transparent;
                 
                @extend %card_text;
               }
