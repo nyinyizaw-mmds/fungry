@@ -399,6 +399,22 @@ body,html{
             opacity:1;
         }
     }
+
+    .count.animated .num{
+        animation-name:count;
+        animation-duration:5;
+        animation-timing-function:ease;
+        animation-delay:10;
+        animation-iteration-count: initial;
+        
+        @keyframes count{
+           
+            100%{
+                transform:scale(1);
+                opacity:1;
+            }
+        }
+    }
  }
 
 

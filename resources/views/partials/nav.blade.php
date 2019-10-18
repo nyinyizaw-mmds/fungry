@@ -13,5 +13,11 @@
                  <li><button class="btn1"><a href="#slide-six">Get the App</a></button></li>
              </ul>
          </nav>
+
+        
  </div>
- 
+ @foreach ($image as $image)
+ @if($image->is_active == 1)
+    <img src="{{ asset ('images/'.$image->image)}}" alt="image" style="width:1348px;height:200px;"/>
+ @endif
+@endforeach
