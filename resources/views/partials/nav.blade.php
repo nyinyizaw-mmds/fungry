@@ -4,8 +4,13 @@
            
     </div>
     
-        <nav>
+        <nav class="nav">
+            <a href="#" class="toggleNav">☰</a>
+            
              <ul>
+                <li >
+                    <a href="#" class="toggleNav"><img src="{{asset('/images/delete.png') }}" alt="logo" class="close"></a>
+                </li>
                  <li  class="home"><a href="#home">Home</a></li>
                  <li><a href="#about">About</a></li>
                  <li><a href="#three">Features</a></li>
@@ -16,8 +21,10 @@
 
         
  </div>
- @foreach ($image as $image)
- @if($image->is_active == 1)
-    <img src="{{ asset ('images/'.$image->image)}}" alt="image" style="width:1348px;height:200px;"/>
- @endif
-@endforeach
+<div class="campaign">
+        @foreach ($image as $image)
+        @if($image->is_active == 1)
+           <img src="{{ asset ('images/'.$image->image)}}" alt="image" />
+        @endif
+       @endforeach
+</div>

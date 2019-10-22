@@ -9,7 +9,7 @@
     <button class="btn7" id="tr6"><p>ထူးထူးဆန္းဆန္း</p></button>
     <button class="btn8" id="tr7"><p>အကင္</p></button>
     <div class="rotate-img">
-        <img src="{{asset('/images/phones.png')}}" alt="phone" class="phimg">
+        <img src="{{asset('/images/new_taste_filter.png')}}" alt="phone" class="phimg">
 
         <img src="{{asset('/images/foot-upper-corner.png')}}" alt="phone" class="back-img">
 

@@ -16,19 +16,19 @@
 
         <div class="wrapper">
                 <span class="shadow1">
-                    <img src="{{asset('/images/iPhone2.png') }}" alt="screen1">
+                    <img src="{{asset('/images/image2.png') }}" alt="screen1">
                 </span>
                 <span class="shadow2">
-                        <img src="{{asset('/images/iPhone1.png') }}" alt="scree2">
+                        <img src="{{asset('/images/image1.png') }}" alt="scree2">
                 </span>
                 <span class="shadow3">
-                        <img src="{{asset('/images/iPhone3.png') }}" alt="screen3">
+                        <img src="{{asset('/images/image3.png') }}" alt="screen3">
                 </span>
         </div> 
 
         <div class="count">
-            <div class="numcount1">
-                <div class="vertical-line1">
+            <div class="numcount numcount1">
+                <div class="verticals vertical-line1">
                     <div>
                         <P class="num num1">34000</P>
                     </div>
@@ -38,22 +38,22 @@
                 
             </div> 
 
-            <div class="numcount2">
-                <div class="vertical-line2">
+            <div class="numcount numcount2">
+                <div class="verticals vertical-line2">
                         <P class="num num2">24,000</P>
                         <span> VIEWS</span>
                 </div>
             </div>
 
-            <div class="numcount3">
-                <div class="vertical-line3">
+            <div class="numcount numcount3">
+                <div class="verticals vertical-line3">
                         <P class="num num3">300</P>
                         <span> RESTAURANTS</span>
                 </div>
             </div>
 
-             <div class="numcount4">
-                <div class="vertical-line4">
+             <div class="numcount numcount4">
+                <div class="verticals vertical-line4">
                         <P class="num num4">34,000</P>
                         <span> UPDATES AND NEWS</span>
                 </div>
