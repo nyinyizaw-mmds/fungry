@@ -215,3 +215,9 @@ function step3(){
 
 
 $('.num').counterUp({delay:15,time:1000});
+
+$(function() {
+    $('.toggleNav').on('click',function() {
+      $('.nav ul').toggleClass('open');
+    });
+  });

@@ -4,11 +4,12 @@
             <div class="up-to-date">
                 <div class="text-opacity">
                     <h1>Up to Date Promotions <br/>
-                        and Meal Update</h1>
+                       <span> <h1>and Meal Update</h1></span></h1>
                     
                     
-                    <span>
-                        Read and Get more Food Related <br/>information by free
+                    <span class="read-and-get">
+                        Read and Get more Food Related <br/>
+                        <span>information by free</span>
                     </span>
                 </div>
                 <div class="slide_group">

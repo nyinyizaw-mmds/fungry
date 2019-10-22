@@ -125,8 +125,9 @@
 //start fifthslide css
 %background_cover_transparent{
     .transparent_cover{
+        
         position: absolute;
-        height: 230px;
+        height: 250px;
         width: 270px;
         background:#010101;
     }
@@ -157,12 +158,12 @@
     height:345px;
     img{
        width:270px;
-       height:230px;
+       height:250px;
        opacity:0.9;
     }
 
     .container {
-        padding: 0px 15px;
+        padding: 5px 15px;
         background:white;
         justify-items: center;
         align-content: center;
