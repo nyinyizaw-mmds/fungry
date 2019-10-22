@@ -1,9 +1,11 @@
 
 body,html{
     height:100%;
+    
     margin:0;
-  
+    scroll-behavior: smooth;
 }
+
 
 .section{
     font-family: 'Roboto', sans-serif;
@@ -312,31 +314,6 @@ body,html{
     }
 }
  
-// .one{
-//    .font-align{
-//       .text2{
-//            animation-name:fadeout;
-//            animation-duration:1.5s;
-//            animation-timing-function:ease;
-//            animation-delay:0;
-//            animation-iteration-count: initial;
-//            @keyframes fadeout{
-//                0%{
-//                    //transform:scale(.3);
-//                    opacity:0;
-//                    margin-left:-30px;
-//                }
-   
-//                100%{
-//                    //transform:scale(1);
-//                    opacity:1;
-//                    // margin-left:12px;
-//                }
-//            }
-//        }
-//    }
-   
-// }
 
 .font-align.animated .text2 {
     // line-height: 1px;
@@ -424,6 +401,168 @@ body,html{
             opacity:1;
         }
     }
+
+    .count.animated .num{
+        animation-name:count;
+        animation-duration:5;
+        animation-timing-function:ease;
+        animation-delay:10;
+        animation-iteration-count: initial;
+        
+        @keyframes count{
+           
+            100%{
+                transform:scale(1);
+                opacity:1;
+            }
+        }
+    }
  }
+
+ .toggleNav{
+     display:none;
+ }
+ .nav ul.open{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: -400px;
+    .home a::before {
+      display: none;
+  }
+    li{
+        position: relative;
+        width: 282px;
+
+      .btn1{
+          display: none;
+      }
+
+  }
+    
+}
+
+@media only screen and (min-width: 414px) and (max-width:768px) and (orientation:portrait)  {
+    .main-wrapper{
+        display: flex;
+        flex-direction: column;
+    } 
+    .section{
+        min-height: 950px;
+        .one{
+            display:grid;
+            grid-template-columns: 2fr;
+            .corner{
+                display: none;
+            }
+            .font-align{
+                .textone{    
+                    margin-top: 30px;
+                    margin-left: 7%;
+                }
+                .textwo{    
+                    margin-top: 30px;
+                    margin-left: 1%;
+                }
+                .text2{
+                    margin-left: 7%;
+                    .textwo_below {
+                        font-family: 'Pyidaungsu', sans-serif;
+                        color: #5190DE;
+                        font-size: 15px;
+                        margin-left: 21%;
+                    }
+                }
+            
+            }
+            .wrapper{
+                margin-top: 40px;
+                margin-left: -8%;
+                .shadow1 img {
+                    margin-top: 50px;
+                    width: 255px;
+                    height: 265px;
+                }
+                .shadow2 img {
+                    position: relative;
+                    width: 255px;
+                    height: 330px;
+                    z-index: 9;
+                }
+                .shadow3 img {
+                    // margin-left: -161px;
+                    margin-top: 50px;
+                    width: 255px;
+                    height: 265px;
+                }
+            }      
+        }
+        .count{
+            margin-top: 650px;
+            position: absolute;
+            margin-left: 110px;
+            .numcount{ 
+                 .verticals{
+                     border-right: none;
+                     .num{
+                         font-size: x-large;
+                         font-weight: lighter;
+                     }
+                     span{
+                         text-align: right;
+                     }
+                 }
+         
+                 span{
+                         font-size:12px;
+                     }  
+             }
+        }
+        .stores{
+            margin-top: -44px;
+            margin-left: 10px;
+        }
+        
+    }
+   
+    .toggleNav{
+        display: block;
+       
+    }
+    .nav{
+        min-width: 100%;
+        a{
+            margin-left: 200px;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        >img{
+                width: 86px;
+                height: 31px;
+                margin-left: -37px;
+            }
+        
+    }
+ 
+    .nav ul{
+        display: none;
+        
+    }
+    .nav{
+        ul{
+            li{
+                .close{ 
+                    width: 15px;
+                    height: 15px;
+                    position: absolute;
+                    z-index: 2;
+                    margin-top: 20px;
+                    margin-left: 325px;
+                }
+            }
+        }
+    }
+}
+
 
 

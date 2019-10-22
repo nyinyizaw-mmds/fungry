@@ -1,5 +1,5 @@
 <div class="three" id="three">
-    <p><button class="btn">Exclusive Feature for You</button></p>
+    <p><button class="btn"><b>Exclusive Feature for You</b></button></p>
     <button class="btn1 first" id="trans"><p>အသီးအရြက္</p></button>
     <button class="btn2" id="tr1"><p>အခ်ိဳ</p></button>
     <button class="btn3" id="tr2"><p>ခ်ဥ္ခ်ဥ္စပ္စပ္</p></button>
@@ -9,7 +9,7 @@
     <button class="btn7" id="tr6"><p>ထူးထူးဆန္းဆန္း</p></button>
     <button class="btn8" id="tr7"><p>အကင္</p></button>
     <div class="rotate-img">
-        <img src="{{asset('/images/phones.png')}}" alt="phone" class="phimg">
+        <img src="{{asset('/images/new_taste_filter.png')}}" alt="phone" class="phimg">
 
         <img src="{{asset('/images/foot-upper-corner.png')}}" alt="phone" class="back-img">
 
@@ -33,7 +33,7 @@
         <img src="{{asset('/images/image.png')}}" alt="phone" class="right-rotation">
     </div>
     <p id="special">
-        <button class="btn next-btn">Special Meals Around You</button>
+        <button class="btn next-btn"><b>Special Meals Around You</b></button>
         
     </p>
     

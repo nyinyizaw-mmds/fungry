@@ -21,7 +21,12 @@
        
         <div class="fb-snap">
             <div class="space">
-                    
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/my_MM/sdk.js#xfbml=1&version=v4.0&appId=250766449208472&autoLogAppEvents=1"></script>
+
+                <div class="fb-page" data-href="https://www.facebook.com/fungryai/" data-tabs="timeline" data-width="500" data-height="220" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fungryai/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fungryai/">Fungry.AI</a></blockquote></div>
+
+               
             </div>
             <p>Download from Apple Store and  Google Play Store</p>
 
@@ -55,10 +60,10 @@
        <div class="menu">
             <ul>
                 <li><a href="#" class="half-line">Menu</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">How it works</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#three">Features</a></li>
+                <li><a href="#special">How it works</a></li>
             </ul>
        </div>
        <div class="help">
@@ -74,7 +79,11 @@
                 <ul>
                     <li><a href="http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="http://instagram.com/"><i class="fa fa-instagram" ></i></a></li>
-                    <li><a href="http://gmail.com/"><i class="fa fa-envelope"></i> </a></li>
+                    <li><a href="mailto: aungpyaephyo@mm-digital-solutions.com?
+                        cc= thethlaing@mm-digital-solutions.com&
+                        bcc=yepyaesone.tun@mm-digital-solutions.com.com
+                        &amp;subject=Fungry%20Feedback%20of%20the%20webstie
+                        &amp;body=The%20body%20of%20the%20email"><i class="fa fa-envelope"></i> </a></li>
                 </ul>
             </div>
        </div>

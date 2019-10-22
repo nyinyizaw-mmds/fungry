@@ -16,21 +16,21 @@
 
         <div class="wrapper">
                 <span class="shadow1">
-                    <img src="{{asset('/images/iPhone2.png') }}" alt="screen1">
+                    <img src="{{asset('/images/image2.png') }}" alt="screen1">
                 </span>
                 <span class="shadow2">
-                        <img src="{{asset('/images/iPhone1.png') }}" alt="scree2">
+                        <img src="{{asset('/images/image1.png') }}" alt="scree2">
                 </span>
                 <span class="shadow3">
-                        <img src="{{asset('/images/iPhone3.png') }}" alt="screen3">
+                        <img src="{{asset('/images/image3.png') }}" alt="screen3">
                 </span>
         </div> 
 
         <div class="count">
-            <div class="numcount1">
-                <div class="vertical-line1">
+            <div class="numcount numcount1">
+                <div class="verticals vertical-line1">
                     <div>
-                        <P class="num num1">34,000</P>
+                        <P class="num num1">34000</P>
                     </div>
                         
                         <span> MEALS</span>
@@ -38,22 +38,22 @@
                 
             </div> 
 
-            <div class="numcount2">
-                <div class="vertical-line2">
+            <div class="numcount numcount2">
+                <div class="verticals vertical-line2">
                         <P class="num num2">24,000</P>
                         <span> VIEWS</span>
                 </div>
             </div>
 
-            <div class="numcount3">
-                <div class="vertical-line3">
+            <div class="numcount numcount3">
+                <div class="verticals vertical-line3">
                         <P class="num num3">300</P>
                         <span> RESTAURANTS</span>
                 </div>
             </div>
 
-             <div class="numcount4">
-                <div class="vertical-line4">
+             <div class="numcount numcount4">
+                <div class="verticals vertical-line4">
                         <P class="num num4">34,000</P>
                         <span> UPDATES AND NEWS</span>
                 </div>
@@ -134,9 +134,9 @@
                          <h1>Fungry.AI</h1>
                          <div class="description">
                             <p>  
-                                <span>Fungry.Ai</span>ဆိုတာ အစားအစာကို နှစ်သက်ခုံမင်သူတွေအတွက် "ကိုယ်ဘာစားရင်ကောင်းမလဲ?" ဆိုတာ 
+                                <span>Fungry.Ai</span>ဆိုတာ အစားအစာကို နှစ်သက်ခုံမင်သူတွေအတွက် <b>"ကိုယ်ဘာစားရင်ကောင်းမလဲ?"</b> ဆိုတာ 
                                 စဉ်းစားနေစရာမလိုပဲ <span>ကိုယ်စားချင်တဲ့</span> အစားအစာတွေကို ရှာဖွေနိုင်မယ့် Application ဖြစ်ပါတယ်။ 
-                                ကိုယ်စားချင်တဲ့ပုံစံကို စိတ်ကြိုက်ရွေးချယ်နိုင်ပြီး ကိုယ်ရွေးချယ်ထားသော အစားအစာကို ရရှိနိုင်မည့် 
+                                <b>ကိုယ်စားချင်တဲ့ပုံစံကို စိတ်ကြိုက်ရွေးချယ်နိုင်ပြီး </b>ကိုယ်ရွေးချယ်ထားသော အစားအစာကို ရရှိနိုင်မည့် 
                                 စားသောက်ဆိုင်များကို ဆိုင်တည်နေရာနှင့်တကွ တစ်ပါတည်း ပြသပေးမှာဖြစ်ပါတယ်။ ထို့အပြင် 
                                 ကိုယ့်မိတ်ဆွေ၊ <span>သူငယ်ချင်းများ သွားနေကြ</span> ဆိုင်များကိုလဲ Application မှတစ်ဆင့် ကြည့်ရှူနိုင်မှာဖြစ်ပြီး 
                                 အနီးအနားမှာရှိနေတဲ့ စားသောက်ဆိုင်များကိုလဲ Map ကနေတစ်ဆင့် ရှာဖွေနိုင်ဦးမှာဖြစ်ပါတယ်။ 

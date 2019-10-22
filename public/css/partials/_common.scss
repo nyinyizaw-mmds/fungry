@@ -87,6 +87,7 @@
         text-align:center;
         color: $primary_color;
         height:0px;
+        font-weight: bolder;
         
        .btn{
            border:0px;
@@ -105,8 +106,8 @@
     border:1px solid gray;
     border-radius: 10px;
     
-    -webkit-box-shadow: -3px 3px 5px 5px rgba(170,170,170,0.54); 
-    box-shadow: 0px 2px 5px 5px rgba(170,170,170,0.54);
+    -webkit-box-shadow:  0px 5px 10px 0px rgba(170,170,170,0.54); 
+    box-shadow: 0px 5px 10px 0px rgba(170,170,170,0.54);
 }
 
 %four_slide_image{
@@ -122,6 +123,16 @@
 //end four slide css
 
 //start fifthslide css
+%background_cover_transparent{
+    .transparent_cover{
+        
+        position: absolute;
+        height: 250px;
+        width: 270px;
+        background:#010101;
+    }
+
+}
 
 %card_text{
 
@@ -147,12 +158,12 @@
     height:345px;
     img{
        width:270px;
-       height:230px;
+       height:250px;
        opacity:0.9;
     }
 
     .container {
-        padding: 0px 15px;
+        padding: 5px 15px;
         background:white;
         justify-items: center;
         align-content: center;

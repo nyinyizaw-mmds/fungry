@@ -83,3 +83,75 @@
     }
 
   
+    @media only screen and (min-width: 414px) and (max-width:768px) and (orientation:portrait) {
+        body{
+            overflow-x:auto;
+        }
+        .four{
+
+            .wrapper{
+                display: flex;
+                flex-wrap: nowrap;
+                height: 300px;
+                overflow-x: auto;
+                width:auto;
+             
+            }
+            .add_ani{
+                margin-top:-50px;
+                margin-left:-90px;  
+
+                .three_one{
+                    margin-left: 0px;
+                margin-top: 0px;
+                border: 0px;
+                height: 200px;
+                width:240px;
+                position: absolute;
+
+                    img{
+                        
+                        margin-top: -100px;
+                        margin-left: 40px;
+                       
+                    }
+                }
+
+                .three_two{
+                    margin-left: 335px;
+                    margin-top: 0px;
+                    border: 0px;
+                    height: 200;
+                    position: absolute;
+
+                    img{
+                        
+                        margin-top: -100px;
+                        margin-left: 50px;
+                       
+                    }
+                }
+
+                .three_three{
+                    margin-left: 680px;
+                    margin-top: 0px;
+                    border: 0px;
+                    height: 200;
+                    position: absolute;
+
+                    img{
+                        
+                        margin-top: -100px;
+                        margin-left: 50px;
+                       
+                    }
+                }
+            }
+
+            .see_all{
+             
+                height: 60px;
+                margin-left: 95px;
+            }
+        }
+     }

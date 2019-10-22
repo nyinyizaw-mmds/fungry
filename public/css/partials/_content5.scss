@@ -16,7 +16,7 @@
             position:relative;
             z-index:4;
             margin-left:900px;
-            margin-top:-180px;
+            margin-top:-100px;
             border-radius:5px;
         }
        
@@ -44,7 +44,7 @@
         .slide_group{
             display: flex;
             flex-wrap: nowrap;
-            height: 350px;
+            height: 380px;
             overflow-x: hidden;
             overflow-y:hidden;
             width: 1100px;
@@ -73,8 +73,8 @@
                     color: white;
                     opacity:2.5;
                 }
-            
                 
+                @extend %background_cover_transparent;
                @extend %card_text;
               }
 
@@ -93,7 +93,8 @@
                     color: white;
                     opacity:2.5;
                 }
-            
+
+               @extend %background_cover_transparent;
                
                @extend %card_text;
               }
@@ -114,6 +115,8 @@
                     color: white;
                     opacity:2.5;
                 }
+
+                @extend %background_cover_transparent;
                 
                @extend %card_text;
               }
@@ -139,3 +142,70 @@
 
     }
 }
+
+@media only screen and (min-width: 414px) and (max-width:768px) and (orientation:portrait){
+    .five{
+        margin-top:-230px;
+        .meal{
+            border:0px;
+
+            .up-to-date {
+                margin-left: -90px;
+                margin-top: -10px;
+                font-weight: bolder;
+
+                h1{
+                    line-height: 0.5;
+
+                    span h1{
+                        margin-left:50px;
+                    }
+                }
+
+                .read-and-get   {
+                    font-size: 20px;
+                    opacity: 0.7;
+                    font-weight: normal;
+
+                   span{
+                       margin-left:50px;
+                       font-size:22px;
+                   }
+                }
+
+                .slide_group {
+               
+                    width:414px;
+                   
+                    margin-left: -350px;
+                    margin-top: 20px;  display: flex;
+                    flex-wrap: nowrap;
+                    height: 360px;
+                    overflow-x: auto;
+                    width:auto;
+                 
+                    .card .container {
+                        margin-top: 10px;
+                        padding: 0px 15px;
+                        opacity: 0.5;
+                    }
+
+                    .card_1 .container {
+                        margin-top: 10px;
+                        padding: 0px 15px;
+                        opacity: 0.5;
+                    }
+
+                    .card_2 .container {
+                        margin-top: 10px;
+                        padding: 0px 15px;
+                        opacity: 0.5;
+                    }
+                
+                }
+            }
+
+           
+        }
+    }
+ }

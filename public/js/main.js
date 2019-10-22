@@ -13,6 +13,12 @@ function isElementInViewport(el) {
 
 document.addEventListener("scroll", function () {
     console.log('scrolling');
+
+    const count = document.querySelector(".count");
+    isElementInViewport(count) ?
+    count.classList.add('animated') :
+    count.classList.remove('animated');
+
     const description = document.querySelector(".border");
     isElementInViewport(description) ?
     description.classList.add('animated') :
@@ -208,4 +214,10 @@ function step3(){
 
 
 
-$('.num').counterUp({delay:10,time:1000});
+$('.num').counterUp({delay:15,time:1000});
+
+$(function() {
+    $('.toggleNav').on('click',function() {
+      $('.nav ul').toggleClass('open');
+    });
+  });

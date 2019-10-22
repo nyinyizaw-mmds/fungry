@@ -4,15 +4,17 @@
             <div class="up-to-date">
                 <div class="text-opacity">
                     <h1>Up to Date Promotions <br/>
-                        and Meal Update</h1>
+                       <span> <h1>and Meal Update</h1></span></h1>
                     
                     
-                    <span>
-                        Read and Get more Food Related <br/>information by free
+                    <span class="read-and-get">
+                        Read and Get more Food Related <br/>
+                        <span>information by free</span>
                     </span>
                 </div>
                 <div class="slide_group">
                     <div class="card">
+                        <div class="transparent_cover"></div>
                         <img src="{{asset('/images/burger-chips-dinner-70497.jpg')}}" alt="phone" class="phimg2">
                         <i class="far fa-heart" ><span>12</span></i>
                         <div class="container">
@@ -23,6 +25,7 @@
                     </div>
         
                     <div class="card_1">
+                        <div class="transparent_cover"></div>
                         <img src="{{asset('/images/asian-food-bowl-cuisine-699953.jpg')}}" alt="phone" class="phimg2">
                         <i class="far fa-heart" ><span>12</span></i> 
                         <div class="container">
@@ -32,6 +35,7 @@
                     </div>
                     
                     <div class="card_2">
+                        <div class="transparent_cover"></div>
                         <img src="{{asset('/images/appetizer-avocado-bread-566566.jpg')}}" alt="phone" class="phimg2">
                         <i class="far fa-heart" ><span>12</span></i> 
                         <div class="container">
