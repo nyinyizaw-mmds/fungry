@@ -131,8 +131,14 @@
                 </div>
                 <div>
                     <div class="border">
-                         <h1>Fungry.AI</h1>
-                         <div class="description">
+                         <h1 data-aos="zoom-in">Fungry.AI</h1>
+                         <div class="description"
+                         data-aos="zoom-in"
+                        data-aos-offset="200"
+                        data-aos-duration="2000"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false">
                             <p>  
                                 <span>Fungry.Ai</span>ဆိုတာ အစားအစာကို နှစ်သက်ခုံမင်သူတွေအတွက် <b>"ကိုယ်ဘာစားရင်ကောင်းမလဲ?"</b> ဆိုတာ 
                                 စဉ်းစားနေစရာမလိုပဲ <span>ကိုယ်စားချင်တဲ့</span> အစားအစာတွေကို ရှာဖွေနိုင်မယ့် Application ဖြစ်ပါတယ်။ 
