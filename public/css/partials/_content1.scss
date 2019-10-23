@@ -338,43 +338,43 @@ body,html{
 }
 
 
- .wrapper.animated  .shadow3{
-    animation-name:shadowthree;
-    animation-duration:1.5s;
-    animation-delay:0;
-    animation-iteration-count: initial;
-    @keyframes shadowthree{
-        0%{
-            transform:scale(0.5);
-            opacity:0;
-        }
+//  .wrapper.animated  .shadow3{
+//     animation-name:shadowthree;
+//     animation-duration:1.5s;
+//     animation-delay:0;
+//     animation-iteration-count: initial;
+//     @keyframes shadowthree{
+//         0%{
+//             transform:scale(0.5);
+//             opacity:0;
+//         }
 
 
-        100%{
-            transform:scale(1);
-            opacity:1;
-        }
-    }
- }
+//         100%{
+//             transform:scale(1);
+//             opacity:1;
+//         }
+//     }
+//  }
 
- .wrapper.animated  .shadow1{
-    animation-name:shadowone;
-    animation-duration:1.5s;
-    animation-delay:0;
-    animation-iteration-count: initial;
-    @keyframes shadowone{
-        0%{
-            transform:scale(0.5);
-            opacity:0;
-        }
+//  .wrapper.animated  .shadow1{
+//     animation-name:shadowone;
+//     animation-duration:1.5s;
+//     animation-delay:0;
+//     animation-iteration-count: initial;
+//     @keyframes shadowone{
+//         0%{
+//             transform:scale(0.5);
+//             opacity:0;
+//         }
 
 
-        100%{
-            transform:scale(1);
-            opacity:1;
-        }
-    }
- }
+//         100%{
+//             transform:scale(1);
+//             opacity:1;
+//         }
+//     }
+//  }
  .wrapper .shadow2{
     img{
         position: relative;
@@ -384,40 +384,40 @@ body,html{
     }
  }
 
- .wrapper.animated .shadow2{
-    animation-name:shawdow2;
-    animation-duration:1.5s;
-    animation-timing-function:ease;
-    animation-delay:0;
-    animation-iteration-count: initial;
+//  .wrapper.animated .shadow2{
+//     animation-name:shawdow2;
+//     animation-duration:1.5s;
+//     animation-timing-function:ease;
+//     animation-delay:0;
+//     animation-iteration-count: initial;
     
-    @keyframes shawdow2{
-        0%{
-            transform:scale(0.5);
-            opacity:0;
-        }
-        100%{
-            transform:scale(1);
-            opacity:1;
-        }
-    }
+//     @keyframes shawdow2{
+//         0%{
+//             transform:scale(0.5);
+//             opacity:0;
+//         }
+//         100%{
+//             transform:scale(1);
+//             opacity:1;
+//         }
+//     }
 
-    .count.animated .num{
-        animation-name:count;
-        animation-duration:5;
-        animation-timing-function:ease;
-        animation-delay:10;
-        animation-iteration-count: initial;
+//     .count.animated .num{
+//         animation-name:count;
+//         animation-duration:5;
+//         animation-timing-function:ease;
+//         animation-delay:10;
+//         animation-iteration-count: initial;
         
-        @keyframes count{
+//         @keyframes count{
            
-            100%{
-                transform:scale(1);
-                opacity:1;
-            }
-        }
-    }
- }
+//             100%{
+//                 transform:scale(1);
+//                 opacity:1;
+//             }
+//         }
+//     }
+//  }
 
  .toggleNav{
      display:none;
@@ -442,7 +442,11 @@ body,html{
     
 }
 
-@media only screen and (min-width: 414px) and (max-width:768px) and (orientation:portrait)  {
+@media only screen and (min-width: 414px) and (max-width:768px)  {
+
+    body{
+        max-width:441px;
+    }
     .main-wrapper{
         display: flex;
         flex-direction: column;

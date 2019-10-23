@@ -12,7 +12,7 @@ function isElementInViewport(el) {
 
 
 document.addEventListener("scroll", function () {
-    console.log('scrolling');
+
 
     const count = document.querySelector(".count");
     isElementInViewport(count) ?
@@ -50,38 +50,33 @@ document.addEventListener("scroll", function () {
     rotate.style.transform = 'rotate(' + theta + 'rad)';
 
     // for third slide
-    const three = document.querySelector(".three");
+    const three = document.querySelector(".ani_button");
     isElementInViewport(three) ?
-    three.classList.add('animated') :
-    three.classList.remove('animated');
+    addanimation() :
+    removeanimation();
 
-        if(three){
-            console.log('right');   
-            const trans = document.querySelector('#trans');
-            trans.classList.add('largescale');
 
-            const tr1 = document.querySelector('#tr1');
-            tr1.classList.add('largescale');
+        function addanimation()
+        {
+            
+            const trans = document.querySelectorAll('#trans,#tr1,#tr2,#tr3,#tr4,#tr5,#tr6,#tr7');
+                    [].forEach.call(trans, el => {
+                        el.classList.add('largescale');
+                    
+                    });
 
-            const tr2 = document.querySelector('#tr2');
-            tr2.classList.add('largescale');
+        }  
 
-            const tr3 = document.querySelector('#tr3');
-            tr3.classList.add('largescale');
-
-            const tr4 = document.querySelector('#tr4');
-            tr4.classList.add('largescale');
-
-            const tr5 = document.querySelector('#tr5');
-            tr5.classList.add('largescale');
-
-            const tr6 = document.querySelector('#tr6');
-            tr6.classList.add('largescale');
-
-            const tr7 = document.querySelector('#tr7');
-            tr7.classList.add('largescale');
+        function removeanimation(){
+        
+            const trans = document.querySelectorAll('#trans,#tr1,#tr2,#tr3,#tr4,#tr5,#tr6,#tr7');
+            [].forEach.call(trans, el => {
+                el.classList.remove('largescale');
+            
+            });
 
         }
+
          
             /*Paralexing an item*/
              const scrolled1= window.pageYOffset;
@@ -111,8 +106,26 @@ document.addEventListener("scroll", function () {
             const parallaxEle8 = document.querySelector(".btn8");
             parallaxEle8.style.top = scrollamount;
 
-            const phimg = document.querySelector(".phimg");
-            phimg.style.top =  -scrolled1 * .2 + "px";
+            const upph = document.querySelector(".phimg");
+            upph.style.top =  -scrolled1 * .2 + "px";
+
+
+            const phimg = document.querySelector(".rotate-img");
+            isElementInViewport(phimg) ?
+            phanimation() :
+            removephani();
+
+            function phanimation(){
+                const addpha = document.querySelector('.phimg');
+                addpha.classList.add('phskew');
+                //console.log('ok');
+            }
+
+            function removephani(){
+                const revpha = document.querySelector('.phimg');
+                revpha.classList.remove('phskew');
+               // console.log('not');
+            }
           
            const fruit = document.querySelector(".fruit");
             fruit.style.top =  -scrolled1 * .009 + "px";
@@ -121,7 +134,7 @@ document.addEventListener("scroll", function () {
             figimg.style.top =  -scrolled1 * 0.07 + "px";
             
             const corner1 = document.querySelector(".corner1");
-            corner1.style.top =  -scrolled1 * .025 + "px";
+            corner1.style.top =  -scrolled1 * .03 + "px";
 
 
             const corner = document.querySelector(".corner-img");
@@ -136,14 +149,34 @@ document.addEventListener("scroll", function () {
 
 
            //four slide animation
-           const four = document.querySelector(".four");
-            isElementInViewport(four) ?
-            four.classList.add('animated') :
-            four.classList.remove('animated');
        
            const add = document.querySelector('.add_ani');
 
            add.style.marginTop = -scrolled1 * 0.02 + "px";
+
+           const four = document.querySelector(".four");
+            isElementInViewport(four) ?
+            slide_four():
+            remslide_four();
+
+            function slide_four(){
+                // const four_slide = document.querySelectorAll('.three_one','.three_two','three_three');
+                // [].forEach.call(four_slide, el => {
+                //     el.classList.add('slidescale');
+                
+                // });
+                console.log('yes');
+            }
+
+            function remslide_four(){
+                // const four_slide1 = document.querySelectorAll('.three_one','.three_two','three_three');
+                // [].forEach.call(four_slide1, el => {
+                //     el.classList.remove('slidescale');
+                
+                // });
+                console.log('false');
+            }
+       
      
             //for six slide
             const sixslide = document.querySelector("#slide-six");
@@ -221,3 +254,5 @@ $(function() {
       $('.nav ul').toggleClass('open');
     });
   });
+
+  AOS.init();

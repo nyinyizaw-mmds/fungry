@@ -95,7 +95,7 @@
   height: 140px;
   border-radius: 25px;
   margin-top: -120px;
-  margin-left: 25px;
+  margin-left: 30px;
   position: absolute;
 }
 
@@ -118,7 +118,6 @@
 
 .five .meal .up-to-date .slide_group .card, .five .meal .up-to-date .slide_group .card_1, .five .meal .up-to-date .slide_group .card_2 {
   position: relative;
-  border: 3px solid #e7eaee;
   -webkit-box-shadow: #e7eaee;
           box-shadow: #e7eaee;
   background: white;
@@ -126,6 +125,8 @@
   transition: 0.3s;
   width: 270px;
   height: 345px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(170, 170, 170, 0.54);
+          box-shadow: 0px 5px 10px 0px rgba(170, 170, 170, 0.54);
 }
 
 .five .meal .up-to-date .slide_group .card img, .five .meal .up-to-date .slide_group .card_1 img, .five .meal .up-to-date .slide_group .card_2 img {
@@ -183,6 +184,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.header .logo1 a {
+  display: contents;
+  text-decoration: none;
 }
 
 .header .logo1 img {
@@ -679,140 +685,11 @@ body, html {
   }
 }
 
-.wrapper.animated .shadow3 {
-  -webkit-animation-name: shadowthree;
-          animation-name: shadowthree;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-}
-
-@-webkit-keyframes shadowthree {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes shadowthree {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-}
-
-.wrapper.animated .shadow1 {
-  -webkit-animation-name: shadowone;
-          animation-name: shadowone;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-}
-
-@keyframes shadowone {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-}
-
 .wrapper .shadow2 img {
   position: relative;
   width: 265px;
   height: 330px;
   z-index: 9;
-}
-
-.wrapper.animated .shadow2 {
-  -webkit-animation-name: shawdow2;
-          animation-name: shawdow2;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-}
-
-@-webkit-keyframes shawdow2 {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes shawdow2 {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-}
-
-.wrapper.animated .shadow2 .count.animated .num {
-  -webkit-animation-name: count;
-          animation-name: count;
-  -webkit-animation-duration: 5;
-          animation-duration: 5;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
-  -webkit-animation-delay: 10;
-          animation-delay: 10;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-}
-
-@-webkit-keyframes count {
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes count {
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
 }
 
 .toggleNav {
@@ -844,7 +721,10 @@ body, html {
   display: none;
 }
 
-@media only screen and (min-width: 414px) and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  body {
+    max-width: 441px;
+  }
   .main-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1199,8 +1079,6 @@ body, html {
   padding-top: 20px;
   line-height: 30px;
   padding-left: 35px;
-  -webkit-transform: scale(0);
-          transform: scale(0);
   font-weight: 100;
 }
 
@@ -1208,53 +1086,12 @@ body, html {
   font-weight: 700;
 }
 
-.border.animated .description {
-  -webkit-animation-name: description;
-          animation-name: description;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.border.animated .description span {
+.border .description span {
   color: #5190DE;
   padding-right: 5px;
 }
 
-@-webkit-keyframes description {
-  0% {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-    opacity: 0.1;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes description {
-  0% {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-    opacity: 0.1;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@media only screen and (min-width: 414px) and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 414px) and (max-width: 768px) {
   .section2 .two {
     position: relative;
     display: -ms-grid;
@@ -1413,7 +1250,7 @@ body, html {
   margin-top: 330px;
   height: 680px;
   position: absolute;
-  margin-left: 500px;
+  margin-left: 470px;
   z-index: 2;
 }
 
@@ -1446,7 +1283,7 @@ body, html {
 }
 
 .three .corner1 {
-  margin-left: -70px;
+  margin-left: -80px;
   margin-top: 430px;
   width: 150px;
   height: 230px;
@@ -1522,7 +1359,44 @@ body, html {
   }
 }
 
-@media only screen and (min-width: 414px) and (max-width: 768px) and (orientation: portrait) {
+.three .phskew {
+  -webkit-animation-name: phskews;
+          animation-name: phskews;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes phskews {
+  0% {
+    -webkit-transform: skewY(2deg);
+            transform: skewY(2deg);
+  }
+  100% {
+    -webkit-transform: skewY(5deg);
+            transform: skewY(5deg);
+  }
+}
+
+@keyframes phskews {
+  0% {
+    -webkit-transform: skewY(2deg);
+            transform: skewY(2deg);
+  }
+  100% {
+    -webkit-transform: skewY(5deg);
+            transform: skewY(5deg);
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
   .three {
     min-height: 150%;
     height: 1200px;
@@ -1754,7 +1628,44 @@ body, html {
   margin-left: 20px;
 }
 
-@media only screen and (min-width: 414px) and (max-width: 768px) and (orientation: portrait) {
+.four .slidescale {
+  -webkit-animation-name: fourslide;
+          animation-name: fourslide;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fourslide {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes fourslide {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
   body {
     overflow-x: auto;
   }
@@ -1837,7 +1748,7 @@ body, html {
 
 .five .meal .up-to-date {
   width: 350px;
-  height: 190px;
+  height: 160px;
   background: white;
   border: 0px;
   position: static;
@@ -1849,6 +1760,7 @@ body, html {
 .five .meal .up-to-date h1 {
   padding-top: 5px;
   word-spacing: 0px;
+  line-height: 0.8;
 }
 
 .five .meal .up-to-date span {
@@ -1867,8 +1779,8 @@ body, html {
   width: 1100px;
   position: static;
   z-index: 1;
-  margin-left: 130px;
-  margin-top: -290px;
+  margin-left: 148px;
+  margin-top: -230px;
   min-width: 750px;
   max-height: 500px;
   background: transparent;
@@ -1936,7 +1848,7 @@ body, html {
           transform: translateX(100px);
 }
 
-@media only screen and (min-width: 414px) and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 414px) and (max-width: 768px) {
   .five {
     margin-top: -230px;
   }
@@ -2231,7 +2143,7 @@ body, html {
   margin-top: 5px;
 }
 
-@media only screen and (min-width: 414px) and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 414px) and (max-width: 768px) {
   .six .rotate-img {
     display: -ms-grid;
     display: grid;

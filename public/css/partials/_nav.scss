@@ -5,6 +5,11 @@
     background:white; 
 .logo1{
     display: flex;
+
+    a{
+        display: contents;
+        text-decoration: none;
+    }
     img{
         width: 45px;
         line-height: 50px;
