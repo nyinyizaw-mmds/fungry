@@ -278,7 +278,25 @@
   height: 200px;
 }
 
-@media only screen and (min-width: 414px) and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .header {
+    width: 0px;
+  }
+  .header .nav {
+    min-width: 0;
+  }
+  .campaign img {
+    width: 414px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    width: 0px;
+  }
+  .header .nav {
+    min-width: 0;
+  }
   .campaign img {
     width: 414px;
   }
@@ -736,6 +754,7 @@ body, html {
   }
   .section {
     min-height: 950px;
+    width: 0px;
   }
   .section .one {
     display: -ms-grid;
@@ -765,7 +784,7 @@ body, html {
   }
   .section .one .wrapper {
     margin-top: 40px;
-    margin-left: -8%;
+    width: 414px;
   }
   .section .one .wrapper .shadow1 img {
     margin-top: 50px;
@@ -1303,7 +1322,7 @@ body, html {
 
 .three .right-corner {
   position: relative;
-  z-index: 5;
+  z-index: 3;
   margin-left: 1230px;
   margin-top: -170px;
   width: 200px;
@@ -1558,10 +1577,11 @@ body, html {
     font-size: 20px;
   }
   .three .right-corner {
+    width: 0px;
     margin-left: 300px;
-    -webkit-transform: rotate(-20deg);
-            transform: rotate(-20deg);
-    margin-top: 80px;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    margin-top: 30px;
     background: transparent;
   }
 }
@@ -1682,9 +1702,10 @@ body, html {
   .four .add_ani {
     margin-top: -50px;
     margin-left: -90px;
+    width: 414px;
   }
   .four .add_ani .three_one {
-    margin-left: 0px;
+    margin-left: 30px;
     margin-top: 0px;
     border: 0px;
     height: 200px;
@@ -1696,7 +1717,7 @@ body, html {
     margin-left: 40px;
   }
   .four .add_ani .three_two {
-    margin-left: 335px;
+    margin-left: 375px;
     margin-top: 0px;
     border: 0px;
     height: 200;
@@ -1707,7 +1728,7 @@ body, html {
     margin-left: 50px;
   }
   .four .add_ani .three_three {
-    margin-left: 680px;
+    margin-left: 720px;
     margin-top: 0px;
     border: 0px;
     height: 200;
@@ -1854,6 +1875,7 @@ body, html {
   }
   .five .meal {
     border: 0px;
+    width: 0px;
   }
   .five .meal .up-to-date {
     margin-left: -90px;
@@ -1886,7 +1908,6 @@ body, html {
         flex-wrap: nowrap;
     height: 360px;
     overflow-x: auto;
-    width: auto;
   }
   .five .meal .up-to-date .slide_group .card .container {
     margin-top: 10px;

@@ -1,3 +1,4 @@
+
 function isElementInViewport(el) {
 
     var rect = el.getBoundingClientRect();
@@ -41,6 +42,7 @@ document.addEventListener("scroll", function () {
     /*Paralexing an item*/
     /* pizza paralexing*/
     const scrolled = window.pageYOffset;
+    
     const parallaxEle = document.querySelector(".piz");
     parallaxEle.style.top =  -scrolled * .2 + "px";
 
@@ -110,6 +112,7 @@ document.addEventListener("scroll", function () {
             upph.style.top =  -scrolled1 * .2 + "px";
 
 
+            
             const phimg = document.querySelector(".rotate-img");
             isElementInViewport(phimg) ?
             phanimation() :
@@ -150,32 +153,53 @@ document.addEventListener("scroll", function () {
 
            //four slide animation
        
-           const add = document.querySelector('.add_ani');
+           const windowheight = window.scrollY;
+        //    const w = document.querySelector('.add_ani');
 
-           add.style.marginTop = -scrolled1 * 0.02 + "px";
-
-           const four = document.querySelector(".four");
-            isElementInViewport(four) ?
-            slide_four():
-            remslide_four();
-
-            function slide_four(){
-                // const four_slide = document.querySelectorAll('.three_one','.three_two','three_three');
-                // [].forEach.call(four_slide, el => {
-                //     el.classList.add('slidescale');
+           console.log(windowheight);
+        //    const four_slide = document.querySelectorAll('.three_one','.three_two','three_three');
+          if(windowheight > '1560' && windowheight < '2200' ){
+              const four_slide = document.querySelectorAll('.three_one,.three_two,.three_three');
+                [].forEach.call(four_slide, el => {
+                    el.classList.add('slidescale');
                 
-                // });
-                console.log('yes');
-            }
+                });
+           // console.log('one');
+          }
+          else{
+            const four_slide1 = document.querySelectorAll('.three_one,.three_two,.three_three');
+            [].forEach.call(four_slide1, el => {
+                el.classList.remove('slidescale');
+            
+            });
+           // console.log('two');
+          }
+        //    const add = document.querySelector('.add_ani');
 
-            function remslide_four(){
-                // const four_slide1 = document.querySelectorAll('.three_one','.three_two','three_three');
-                // [].forEach.call(four_slide1, el => {
-                //     el.classList.remove('slidescale');
+        //    add.style.marginTop = -scrolled1 * 0.02 + "px";
+
+        //    const four = document.querySelector(".four");
+        //     isElementInViewport(four) ?
+        //     slide_four():
+        //     remslide_four();
+
+        //     function slide_four(){
+        //         // const four_slide = document.querySelectorAll('.three_one','.three_two','three_three');
+        //         // [].forEach.call(four_slide, el => {
+        //         //     el.classList.add('slidescale');
                 
-                // });
-                console.log('false');
-            }
+        //         // });
+        //         console.log('yes');
+        //     }
+
+        //     function remslide_four(){
+        //         // const four_slide1 = document.querySelectorAll('.three_one','.three_two','three_three');
+        //         // [].forEach.call(four_slide1, el => {
+        //         //     el.classList.remove('slidescale');
+                
+        //         // });
+        //         console.log('false');
+        //     }
        
      
             //for six slide
@@ -255,4 +279,8 @@ $(function() {
     });
   });
 
+
+
   AOS.init();
+
+  
