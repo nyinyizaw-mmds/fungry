@@ -453,6 +453,7 @@ body,html{
     } 
     .section{
         min-height: 950px;
+        width:0px;
         .one{
             display:grid;
             grid-template-columns: 2fr;
@@ -481,7 +482,8 @@ body,html{
             }
             .wrapper{
                 margin-top: 40px;
-                margin-left: -8%;
+                // margin-left: -8%;
+                width:414px;
                 .shadow1 img {
                     margin-top: 50px;
                     width: 255px;

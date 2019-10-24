@@ -148,7 +148,7 @@
         margin-top:-230px;
         .meal{
             border:0px;
-
+            width:0px;
             .up-to-date {
                 margin-left: -90px;
                 margin-top: -10px;
@@ -174,17 +174,15 @@
                 }
 
                 .slide_group {
-               
+                    
                     width:414px;
-                   
                     margin-left: -350px;
                     margin-top: 20px; 
                      display: flex;
                     flex-wrap: nowrap;
                     height: 360px;
                     overflow-x: auto;
-                    width:auto;
-                 
+
                     .card .container {
                         margin-top: 10px;
                         padding: 0px 15px;
