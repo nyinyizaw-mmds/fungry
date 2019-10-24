@@ -1,6 +1,8 @@
 <div class="header"  id="home">
     <div class="logo1">
-            <img src="{{asset('/images/logo1.png') }}" alt="logo"><p>Fungry.AI</p>
+           <a href="#home">
+                <img src="{{asset('/images/logo1.png') }}" alt="logo"><p>Fungry.AI</p>
+           </a>
            
     </div>
     

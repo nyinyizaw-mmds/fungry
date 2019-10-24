@@ -1,13 +1,15 @@
 <div class="three" id="three">
     <p><button class="btn"><b>Exclusive Feature for You</b></button></p>
-    <button class="btn1 first" id="trans"><p>အသီးအရြက္</p></button>
-    <button class="btn2" id="tr1"><p>အခ်ိဳ</p></button>
-    <button class="btn3" id="tr2"><p>ခ်ဥ္ခ်ဥ္စပ္စပ္</p></button>
-    <button class="btn4" id="tr3"><p>အသား/ငါး</p></button>
-    <button class="btn5" id="tr4"><p>ပင္လယ္စာ</p></button>
-    <button class="btn6" id="tr5"><p>Drink</p></button>
-    <button class="btn7" id="tr6"><p>ထူးထူးဆန္းဆန္း</p></button>
-    <button class="btn8" id="tr7"><p>အကင္</p></button>
+    <div class="ani_button">
+            <button class="btn1 first" id="trans"><p>အသီးအရြက္</p></button>
+            <button class="btn2" id="tr1"><p>အခ်ိဳ</p></button>
+            <button class="btn3" id="tr2"><p>ခ်ဥ္ခ်ဥ္စပ္စပ္</p></button>
+            <button class="btn4" id="tr3"><p>အသား/ငါး</p></button>
+            <button class="btn5" id="tr4"><p>ပင္လယ္စာ</p></button>
+            <button class="btn6" id="tr5"><p>Drink</p></button>
+            <button class="btn7" id="tr6"><p>ထူးထူးဆန္းဆန္း</p></button>
+            <button class="btn8" id="tr7"><p>အကင္</p></button>
+    </div>
     <div class="rotate-img">
         <img src="{{asset('/images/new_taste_filter.png')}}" alt="phone" class="phimg">
 

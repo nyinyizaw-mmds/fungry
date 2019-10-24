@@ -79,11 +79,29 @@
            
         }
 
+        .slidescale{
+            animation-name:fourslide;
+            animation-duration:1s;
+            animation-timing-function:ease;
+            animation-delay:0;
+            animation-iteration-count: initial;
+            animation-fill-mode: forwards;
+            @keyframes fourslide{
+                0%{
+                 transform:scale(1.1);                
+                }
+               
+                100%{
+                   transform:scale(1.2);
+                }
+            }
+        }
+
         
     }
 
   
-    @media only screen and (min-width: 414px) and (max-width:768px) and (orientation:portrait) {
+    @media only screen and (min-width: 414px) and (max-width:768px){
         body{
             overflow-x:auto;
         }
@@ -100,9 +118,9 @@
             .add_ani{
                 margin-top:-50px;
                 margin-left:-90px;  
-
+                width:414px;
                 .three_one{
-                    margin-left: 0px;
+                    margin-left: 30px;
                 margin-top: 0px;
                 border: 0px;
                 height: 200px;
@@ -118,7 +136,7 @@
                 }
 
                 .three_two{
-                    margin-left: 335px;
+                    margin-left: 375px;
                     margin-top: 0px;
                     border: 0px;
                     height: 200;
@@ -133,7 +151,7 @@
                 }
 
                 .three_three{
-                    margin-left: 680px;
+                    margin-left: 720px;
                     margin-top: 0px;
                     border: 0px;
                     height: 200;

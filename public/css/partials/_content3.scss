@@ -127,7 +127,7 @@
                 margin-top:330px;
                 height:680px;
                 position:absolute;
-                margin-left:500px;
+                margin-left:470px;
                 z-index:2;
               
             }
@@ -163,7 +163,7 @@
         }
     
         .corner1{
-            margin-left:-70px;
+            margin-left:-80px;
             margin-top:430px;
             width:150px;
             height:230px;
@@ -185,7 +185,7 @@
 
         .right-corner{
             position:relative;
-            z-index:5;
+            z-index:3;
             margin-left: 1230px;
             margin-top: -170px;
             width: 200px;
@@ -224,11 +224,29 @@
             }
             }
 
+        .phskew{
+            animation-name:phskews;
+            animation-duration:1s;
+            animation-timing-function:ease;
+            animation-delay:0;
+            animation-iteration-count: initial;
+            animation-fill-mode: forwards;
+            @keyframes phskews{
+                0%{
+                 transform:skewY(2deg);                
+                }
+               
+                100%{
+                   transform:skewY(5deg);
+                }
+            }
+        }
+
     }
 
     // adding media query in content3
 
-    @media only screen and (min-width: 414px) and (max-width:768px) and (orientation:portrait){
+    @media only screen and (min-width: 414px) and (max-width:768px){
       .three{
             min-height:150%;
             height:1200px;
@@ -422,10 +440,15 @@
           } 
           
           .right-corner{
+            width:0px;
             margin-left: 300px;
-            transform: rotate(-20deg);
-            margin-top: 80px;
+            transform: rotate(0deg);
+            margin-top: 30px;
             background: transparent;
+
+            // img{
+
+            // }
         
           }
          

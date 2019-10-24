@@ -5,6 +5,11 @@
     background:white; 
 .logo1{
     display: flex;
+
+    a{
+        display: contents;
+        text-decoration: none;
+    }
     img{
         width: 45px;
         line-height: 50px;
@@ -106,7 +111,13 @@
     }
 }
 
-@media only screen and (min-width: 414px) and (max-width:768px) and (orientation:portrait) {
+@media only screen and (min-width: 414px) and (max-width:768px){
+    .header{
+        width:0px;
+        .nav{
+            min-width:0;
+        }
+    }
     .campaign{
         img{
            width:414px;
@@ -114,6 +125,23 @@
         }
     }
 }
+
+
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    .header{
+        width:0px;
+        .nav{
+            min-width:0;
+        }
+    }
+    .campaign{
+        img{
+           width:414px;
+           
+        }
+    }
+}
+
 
 
 
