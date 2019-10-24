@@ -1417,8 +1417,7 @@ body, html {
 
 @media only screen and (min-width: 414px) and (max-width: 768px) {
   .three {
-    min-height: 150%;
-    height: 1200px;
+    width: 100%;
   }
   .three p .btn {
     border-bottom: 5px solid #DFE4FD;
@@ -1702,10 +1701,10 @@ body, html {
   .four .add_ani {
     margin-top: -50px;
     margin-left: -90px;
-    width: 414px;
+    width: 480px;
   }
   .four .add_ani .three_one {
-    margin-left: 30px;
+    margin-left: 0px;
     margin-top: 0px;
     border: 0px;
     height: 200px;
@@ -1717,7 +1716,7 @@ body, html {
     margin-left: 40px;
   }
   .four .add_ani .three_two {
-    margin-left: 375px;
+    margin-left: 345px;
     margin-top: 0px;
     border: 0px;
     height: 200;
@@ -1728,7 +1727,7 @@ body, html {
     margin-left: 50px;
   }
   .four .add_ani .three_three {
-    margin-left: 720px;
+    margin-left: 690px;
     margin-top: 0px;
     border: 0px;
     height: 200;
