@@ -7,7 +7,7 @@
         grid-template-columns: 3fr 3fr;
         justify-content: center;
         align-content: center;
-
+        margin-top:10%;
         .rotation{
             figure{
                 margin-top:-45%;
@@ -92,11 +92,30 @@
                
             }
 
+           .fb_text{
+                width: 80%;
+                position: relative;
+                height: 45px;
+            
             p{
-                opacity:0.5;
-                font-size:22px;
+                font-family: Helvetica;
+                font-size: 18px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #a3a3a3;
+                position: absolute;
+                right: 0;
             }
+           }
 
+           .fb_download{
+
+            position: relative;
+            width: 80%;
+            height: 100px;
             a{
                 text-decoration:none;
                 img{
@@ -111,6 +130,7 @@
                     margin-top: 15px;
                     position: absolute;
                 }
+           }
             }
         }
 
@@ -124,9 +144,9 @@
     display:grid;
     grid-template-columns:2fr 2fr 1fr 2fr;
     
-    margin-top:20px;
+    margin-top:30px;
     color:white;
-    height:295px;
+    height:315px;
    .fungry_logo{
        padding-top:70px;
        padding-left:70px;
@@ -138,10 +158,17 @@
        }
 
        
-        h3{
-        position: absolute;
-        padding-left: 120px;
-        color:$footer_normal_text;
+        .fun_text{
+            margin-top: 21px;
+            left: 160px;
+            font-size: 20px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #bfbfbf;
+            position: absolute;
         }
 
         p{
@@ -199,6 +226,8 @@
     }
 
         .social-media{
+            width: 80%;
+            margin-top: -20px;
             ul{
                 overflow:auto;
                 margin-left:150px;
@@ -235,220 +264,599 @@
         }
     }
 
-    @media only screen and (min-width: 414px) and (max-width:768px) {
+    @media only screen and (min-width:414px) and (max-width:768px){
+        .six{
+            position:relative;
+            width:100%;
+            .rotate-img{
+                position: relative;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                margin-top:140px;
+                height: 500px;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(2, 1fr);
+            
+                .rotation{
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    top: 0;
+                    height: 350px;
+                    margin:0 auto;
+                    margin-left:12px;
+                    .circle{
+                        position:absolute;
+                        width: 300px;
+                        height: 300px;
+                        border: 2px dashed #BFBFBF;
+                        border-radius: 50%;
+                        margin-left: 50px;
+                        margin-top: -100px;
 
-       
-        .six .rotate-img{
-            display:grid;
-            grid-template-columns: 3fr;
+                        .cir-img1{
+                            margin-left: 60px;
+                            margin-top: -10px;
+                            left: 0;
+                            width: 40;
+                            height: 40;
+                        }
 
-            .rotation .circle {
-                width: 300px;
-                height: 300px;
-                border: 2px dashed #BFBFBF;
-                border-radius: 50%;
-                margin-left: 55px;
-                margin-top: -130px;
+                        .cir-img2{
+                            margin-left: 195px;
+                            margin-top: -5px;
+                            width: 40;
+                            height: 40;
+                        }
 
-                .cir-img1{
-                    margin-left: 55px;
+                        .cir-img3{
+                            margin-top: 80px;
+                            margin-left: -10px;
+                            width: 40;
+                            height: 40;
+                        }
+
+                        .cir-img4{
+                            margin-top: 75px;
+                            margin-left: 270px;
+                            width: 40;
+                            height: 40;
+                        }
+
+                        .cir-img5{
+                            margin-top: 185px;
+                            margin-left: -12px;
+                            width: 40;
+                            height: 40;
+                        }
+
+                        .cir-img6{
+                            margin-top: 180px;
+                            margin-left: 270px;
+                            width: 40;
+                            height: 40;
+                        }
+
+                        .cir-img7{
+                            margin-top: 265px;
+                            margin-left: 65px;
+                            width: 40;
+                            height: 40;
+                        }
+
+                        .cir-img8{
+                            margin-top: 270px;
+                            margin-left: 200px;
+                            width: 40;
+                            height: 40;
+                        }
+                    }
+
+                   figure{
+                       position:absolute;
+                       margin-top: -25px;
+                        margin-left: 150px;
+                        text-align: center;
+                   }
+                    
+                }
+
+                .fb-snap{
+                    position: absolute;
+                    margin-left: 50px;
+                    margin-top: 450px;
+                    left: 0;
+                    top: 0;
+                    margin: 0 auto;
+                    grid-row: 2;
+                    .space{
+                        margin-left:100px;
+                    }
+
+                    .fb_text{
+                        width:414px;
+                        position: absolute;
+                        text-align: center;
+
+                        p{
+                            font-size:15px;
+                            right:30px;
+                        }
+                    }
+
+                    .fb_download{
+                        position: absolute;
+                        width: 0;
+                        margin-top: 40px;
+
+                        a{
+                            margin-left:71px;
+                            img{
+                                width: 250px;
+                                height: 105px;
+                                margin-left: 22px;
+                            }
+                            .playstore{
+                                width: 200px;
+                                height: 60px;
+                                margin-top: 15px;
+                                position: absolute;
+                                margin-left: 50px;
+                            }
+                        }
+                    }
+                 }
+            }
+
+            .footer{
+                position:relative;
+                background: #2F313D;
+                display: grid;
+                grid-template-columns: 2fr;
+                margin-top: 320px;
+                color: white;
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+
+    // @media only screen and (min-width: 414px) and (max-width:768px) {
+
+    //    .six{
+    //        width:100vw;
+    //    }
+    //     .six .rotate-img{
+    //         display:grid;
+    //         grid-template-columns: 3fr;
+
+    //         .rotation .circle {
+    //             width: 300px;
+    //             height: 300px;
+    //             border: 2px dashed #BFBFBF;
+    //             border-radius: 50%;
+    //             margin-left: 55px;
+    //             margin-top: -130px;
+
+    //             .cir-img1{
+    //                 margin-left: 55px;
                    
-                }
+    //             }
     
-                .cir-img2{
-                    margin-top: -15px;
-                    margin-left: 190px;
-                }
-                .cir-img3{
-                    margin-top: 70px;
-                    margin-left: -20;
-                }
+    //             .cir-img2{
+    //                 margin-top: -15px;
+    //                 margin-left: 190px;
+    //             }
+    //             .cir-img3{
+    //                 margin-top: 70px;
+    //                 margin-left: -20;
+    //             }
     
-                .cir-img4{
-                    margin-top: 70px;
-                    margin-left: 265px;
-                }
+    //             .cir-img4{
+    //                 margin-top: 70px;
+    //                 margin-left: 265px;
+    //             }
     
-                .cir-img5{
-                    margin-top: 170px;
-                    margin-left: -20px;
-                }
+    //             .cir-img5{
+    //                 margin-top: 170px;
+    //                 margin-left: -20px;
+    //             }
     
-                .cir-img6{
-                    margin-top: 170px;
-                    margin-left: 270px;
-                }
+    //             .cir-img6{
+    //                 margin-top: 170px;
+    //                 margin-left: 270px;
+    //             }
                 
-                .cir-img7{
-                    margin-top: 250px;
-                    margin-left: 55px;
-                }
+    //             .cir-img7{
+    //                 margin-top: 250px;
+    //                 margin-left: 55px;
+    //             }
     
-                .cir-img8{
-                    margin-top: 250px;
-                    margin-left: 200px;
+    //             .cir-img8{
+    //                 margin-top: 250px;
+    //                 margin-left: 200px;
                 
-                }
-            }
+    //             }
+    //         }
 
-            .fb-snap{
-                margin-top: 200px;
+    //         .fb-snap{
+    //             margin-top: 200px;
 
-                .fb_iframe_widget {
-                    display: inline-block;
-                    position: relative;
-                    width: 400px;
-                    height: 00px;
-                    margin-left: -50px;
-                }
+    //             .fb_iframe_widget {
+    //                 display: inline-block;
+    //                 position: relative;
+    //                 width: 400px;
+    //                 height: 00px;
+    //                 margin-left: -50px;
+    //             }
 
-                p{
-                    opacity: 0.5;
-                   
-                    font-size:15px;
-                }
+    //             p{
+    //                 font-family: Helvetica;
+    //                 font-size: 18px;
+    //                 font-weight: normal;
+    //                 font-stretch: normal;
+    //                 font-style: normal;
+    //                 line-height: normal;
+    //                 letter-spacing: normal;
+    //                 color: #a3a3a3;
+    //             }
 
-                a img{
-                    width: 250px;
-                    height: 100px;
-                    margin-left: 55px;
-                }
+    //             a img{
+    //                 width: 250px;
+    //                 height: 100px;
+    //                 margin-left: 55px;
+    //             }
 
-                a .playstore{
-                    margin-top: 100px;
-                    margin-left: -225px;
-                    width: 200px;
-                    height: 60px;
-                }
-            }
+    //             a .playstore{
+    //                 margin-top: 100px;
+    //                 margin-left: -225px;
+    //                 width: 200px;
+    //                 height: 60px;
+    //             }
+    //         }
 
-            .rotation figure img{
-                margin-top: -20%;
-                margin-left: -10%;
-            }
+    //         .rotation figure img{
+    //             margin-top: -20%;
+    //             margin-left: -10%;
+    //         }
             
 
           
-        }
+    //     }
 
-        .six .footer{
-            margin-top:80px;
-            height:1100px;
-            display:grid;
-            grid-template-columns:2fr;
+    //     .six .footer{
+    //         margin-top:80px;
+    //         height:1100px;
+    //         display:grid;
+    //         grid-template-columns:2fr;
 
-            .fungry_logo{
-                margin-top:0px;
+    //         .fungry_logo{
+    //             margin-top:0px;
 
-                img{
-                    width:30%;
-                    height:50%;
-                }
+    //             img{
+    //                 width:30%;
+    //                 height:50%;
+    //             }
 
-                h3{
-                    font-size:30px;
-                }
+    //             h3{
+    //                 font-size:30px;
+    //             }
 
-                p{
-                    margin-top:120px;
-                }
+    //             p{
+    //                 margin-top:120px;
+    //             }
 
-                span{
-                    line-height:4;
-                }
-            }
+    //             span{
+    //                 line-height:4;
+    //             }
+    //         }
 
-            .address{
-                margin-top: -75%;
-                margin-left: 35px;
+    //         .address{
+    //             margin-top: -75%;
+    //             margin-left: 35px;
 
-                p{
-                    font-size:14px;
-                }
-            }
+    //             p{
+    //                 font-size:14px;
+    //             }
+    //         }
 
-            .menu{
-                margin-top:-70%;
+    //         .menu{
+    //             margin-top:-70%;
 
-                ul{
-                    margin-left:35%;
-                    text-align:center;
-                    li a:first-child{
-                        font-size:20px;
-                    }
-
-                    
-                    li:nth-child(1n+2){
-                        a{
-                        color:$footer_normal_text;
-                        font-size: 18px;
-                        margin-left: -80%;
-
-                        }
-                    }
-                }
-
-                li .half-line{
-             
-                    content: ""; /* This is necessary for the pseudo element to work. */ 
-                    display: block; /* This will put the pseudo element on its own line. */
-                    margin: 0 auto; /* This will center the border. */
-                    width: 10%; /* Change this to whatever width you want. */
-                    padding-top: 0px; /* This creates some space between the element and the border. */
-                    border-bottom: 3px solid $footer_colo_text_color; /* This creates the border. Replace black with whatever color you want. */
-                    margin-left:0px;
-                }
-            }
-
-            .help{
-            
-                margin-top:-55%;
-                ul{
-                    margin-left:35%;
-                    text-align:center;
-                    li a:first-child{
-                        font-size:20px;
-                    }
+    //             ul{
+    //                 margin-left:35%;
+    //                 text-align:center;
+    //                 li a:first-child{
+    //                     font-size:20px;
+    //                 }
 
                     
-                    li:nth-child(1n+2){
-                        a{
-                        color:$footer_normal_text;
-                        font-size: 18px;
-                        margin-left: -80%;
+    //                 li:nth-child(1n+2){
+    //                     a{
+    //                     color:$footer_normal_text;
+    //                     font-size: 18px;
+    //                     margin-left: -80%;
 
-                        }
-                    }
-                }
+    //                     }
+    //                 }
+    //             }
 
-                li .half-line{
+    //             li .half-line{
              
-                    content: ""; /* This is necessary for the pseudo element to work. */ 
-                    display: block; /* This will put the pseudo element on its own line. */
-                    margin: 0 auto; /* This will center the border. */
-                    width: 20%; /* Change this to whatever width you want. */
-                    padding-top: 0px; /* This creates some space between the element and the border. */
-                    border-bottom: 3px solid $footer_colo_text_color; /* This creates the border. Replace black with whatever color you want. */
-                    margin-left:0px;
-                }
+    //                 content: ""; /* This is necessary for the pseudo element to work. */ 
+    //                 display: block; /* This will put the pseudo element on its own line. */
+    //                 margin: 0 auto; /* This will center the border. */
+    //                 width: 21%; /* Change this to whatever width you want. */
+    //                 padding-top: 0px; /* This creates some space between the element and the border. */
+    //                 border-bottom: 3px solid $footer_colo_text_color; /* This creates the border. Replace black with whatever color you want. */
+    //                 margin-left:0px;
+    //             }
+    //         }
 
-
-            }
-
-            .social-media ul{
-                margin-top:30px;
-                margin-left: 85px;
-                li {
-                    list-style-type: none;
-                    float: left;
-                    padding-left: 30px;
-                }
-
-                .fa-envelope{
-                    margin-left:-5px;
-                }
-            } 
+    //         .help{
             
-        }
+    //             margin-top:-55%;
+    //             ul{
+    //                 margin-left:35%;
+    //                 text-align:center;
+    //                 li a:first-child{
+    //                     font-size:20px;
+    //                 }
 
-    }
+                    
+    //                 li:nth-child(1n+2){
+    //                     a{
+    //                     color:$footer_normal_text;
+    //                     font-size: 18px;
+    //                     margin-left: -80%;
+
+    //                     }
+    //                 }
+    //             }
+
+    //             li .half-line1{
+             
+    //                 content: ""; /* This is necessary for the pseudo element to work. */ 
+    //                 display: block; /* This will put the pseudo element on its own line. */
+    //                 margin: 0 auto; /* This will center the border. */
+    //                 width: 17%; /* Change this to whatever width you want. */
+    //                 padding-top: 0px; /* This creates some space between the element and the border. */
+    //                 border-bottom: 3px solid $footer_colo_text_color; /* This creates the border. Replace black with whatever color you want. */
+    //                 margin-left:0px;
+    //             }
+
+
+    //         }
+
+    //         .social-media ul{
+    //             margin-top:30px;
+    //             margin-left: 85px;
+    //             li {
+    //                 list-style-type: none;
+    //                 float: left;
+    //                 padding-left: 30px;
+    //             }
+
+    //             .fa-envelope{
+    //                 margin-left:-5px;
+    //             }
+    //         } 
+            
+    //     }
+
+    // }
+
+    // @media only screen and (min-width: 768px) and (max-width:1024px){
+    //     .six{
+    //         width:100vw;
+
+    //         .rotate-img{
+    //             .rotation{
+    //                 figure img{
+    //                     margin-top: 0;
+    //                     margin-left: 0;
+    //                 }
+
+    //                 .circle{
+    //                     width: 500px;
+    //                     height: 500px;
+    //                     border: 2px dashed #BFBFBF;
+    //                     border-radius: 50%;
+    //                     margin-left: 17%;
+    //                     margin-top: -60%;
+
+    //                     .cir-img1 {
+    //                         margin-left: -2%;
+    //                         margin-top: 23%;
+    //                         -webkit-transform: rotate(-45deg);
+    //                         transform: rotate(-45deg);
+    //                     }
+
+    //                     .cir-img2 {
+    //                         transform: rotate(-35deg);
+    //                         margin-top: -25px;
+    //                     }
+
+    //                     .cir-img3 {
+    //                         margin-top: 58%;
+    //                         margin-left: -20;
+    //                         transform: rotate(-43deg);
+    //                     }
+
+    //                     .cir-img4 {
+    //                         transform: rotate(-37deg);
+    //                         margin-top: 0%;
+    //                         margin-left: 66%;
+    //                     }
+
+    //                     .cir-img5 {
+    //                         margin-top: 89%;
+    //                         margin-left: 19%;
+    //                         transform: rotate(-40deg);
+    //                     }
+
+    //                     .cir-img6 {
+    //                         margin-top: 25%;
+    //                         margin-left: 92%;
+    //                         transform: rotate(-39deg);
+    //                     }
+
+    //                     .cir-img7 {
+    //                         margin-top: 93%;
+    //                         margin-left: 57%;
+    //                         transform: rotate(-40deg);
+    //                     }
+
+    //                     .cir-img8 {
+    //                         margin-top: 58%;
+    //                         margin-left: 95%;
+    //                         transform: rotate(-40deg);
+    //                     }
+                        
+                        
+                        
+    //                 }
+
+               
+    //                 }
+
+    //                 .fb-snap {
+    //                     .space{
+    //                         margin-left:25%;
+    //                     }
+
+    //                     p{
+    //                         font-family: Helvetica;
+    //                         font-size: 18px;
+    //                         font-weight: normal;
+    //                         font-stretch: normal;
+    //                         font-style: normal;
+    //                         line-height: normal;
+    //                         letter-spacing: normal;
+    //                         color: #a3a3a3;
+    //                     }
+
+    //                     a{
+    //                         img {
+    //                             width: 250px;
+    //                             height: 100px;
+    //                             margin-left: 15%;
+    //                         }
+
+    //                         .playstore {
+    //                             margin-top: 19px;
+    //                             margin-left: -2%;
+    //                             width: 200px;
+    //                             height: 60px;
+    //                         }
+    //                     }
+                        
+    //                 }
+    //             }
+
+    //             .footer{
+    //                 .fungry_logo{
+    //                     img {
+    //                         width: 25%;
+    //                         height: 80%;
+    //                         margin-left:20%;
+    //                     }
+
+    //                     h3 {
+    //                         font-size: 30px;
+    //                         margin-left: 30%;
+    //                     }
+
+    //                     p {
+    //                         margin-top: 30%;
+    //                         margin-left: 15%;
+    //                         font-size: 15px;
+    //                     }
+
+    //                     span {
+    //                         line-height: 4;
+    //                         margin-left: 15%;
+    //                         font-size: 15px;
+    //                     }
+    //                 }
+
+    //                 .address {
+    //                     margin-top: -44%;
+    //                     margin-left: 50%;
+
+    //                     p{
+    //                         font-size:15px;
+    //                     }
+    //                 }
+
+    //                 .menu{
+    //                     margin-top: -47%;
+    //                     margin-left: -25%;
+
+    //                     ul{
+    //                         text-align:center;
+    //                         li{
+    //                             a:first-child{
+    //                                 margin-left:30px;
+    //                             }
+    //                             .half-line{
+    //                                 content: "";
+    //                                 display: block;
+    //                                 margin: 0 auto;
+    //                                 width: 9%;
+    //                                 padding-top: 0px;
+    //                                 border-bottom: 3px solid #6B8AFF;
+                                   
+    //                             }
+    //                         }
+
+    //                         li:nth-child(1n+2){
+    //                             a{
+    //                             // color:$footer_normal_text;
+    //                             // font-size: 18px;
+    //                             margin-left: -80%;
+                                
+    //                             }
+    //                         }
+    //                     }
+    //                 }
+
+    //                 .social-media ul {
+    //                     margin-top: -17px;
+    //                     margin-left: 53%;
+    //                 }
+    
+    //             }
+
+              
+    //             .help {
+    //                 margin-top: -73%;
+    //                 margin-left: 30%;
+
+    //                 ul {
+    //                     margin-left: 35%;
+    //                     margin-top: -23%;
+    //                     text-align: center;
+
+    //                     li{
+    //                         a:first-child {
+    //                             font-size: 20px;
+    //                             margin-left: 10px;
+    //                         }
+
+    //                         .half-line1 {
+    //                             content: "";
+    //                             display: block;
+    //                             margin: 0 auto;
+    //                             width: 13%;
+    //                             padding-top: 0px;
+    //                             border-bottom: 3px solid #6B8AFF;
+                               
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    
