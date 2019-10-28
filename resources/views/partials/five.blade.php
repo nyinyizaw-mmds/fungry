@@ -1,5 +1,5 @@
 <div class="five">
-    <div class="line"></div>
+    {{-- <div class="line"></div> --}}
     <div class="up-to-date">
      
             <div class="text-opacity">
@@ -13,7 +13,7 @@
                     <span>information by free</span>
                     </span>
         
-        </div>
+            </div>
        
         <div class="slide_group">
             <div class="card">

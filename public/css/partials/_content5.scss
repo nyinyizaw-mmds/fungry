@@ -3,7 +3,7 @@
     min-height:100%;
     background:white;
     margin-top:-100px;
-
+    width:100%;
         .line{
             position: absolute;
             border: solid 1px #517fe7;
@@ -302,7 +302,7 @@
 @media only screen and (min-width: 768px) and (max-width:1024px) {
     .five{
         position:relative;
-        width:100vw;
+        width:100%;
 
         .slide_group{
             position: absolute;
@@ -323,7 +323,7 @@
 @media only screen and (min-width: 1024px) {
     .five{
         position:relative;
-        width:100vw;
+        width:100%;
         margin-top:1px;
 
         .slide_group{
