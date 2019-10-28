@@ -74,7 +74,7 @@
                 overflow-x: hidden;
                 overflow-y: hidden;
                 width: 1000px;
-                position: absolute;
+                position: static;
                 z-index: 1;
                 margin-left: 225px;
                 min-width:750px;
@@ -305,7 +305,7 @@
         width:100%;
 
         .slide_group{
-            position: absolute;
+            position: static;
                 margin-left:0px;
                 height:300px;
                 left:0;
