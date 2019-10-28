@@ -2,209 +2,431 @@
     position:relative;
     min-height:100%;
     background:white;
-    margin-top:-150px;
-    
-    .meal{
-        width:600px;
-        height:450px;
-        border:1px solid #5190DE;
-        margin-left:140px;
+    margin-top:-100px;
 
-        .meals{
-           // width:80px;
-            height:80px;
-            position:relative;
-            z-index:4;
-            margin-left:900px;
-            margin-top:-100px;
-            border-radius:5px;
+        .line{
+            position: absolute;
+            border: solid 1px #517fe7;
+            height: 445px;
+            width: 490px;
+            top: 0;
+            left: 0;
+            margin-left: 165px;
+            margin-top: -52px;
         }
-       
+
         .up-to-date{
-            width:350px;
-            height:160px;
-            background:white;
-            border:0px;
-            position:static;
-            z-index:5;
-            margin-left:-40px;
-            margin-top:135px;
+            display: grid;
+            grid-template-columns:3fr 3fr;
+            position: relative;
+            width: 100%;
+
+            .text-opacity{
+                position: absolute;
+                width: 450px;
+                height: 200px;
+                left: 0px;
+                margin-top: 70px;
+                background: white;
             
-            h1{
-                padding-top:5px;
-                word-spacing:0px;
-                line-height:0.8;
+                p{
+                    font-family: AvenirNext;
+                    font-size: 26px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #3e3e3e;
+                    margin-left:115px;
+
+                    span{
+                        font-family: AvenirNext;
+                        font-size: 26px;
+                        font-weight: bold;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #3e3e3e;
+                        margin-left:0px;
+                    }
+                }
+
+                span{
+                    font-family: AvenirNext;
+                    font-size: 13px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #3e3e3e;
+                    margin-left:115px;
+                }
+
             }
 
-            span{
-                font-size:15px;
-            }
-
-            
-        .slide_group{
-            display: flex;
-            flex-wrap: nowrap;
-            height: 380px;
-            overflow-x: hidden;
-            overflow-y:hidden;
-            width: 1100px;
-            position:static;
-            z-index:1;
-            margin-left:148px;
-           //z-index:3;
-            margin-top:-230px;
-            //transform: translateX(430px);
-           
-            min-width:750px;
-            max-height:500px;
-            background:transparent;
-
-            .card {
-                @extend %scroll_group;
-               transform: translateX(350px);
-                
-                .fa-heart{
-                    font-family: "Font Awesome 5 Free";
-                    font-size: 20px;
-                    position: relative;
-                    float: right;
-                    margin-top: -40px;
-                    margin-right: 20px;
-                    color: white;
-                    opacity:2.5;
-                }
-                
-                @extend %background_cover_transparent;
-               @extend %card_text;
-              }
-
-              .card_1 {
-                @extend %scroll_group;
-                margin-left:25px;
-                transform: translateX(350px);
-
-                .fa-heart{
-                    font-family: "Font Awesome 5 Free";
-                    font-size: 20px;
-                    position: relative;
-                    float: right;
-                    margin-top: -40px;
-                    margin-right: 20px;
-                    color: white;
-                    opacity:2.5;
-                }
-
-               @extend %background_cover_transparent;
-               
-               @extend %card_text;
-              }
-
-              .card_2 {
-                @extend %scroll_group;
-                margin-left:20px;
-                transform: translateX(350px);
-
-
-                .fa-heart{
-                    font-family: "Font Awesome 5 Free";
-                    font-size: 20px;
-                    position: relative;
-                    float: right;
-                    margin-top: -40px;
-                    margin-right: 20px;
-                    color: white;
-                    opacity:2.5;
-                }
-
-                @extend %background_cover_transparent;
-                
-               @extend %card_text;
-              }
+            .slide_group{
+                display: flex;
+                flex-wrap: nowrap;
+                height: 350px;
+                overflow-x: hidden;
+                overflow-y: hidden;
+                width: 1000px;
+                position: absolute;
+                z-index: 1;
+                margin-left: 225px;
+                min-width:750px;
+                max-height:500px;
+                background:transparent;
+        
+                .card {
+                    @extend %scroll_group;
+                   transform: translateX(270px);
+        
+                   
+                       span{
+                        font-family: Helvetica;
+                        font-size: 20px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #ffffff;
+                       }
+                   
+                    
+                    .fa-heart{
+                        font-family: "Font Awesome 5 Free";
+                        font-size: 20px;
+                        position: relative;
+                        float: right;
+                        margin-top: -40px;
+                        margin-right: 20px;
+                        color: white;
+                        opacity:2.5;
+                    }
+                    @extend %background_cover_transparent;
+                   @extend %card_text;
+                  }
+        
+                  .card_1 {
+                    @extend %scroll_group;
+                    // margin-left:25px;
+                    transform: translateX(300px);
+        
+                    span{
+                        font-family: Helvetica;
+                        font-size: 20px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #ffffff;
+                       }
+                   
+        
+                    .fa-heart{
+                        font-family: "Font Awesome 5 Free";
+                        font-size: 20px;
+                        position: relative;
+                        float: right;
+                        margin-top: -40px;
+                        margin-right: 20px;
+                        color: white;
+                        opacity:2.5;
+                    }
+        
+                   @extend %background_cover_transparent;
+                   
+                   @extend %card_text;
+                  }
+        
+                  .card_2 {
+                    @extend %scroll_group;
+                    // margin-left:20px;
+                    transform: translateX(320px);
+        
+                    span{
+                        font-family: Helvetica;
+                        font-size: 20px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #ffffff;
+                       }
+                   
+        
+                    .fa-heart{
+                        font-family: "Font Awesome 5 Free";
+                        font-size: 20px;
+                        position: relative;
+                        float: right;
+                        margin-top: -40px;
+                        margin-right: 20px;
+                        color: white;
+                        opacity:2.5;
+                    }
+        
+                    @extend %background_cover_transparent;
+                    
+                   @extend %card_text;
+                  }
+                  
               
-          
-        }
-    }
-
-
-        .slide_group.active{
-            cursor:grabbing;
-            position:relative;
-            z-index:10;
-            cursor:-webkit-grabbing;
-            
-            .card,.card_1,.card_2{
-               
-               transform:translateX(100px);
-             
             }
 
+            .slide_group.active{
+                cursor:grabbing;
+                position:relative;
+                z-index:10;
+                cursor:-webkit-grabbing;
+                .card,.card_1,.card_2{
+                    transform:translateX(270px);
+                }
+
+                // .card_1{
+                //     transform:translateX(300px);
+                // }
+
+                // .card_2{
+                //     transform:translateX(320px);
+                // }
+            }
+        }
+
+    //     .up-to-date{
+    //         width:350px;
+    //         height:160px;
+    //         background:white;
+    //         border:0px;
+    //         position:static;
+    //         z-index:5;
+    //         margin-left:-40px;
+    //         margin-top:135px;
+            
+    
+            
+    
+    // }
+
+
+       
+}
+
+@media only screen and (min-width: 414px) and (max-width:768px) {
+    .five{
+        position:relative;
+        width:100vw;
+
+        .line{
+            display:none;
+        }
+
+        .up-to-date{
+
+           
+            .text-opacity{
+                width: 100%;
+                margin-top: 0;
+                text-align:center;
+                p{
+                    left:0;
+                    margin-left:0px;
+                    text-align:center;
+
+                    span{
+                        margin-left:35px;
+                    }
+                }
+
+                span{
+                    margin-left:0px;
+                    text-align:center;
+                    span{
+                        margin-left:0px;
+                    }
+                }
+            }
+           
+            .slide_group{
+                // display: flex;
+                 margin-top: 200px;
+                // flex-wrap: nowrap;
+                // left: 0;
+                // overflow-x: auto;
+                // margin-left: 0;
+                // position: absolute;
+                // min-width: 415px;
+                // width:0px !important;
+                position: absolute;
+                margin-left:0px;
+                height:300px;
+                left:0;
+                margin: 0;
+                top: 0;
+                display: flex;
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                width:auto;
+                margin-top:200px;
+
+                .card{
+                    position:absolute;
+                    left:0;
+                    transform:translateX(40px);
+                }
+
+                .card_1{
+                    position:absolute;
+                    left:0;
+                    transform:translateX(330px);
+                }
+
+                .card_2{
+                    position:absolute;
+                    left:0;
+                    transform:translateX(620px);
+                }
+            }
         }
 
     }
 }
 
-@media only screen and (min-width: 414px) and (max-width:768px) {
+@media only screen and (min-width: 768px) and (max-width:1024px) {
     .five{
-        margin-top:-230px;
-        .meal{
-            border:0px;
-            width:0px;
-            .up-to-date {
-                margin-left: -90px;
-                margin-top: -10px;
-                font-weight: bolder;
+        position:relative;
+        width:100vw;
 
-                h1{
-                    line-height: 0.5;
-
-                    span h1{
-                        margin-left:50px;
-                    }
-                }
-
-                .read-and-get   {
-                    font-size: 20px;
-                    opacity: 0.7;
-                    font-weight: normal;
-
-                   span{
-                       margin-left:50px;
-                       font-size:22px;
-                   }
-                }
-
-                .slide_group {
-                    
-                    width:414px;
-                    margin-left: -350px;
-                    margin-top: 20px; 
-                     display: flex;
-                    flex-wrap: nowrap;
-                    height: 360px;
-                    overflow-x: auto;
-
-                    .card .container {
-                        margin-top: 10px;
-                        padding: 0px 15px;
-                        opacity: 0.5;
-                    }
-
-                    .card_1 .container {
-                        margin-top: 10px;
-                        padding: 0px 15px;
-                        opacity: 0.5;
-                    }
-
-                    .card_2 .container {
-                        margin-top: 10px;
-                        padding: 0px 15px;
-                        opacity: 0.5;
-                    }
-                
-                }
-            }
-
-           
+        .slide_group{
+            position: absolute;
+                margin-left:0px;
+                height:300px;
+                left:0;
+                margin: 0;
+                top: 0;
+                display: flex;
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                width:auto;
+            
         }
     }
- }
+}
+
+@media only screen and (min-width: 1024px) {
+    .five{
+        position:relative;
+        width:100vw;
+        margin-top:1px;
+
+        .slide_group{
+            min-width:800px;
+            position:absolute;
+        }
+    }
+}
+
+// @media only screen and (min-width: 414px) and (max-width:768px) {
+//     .five{
+//         margin-top:-230px;
+//         width:100vvw;
+//         .meal{
+//             border:0px;
+//             width:0px;
+//             .up-to-date {
+//                 margin-left: -90px;
+//                 margin-top: -10px;
+//                 font-weight: bolder;
+
+//                 h1{
+//                     line-height: 0.5;
+
+//                     span h1{
+//                         margin-left:50px;
+//                     }
+//                 }
+
+//                 .read-and-get   {
+//                     font-size: 20px;
+//                     opacity: 0.7;
+//                     font-weight: normal;
+
+//                    span{
+//                        margin-left:50px;
+//                        font-size:22px;
+//                    }
+//                 }
+
+//                 .slide_group {
+                    
+//                     width:414px;
+//                     margin-left: -350px;
+//                     margin-top: 20px; 
+//                      display: flex;
+//                     flex-wrap: nowrap;
+//                     height: 360px;
+//                     overflow-x: auto;
+
+//                     .card .container {
+//                         margin-top: 10px;
+//                         padding: 0px 15px;
+//                         opacity: 0.5;
+//                     }
+
+//                     .card_1 .container {
+//                         margin-top: 10px;
+//                         padding: 0px 15px;
+//                         opacity: 0.5;
+//                     }
+
+//                     .card_2 .container {
+//                         margin-top: 10px;
+//                         padding: 0px 15px;
+//                         opacity: 0.5;
+//                     }
+                
+//                 }
+//             }
+
+           
+//         }
+//     }
+//  }
+
+//  @media only screen and (min-width: 768px) and (max-width:1024px){
+//         .five{
+//             width:100vw;
+//             margin-top:-70%;
+
+//             .meal .up-to-date {
+//                 margin-left: 100px;
+
+//                 .slide_group {
+//                     width: 100%;
+//                     margin-left: -243px;
+
+//                     .card{
+//                         transform:translateX(50px);
+//                     }
+
+//                     .card_1{
+//                         transform:translateX(90px);
+//                     }
+
+//                     .card_2{
+//                         transform:translateX(130px);
+//                     }
+//                 }
+
+
+//             }
+
+//         }
+//  }

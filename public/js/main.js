@@ -278,6 +278,45 @@ $(function() {
       $('.nav ul').toggleClass('open');
     });
   });
+  $(function() {
+    $('.about').on('click',function() {
+      $('.nav ul').toggleClass('open');
+    });
+  });
+
+  $(function() {
+    $('.three').on('click',function() {
+      $('.nav ul').toggleClass('open');
+    });
+  });
+  $(function() {
+    $('.special').on('click',function() {
+      $('.nav ul').toggleClass('open');
+    });
+  });
+
+
+
+  function myFunction1(x) {
+    if (x.matches) { // If media query matches
+        window.onscroll = function() {myFunction()};
+
+        const header = document.querySelector(".header")
+        const sticky = header.offsetTop;
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          }   
+        else {
+            header.classList.remove("sticky");
+          }
+        }
+    } else {
+    }
+   }
+   var x = window.matchMedia("(max-width: 414px)");
+   myFunction1(x) // Call listener function at run time
+   x.addListener(myFunction1) // Attach listener function on state change
 
 
 

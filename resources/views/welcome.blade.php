@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-        
+        <link rel="stylesheet" href="{{ asset('css/Avenir Next.ttc') }}">
         <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
     </head>
     <body>
@@ -26,6 +26,8 @@
         @include('/partials/five')
 
         @include('/partials/sixslide') 
+
+        {{-- @include('/partials/text'); --}}
    
 
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
