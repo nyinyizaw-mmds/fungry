@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
     </head>
     <body>
-        @include('/partials/header')
+        {{-- @include('/partials/header') --}}
 
         @include('/partials/thirdslide')
 
