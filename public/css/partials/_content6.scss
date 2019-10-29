@@ -2,6 +2,7 @@
     position:relative;
     min-height:100%;
     background:white;
+    margin-top:-100px;
     
     .rotate-img{
         display:grid;
@@ -265,11 +266,13 @@
         }
     }
 
-    @media only screen and (min-width:414px) and (max-width:768px){
+    @media only screen and (min-width:414px) and (max-width:1024px){
         .six{
             position:relative;
             width:100%;
+            margin-top:100px;
             .rotate-img{
+                
                 position: relative;
                 width: 100%;
                 align-items: center;
@@ -280,21 +283,16 @@
                 grid-template-rows: repeat(2, 1fr);
             
                 .rotation{
-                    position: absolute;
-                    left: 0;
+                    position: relative;
                     width: 100%;
-                    top: 0;
-                    height: 350px;
                     margin:0 auto;
-                    margin-left:12px;
                     .circle{
-                        position:absolute;
+                        position: relative;
                         width: 300px;
                         height: 300px;
                         border: 2px dashed #BFBFBF;
-                        border-radius: 50%;
-                        margin-left: 50px;
-                        margin-top: -100px;
+                        margin: 0 auto;
+                     
 
                         .cir-img1{
                             margin-left: 60px;
@@ -355,10 +353,19 @@
                     }
 
                    figure{
-                       position:absolute;
-                       margin-top: -25px;
-                        margin-left: 150px;
-                        text-align: center;
+                    position: relative;
+                    margin: 0 auto;
+                    text-align: center;
+                    bottom: 230px;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                       img{
+                           position:relative;
+                       }
+
+                       figcaption{
+                           position:relative;
+                       }
                    }
                     
                 }
@@ -408,10 +415,68 @@
                         }
                     }
                  }
+
+                 .fb-snap{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    width: 100vw;
+                    margin-left:0px;
+                    margin-top:0px;
+                    width: 100%;
+                    margin: 0 auto;
+                    -ms-grid-row: 2;
+                    grid-row: 2;
+                    
+                    .space{
+                        position: relative;
+                        margin: 0 auto;
+
+                        #fb-root{
+                            width:100%;
+                        }
+                    }
+
+                    .fb_text{
+                        position: relative;
+                        margin: 0 auto;
+                        width:100%;
+                        text-align:center;
+                        p{
+                            right:0px;
+                            position:relative;
+                        }
+                    }
+
+                    .fb_download{
+                        position: relative;
+                        margin: 0 auto;
+                        margin-top:0px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        a{
+                            margin-left:0px;
+
+                            img{
+                                margin-left:0px;
+                                position:relative;
+                                margin:0 auto;
+                            }
+
+                            .playstore{
+                                margin-top:0px;
+                                margin-left:0px;
+                                position:relative;
+                            }
+                        }
+                    }
+                 }
             }
 
             .footer{
-                position:relative;
+                position: relative;
                 background: #2F313D;
                 display: grid;
                 grid-template-columns: 2fr;
@@ -422,8 +487,9 @@
 
                 .fungry_logo{
                     padding-top: 70px;
-                    padding-left: 90px;
+                    padding-left: 0px;
                     height: 222px;
+                    margin:0 auto;
                     position: relative;
 
                     img{
@@ -431,11 +497,12 @@
                         height: 100px;
                         border-radius: 5px;
                         position: absolute;
+
                     }
 
                     .fun_text{
                         margin-top: 21px;
-                        left: 160px;
+                        left: 140px;
                         font-size: 25px;
                         font-weight: normal;
                         font-stretch: normal;
@@ -443,7 +510,6 @@
                         line-height: normal;
                         letter-spacing: normal;
                         color: #bfbfbf;
-                        margin-left: 50px;
                         position: absolute;
                     }
 
@@ -457,9 +523,11 @@
                     }
 
                     .address{
-                        padding-left: 60;
+                        padding-left: 0;
+                        padding-top:0;
                         color: #6b8aff;
                         position: relative;
+                        margin:0 auto;
 
                         p{
                             margin-top: 40px;
@@ -470,16 +538,22 @@
 
                     .menu{
                         position: relative;
-                        margin-left: -40px;
-                        text-align: center;
+                        padding-top:0;
+                        margin:0 auto;
 
                         ul{
-                            // margin-left:35%;
-                            // text-align:center;
-                            // li a:first-child{
-                            //     font-size:20px;
+                           text-align:center;
 
                             li{
+                                .half-line{
+                                    content: "";
+                                    display: block;
+                                    width: 50%;
+                                    margin:0 auto;
+                                    border-bottom: 3px solid #6b8aff;
+                                    
+                                }
+
                                 a:first-child{
                                     color: #6b8aff;
                                     font-family: Helvetica;
@@ -489,8 +563,7 @@
                                     font-style: normal;
                                     line-height: 2;
                                     letter-spacing: normal;
-                                    text-align: center;
-                                    margin-left: auto;
+                                
                                 }
                             }
                             
@@ -510,17 +583,66 @@
                                 font-style: normal;
                                 line-height: normal;
                                 letter-spacing: normal;
-                                margin-left: 20px;
-        
                                 }
                             }
                         }
                     }
 
-     
+                    .help{
+                        position:relative;
+                        margin:0 auto;
+                        ul{
+                           text-align:center;
 
-                
+                            li{
+                                .half-line1{
+                                    content: "";
+                                    display: block;
+                                    margin: 0 auto;
+                                    width: 15%;
+                                    border-bottom: 3px solid #6b8aff;
+                                }
+
+                                a:first-child{
+                                    color: #6b8aff;
+                                    font-family: Helvetica;
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                    font-stretch: normal;
+                                    font-style: normal;
+                                    line-height: 2;
+                                    letter-spacing: normal;
+                                
+                                }
+                            }
+                            
+        
+                            
+                            li:nth-child(1n+2){
+                               
+                                a{
+                                color:$footer_normal_text;
+                                //font-size: 18px;
+                                //margin-left: -80%;
+                                //color: #BFBFBF;
+                                font-size: 12px;
+                                font-family: Helvetica;
+                                font-weight: normal;
+                                font-stretch: normal;
+                                font-style: normal;
+                                line-height: normal;
+                                letter-spacing: normal;
+                                }
+                            }
+                        }
+                    }
+
+                    .social-media{
+                        width:100%;
+                    }
             }
+
+            
         }
     }
 
@@ -796,7 +918,7 @@
     //                         margin-top: 89%;
     //                         margin-left: 19%;
     //                         transform: rotate(-40deg);
-    //                     }
+    //                     }480
 
     //                     .cir-img6 {
     //                         margin-top: 25%;

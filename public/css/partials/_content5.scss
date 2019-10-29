@@ -2,19 +2,9 @@
     position:relative;
     min-height:100%;
     background:white;
-    margin-top:-100px;
+    margin-top:-200px;
     width:100%;
-        // .line{
-        //     position: absolute;
-        //     border: solid 1px #517fe7;
-        //     height: 445px;
-        //     width: 490px;
-        //     top: 0;
-        //     left: 0;
-        //     margin-left: 165px;
-        //     margin-top: -52px;
-        // }
-
+    
         .line{
             width:600px;
             height:450px;
@@ -22,27 +12,24 @@
             margin-left:140px;
 
             .up-to-date{
-                // display: grid;
-                // grid-template-columns:3fr 3fr;
-                // position: relative;
-                // width: 100%;
+               
                 width:350px;
                 height:190px;
                 background:white;
                 border:0px;
                 position:static;
                 z-index:5;
-                margin-left:0px;
+               
                 margin-top:135px;
                 .text-opacity{
                     position: absolute;
                     width: 450px;
                     height: 200px;
-                    left: 0px;
                     margin-top: 70px;
                     background: white;
-                
-                    p{
+                    margin-left:-140px;
+                   
+                    .read-update{
                         font-family: AvenirNext;
                         font-size: 26px;
                         font-weight: bold;
@@ -64,9 +51,11 @@
                             color: #3e3e3e;
                             margin-left:0px;
                         }
+
+                       
                     }
-    
-                    span{
+
+                    .read-and-get{
                         font-family: AvenirNext;
                         font-size: 13px;
                         font-weight: normal;
@@ -78,35 +67,22 @@
                         margin-left:88px;
                     }
     
+                 
+    
                 }
     
                 .slide_group{
-                    // display: flex;
-                    // flex-wrap: nowrap;
-                    // height: 350px;
-                    // overflow-x: hidden;
-                    // overflow-y: hidden;
-                    // width: 1000px;
-                    // position: static;
-                    // z-index: 1;
-                    // margin-left: 225px;
-                    // min-width:750px;
-                    // max-height:500px;
-                    // background:transparent;
 
                     display: flex;
                     flex-wrap: nowrap;
                     height: 350px;
                     overflow-x: hidden;
                     overflow-y:hidden;
-                    width: 1070px;
+                    width: 1125px;
                     position: static;
                     z-index: 1;
                     margin-left: 15px;
-                   //z-index:3;
                     margin-top:-80px;
-                    //transform: translateX(430px);
-                   
                     min-width:750px;
                     max-height:500px;
                     background:transparent;
@@ -248,60 +224,68 @@
 
 }
 
-@media only screen and (min-width:414px) and (max-width:768px){
+@media only screen and (min-width:414px) and (max-width:1024px){
     .five{
         position:relative;
 
         .line{
             border:0px;
+            width:100%;
+            margin-left:0px;
+
 
             .up-to-date{
-                display: grid;
-                grid-template-columns: 3fr;
-                grid-template-rows: repeat(2, 1fr);
-                width: auto;
-                align-items: center;
-                justify-content: center;
-                margin: 0 auto;
+               
+                display: flex;
+                flex-wrap: wrap;
+                width:100vw;
+                margin:0 auto;
 
                 .text-opacity{
-                    position:absolute;
-                    height: 200px;
-                    left: 0px;
-                    margin: 0 auto;
-
+                    position:relative;
+                    width:100%;
+                    margin-top:0px;
+                    margin-left:0px;
+                    bottom:15;
                     p{
-                        margin-left:90px;
+                        margin:0 auto;
+                        text-align:center;
                         span{
-                            margin-left:35px;
+                            margin-left:0px;
                         }
                     }
 
-                    span{
-                        margin-left:90px;
-                        font-size:18px;
-                        span{
-                            margin-left:150px;
-                            font-size:18px;
-                            
-                        }
-
+                    .read-update{
+                        margin-left:0px;
                     }
+                    .read-and-get{
+                        margin-left:0px;
+                    }
+
+                   
                 }
 
                 .slide_group{
-                    position: static;
-                    left: 0;
-                    bottom: 0;
-                    grid-row: 2;
-                    margin-top: 210;
-                    margin-left: -510px;
+                    
                     display: flex;
-                    flex-wrap: nowrap;
                     overflow-x: auto;
-                    width:0px;
-                    min-width:800px;
+                    width:100%;
+                    min-width:0px;
 
+                    .card{
+                        transform:translate(0px);
+                        margin-left:0px;
+                    }
+
+                    .card_1{
+                        margin-left:20px;
+                        transform:translate(0px);
+                    }
+
+                    .card_2{
+                        margin-left:20px;
+                        transform:translate(0px);
+                    }
                 }
             }
         }

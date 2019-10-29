@@ -16,8 +16,9 @@
         <link rel="stylesheet" href="{{ asset('css/Avenir Next.ttc') }}">
         <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
     </head>
+    @include('/partials/nav')
     <body>
-        {{-- @include('/partials/header') --}}
+        @include('/partials/header')
 
         @include('/partials/thirdslide')
 

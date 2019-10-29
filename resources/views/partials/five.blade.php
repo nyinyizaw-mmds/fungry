@@ -5,15 +5,15 @@
      
                     <div class="text-opacity">
                    
-                        <p>Up to Date Promotions <br/>
+                        <p class="read-update">Up to Date Promotions <br/>
                         <span> and Meal Update</span> </p>
                         
                         
-                        <span class="read-and-get">
+                        <p class="read-and-get">
                             Read and Get more Food Related <br/>
                             <span>information by free</span>
-                            </span>
-                
+                       </p>
+            
                     </div>
                
                 <div class="slide_group">
