@@ -17,9 +17,12 @@
         height: 45px;    
             }
     p{
-     font-family: 'Roboto', sans-serif;
-        font-weight: 700;
         color: $primary_text_color;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
     }
         
         }
@@ -48,7 +51,16 @@
                 a{
                     text-decoration: none;
                     color: $nav_unselected_menu;
+                    font-family: MyanmarSangamMN;
+                    font-size: 14px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
                 }
+
                 &:hover{
                     
                     &:not(:last-child):before{
@@ -66,7 +78,7 @@
                 .btn1{
                     //    height:25px;
                     cursor: pointer;
-                    padding: 5px 10px;
+                    padding: 0px 10px;
                     border:1px solid $accent_color;
                     color:white;
                     //    margin-top:15px;
@@ -91,6 +103,14 @@
         .home{     
             a{
                 color: $nav_selected_menu;
+                font-family: MyanmarSangamMN;
+                font-size: 14px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
                 &::before{
                     content: "";
                     width: 25px;
@@ -112,12 +132,50 @@
 }
 
 @media only screen and (min-width: 414px) and (max-width:768px){
-    .header{
-        width:0px;
-        .nav{
-            min-width:0;
+   
+    .campaign{
+        img{
+           width:414px;
+           
         }
     }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 50;
+    }
+
+    .nav{
+        .toggleNav{
+               margin-right: 30px;
+               margin-top: 17px;
+               text-decoration: none;
+           }
+    }
+
+      .sticky{
+         padding-top: 70px;
+      }
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .nav{
+        .toggleNav{
+            margin-left: 525px;
+        }
+    }
+
+    // .header{
+    //     width:0px;
+    //     .nav{
+    //         min-width:0;
+    //     }
+    // }
     .campaign{
         img{
            width:414px;
@@ -125,23 +183,5 @@
         }
     }
 }
-
-
-@media only screen and (min-width: 768px) and (max-width:1024px){
-    .header{
-        width:0px;
-        .nav{
-            min-width:0;
-        }
-    }
-    .campaign{
-        img{
-           width:414px;
-           
-        }
-    }
-}
-
-
 
 

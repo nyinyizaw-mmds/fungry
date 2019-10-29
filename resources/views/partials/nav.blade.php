@@ -14,9 +14,9 @@
                     <a href="#" class="toggleNav"><img src="{{asset('/images/delete.png') }}" alt="logo" class="close"></a>
                 </li>
                  <li  class="home"><a href="#home">Home</a></li>
-                 <li><a href="#about">About</a></li>
-                 <li><a href="#three">Features</a></li>
-                 <li><a href="#special">How It Works</a></li>
+                 <li><a href="#about" class="about">About</a></li>
+                 <li><a href="#three" class="three">Features</a></li>
+                 <li><a href="#special" class="special">How It Works</a></li>
                  <li><button class="btn1"><a href="#slide-six">Get the App</a></button></li>
              </ul>
          </nav>

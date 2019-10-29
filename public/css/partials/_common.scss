@@ -1,5 +1,6 @@
 // start slide
 %third_btn{
+    
     position:absolute;
     width:200px;
     height:45px;
@@ -42,8 +43,15 @@
     p{
         unicode-bidi: bidi-override;
         color:white;
-        font-size:18px;
+        font-size:15px;
         margin-top:-15px;
+        font-family: MyanmarSangamMN;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
     }
 }
 
@@ -61,39 +69,65 @@
 
 //start four slide
 %inside_text{
-    h3{
-        margin-left:25px;
-        margin-top:25px;
-        position:absolute;
-       // font-weight: bolder;
-    }
+    .text{
+        margin-top:15px;
+        p{
+            margin-left: 25px;
+            font-family: Helvetica;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #3d3d3d;
+            font-size: 14px;
 
-    p{
-        margin-top: 65px;
-        margin-left: 25px;
-        color: #5B8EDC;
-    }
-
-    span{
-        //font-family: 'Pyidaungsu', sans-serif; 
-        font-size: 12px;
-        opacity: 0.5;
-        margin-left: 25px;
+            span{
+                font-size: 10px;
+                font-weight: 500;
+                font-family: AvenirNext;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #5b8edc;
+                margin:0;
+            }
+        }
+        span{
+            font-size: 10px;
+            margin-left: 25px;
+            font-family: MyanmarSangamMN;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #757575;
+        }
     }
 }
 
 %menu_center_text{
     p{
-        text-align:center;
-        color: $primary_color;
         height:0px;
-        font-weight: bolder;
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 25px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #3d3d3d;
         
        .btn{
            border:0px;
            border-bottom: 3px solid $circle_underline;
            background: white;
-
+            padding:5px;
        }
     }
 }
@@ -103,9 +137,12 @@
     
     width:250px;
     height:170px;
-    border:1px solid gray;
+    // border:1px solid gray;
     border-radius: 10px;
-    
+   
+    border-radius: 16px;
+    // box-shadow: 0 9px 20px 0 rgba(86, 86, 86, 0.5);
+    background-color: #ffffff;
     -webkit-box-shadow:  0px 5px 10px 0px rgba(170,170,170,0.54); 
     box-shadow: 0px 5px 10px 0px rgba(170,170,170,0.54);
 }
@@ -115,8 +152,7 @@
     width: 140px;
     height: 140px;
     border-radius: 25px;
-    margin-top: -120px;
-    margin-left: 30px;
+    padding:15px;
     position: absolute;
 }
 
@@ -129,22 +165,38 @@
         position: absolute;
         height: 250px;
         width: 270px;
-        background:#010101;
+        background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0) 27%);
     }
 
 }
 
 %card_text{
 
+   .container{
     span{
-        font-size:20px;
+        font-family: MyanmarSangamMN;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #757575;
         margin-left:10px;
     }
 
     p{
-        font-size:12px;
+        font-family: MyanmarSangamMN;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #757575;
         margin-left:10px;
     }
+   }
 }
 
 %scroll_group{
@@ -184,7 +236,15 @@
         line-height: 2.4;
         li a:first-child{
          color:$footer_colo_text_color;
-       
+         font-family: Helvetica;
+         font-size: 14px;
+         font-weight: bold;
+         font-stretch: normal;
+         font-style: normal;
+         line-height: 2;
+         letter-spacing: normal;
+         text-align: center;
+     
          }
 
        
@@ -193,7 +253,12 @@
             a{
              color:$footer_normal_text;
              font-size:$footer_font_size;
-
+             font-family: Helvetica;
+             font-weight: normal;
+             font-stretch: normal;
+             font-style: normal;
+             line-height: normal;
+             letter-spacing: normal;
             }
          }
 

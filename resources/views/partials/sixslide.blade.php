@@ -28,14 +28,18 @@
 
                
             </div>
-            <p>Download from Apple Store and  Google Play Store</p>
+           <div class="fb_text">
+                <p>Download from Apple Store and  Google Play Store</p>
+           </div>
 
-            <a href="https://apple.co/2WQvvSt">
-                <img src="{{asset('/images/appstore.png')}}" alt="appstore" class="appstore">
-            </a>
-            <a href="http://bit.ly/2wOeZEh">
-                <img src="{{asset('/images/playstore.png')}}" alt="playstore" class="playstore">
-            </a>
+           <div class="fb_download">
+                <a href="https://apple.co/2WQvvSt">
+                    <img src="{{asset('/images/appstore.png')}}" alt="appstore" class="appstore">
+                </a>
+                <a href="http://bit.ly/2wOeZEh">
+                    <img src="{{asset('/images/playstore.png')}}" alt="playstore" class="playstore">
+                </a>
+           </div>
         </div>
         
     </div>
@@ -43,7 +47,7 @@
     <div class="footer">
        <div class="fungry_logo">
             <img src="{{asset('/images/Fungry-Noti-Outer.png')}}" alt="phone" align="left">
-            <h3>Fungry.AI</h3>
+            <p class="fun_text">Fungry.AI</p>
           
             <p>Product of <br/>MM Digital Solutions</p>
 
