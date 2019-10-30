@@ -64,12 +64,14 @@
                 <a href="https://apple.co/2WQvvSt"><img src="{{asset('/images/appstore.png') }}" alt="applestore" class="applestore"></a>        
         </div>
     </div>
-
+    <div class="pizza">
+        <img src="{{asset('/images/piza.png') }}" alt="pizza" class="piz">
+    </div>
     <div class="section2" id="about">
             <div class="two">   
-                    <div class="pizza">
+                    {{-- <div class="pizza">
                         <img src="{{asset('/images/piza.png') }}" alt="pizza" class="piz">
-                    </div>
+                    </div> --}}
 
                     <div class="pan">
                         <img src="{{asset('/images/frying-pan.png') }}" alt="pan">

@@ -177,7 +177,7 @@
   -webkit-transition: 0.3s;
   transition: 0.3s;
   width: 270px;
-  height: 345px;
+  height: 365px;
   -webkit-box-shadow: 0px 5px 10px 0px rgba(170, 170, 170, 0.54);
           box-shadow: 0px 5px 10px 0px rgba(170, 170, 170, 0.54);
 }
@@ -189,7 +189,7 @@
 }
 
 .five .line .up-to-date .slide_group .card .container, .five .line .up-to-date .slide_group .card_1 .container, .five .line .up-to-date .slide_group .card_2 .container {
-  padding: 10px 15px;
+  padding: 20px 15px;
   background: white;
   justify-items: center;
   -ms-flex-line-pack: center;
@@ -907,6 +907,7 @@ body, html {
   }
   .section .count .numcount .verticals {
     border-right: none;
+    text-align: center;
   }
   .section .count .numcount .verticals .num {
     font-size: x-large;
@@ -937,6 +938,22 @@ body, html {
     margin-top: 20px;
     margin-left: 325px;
   }
+}
+
+.pizza {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 300px;
+  height: 250px;
+  z-index: 1000;
+}
+
+.pizza > img {
+  position: absolute;
+  z-index: 1000;
+  width: 150px;
+  height: 150px;
+  margin-left: -30px;
 }
 
 .section2 {
@@ -998,6 +1015,8 @@ body, html {
   margin-left: -65px;
   margin-right: 566px;
   font-size: 45px;
+  font-family: sans-serif;
+  font-weight: 700;
   padding: 2px;
   height: 60px;
   font-weight: 700px;
@@ -1030,21 +1049,6 @@ body, html {
   z-index: 2;
   -webkit-transform: translateX(1113px);
           transform: translateX(1113px);
-}
-
-.section2 .two .pizza {
-  position: absolute;
-  margin-top: 30px;
-  margin-left: 300px;
-  height: 250px;
-}
-
-.section2 .two .pizza > img {
-  position: absolute;
-  z-index: 5;
-  width: 150px;
-  height: 150px;
-  margin-left: -30px;
 }
 
 .section2 .two .icon1 {
@@ -1200,6 +1204,13 @@ body, html {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
+  .pizza > img {
+    position: static;
+    z-index: 1000;
+    width: 150px;
+    height: 150px;
+    margin-left: -165px;
+  }
   .section2 {
     margin-top: 50px;
     width: 100vw;
@@ -1294,31 +1305,31 @@ body, html {
 }
 
 .three .one_col .ani_button .btn1 {
-  margin-top: 170px;
+  margin-top: 190px;
   margin-left: 500px;
   background: #4E9533;
 }
 
 .three .one_col .ani_button .btn2 {
-  margin-top: 230px;
+  margin-top: 250px;
   margin-left: 110px;
   background: #E49C3D;
 }
 
 .three .one_col .ani_button .btn3 {
-  margin-top: 290px;
+  margin-top: 310px;
   margin-left: 350px;
   background: #E4513D;
 }
 
 .three .one_col .ani_button .btn4 {
-  margin-top: 350px;
+  margin-top: 370px;
   margin-left: 110px;
   background: transparent;
 }
 
 .three .one_col .ani_button .btn5 {
-  margin-top: 410px;
+  margin-top: 430px;
   margin-left: 510px;
   background: #39B5D0;
   position: absolute;
@@ -1326,7 +1337,7 @@ body, html {
 }
 
 .three .one_col .ani_button .btn6 {
-  margin-top: 470px;
+  margin-top: 490px;
   margin-left: 230px;
   background: #87be51;
 }
@@ -1336,13 +1347,13 @@ body, html {
 }
 
 .three .one_col .ani_button .btn7 {
-  margin-top: 540px;
+  margin-top: 560px;
   margin-left: 420px;
   background: transparent;
 }
 
 .three .one_col .ani_button .btn8 {
-  margin-top: 590px;
+  margin-top: 610px;
   margin-left: 120px;
   background: transparent;
 }
@@ -1506,7 +1517,7 @@ body, html {
   }
 }
 
-@media only screen and (min-width: 414px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .three {
     width: 100vw;
     height: 900px;
@@ -1610,6 +1621,7 @@ body, html {
     margin-left: 30vw;
     margin-top: -30px;
     width: 170px;
+    background: white;
   }
   .three .column_three .one_col .ani_button .btn6 {
     margin-left: 45vw;
@@ -1659,6 +1671,7 @@ body, html {
     margin-left: -10vw;
     margin-top: -35px;
     width: 170px;
+    background: white;
   }
   .three .column_three .one_col .ani_button .btn4 {
     margin-left: 55vw;
@@ -1666,6 +1679,7 @@ body, html {
     border: 2px solid powderblue;
     position: relative;
     width: 120px;
+    background: white;
   }
   .three .column_three .one_col .corner1 {
     background: transparent;
@@ -1853,7 +1867,7 @@ body, html {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 414px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .four {
     width: 100%;
     position: relative;
@@ -1890,86 +1904,6 @@ body, html {
   }
   .four .meal {
     display: none;
-  }
-}
-
-@media only screen and (min-width: 414px) and (max-width: 768px) {
-  .four {
-    width: 100%;
-    position: relative;
-  }
-  .four .add_ani {
-    position: relative;
-    left: 0;
-    margin: 0;
-    height: 300px;
-    margin-left: 0px;
-    top: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    overflow-x: auto;
-    width: auto;
-  }
-  .four .add_ani .three_one {
-    position: absolute;
-    left: 0;
-    margin-left: 30px;
-  }
-  .four .add_ani .three_two {
-    position: absolute;
-    margin-left: 370px;
-    left: 0;
-  }
-  .four .add_ani .three_three {
-    position: absolute;
-    margin-left: 710px;
-    left: 0;
-  }
-  .four .meal {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .four {
-    width: 100%;
-    position: relative;
-  }
-  .four .add_ani {
-    position: relative;
-    margin-left: 0px;
-    height: 300px;
-    left: 0;
-    margin: 0;
-    top: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    overflow-x: auto;
-    width: auto;
-  }
-  .four .add_ani .three_one {
-    position: absolute;
-    left: 0;
-    margin-left: 60px;
-  }
-  .four .add_ani .three_two {
-    position: absolute;
-    margin-left: 410px;
-    left: 0;
-  }
-  .four .add_ani .three_three {
-    position: absolute;
-    margin-left: 755px;
-    left: 0;
-  }
-  .four .meal img {
-    right: 80;
   }
 }
 
@@ -2049,14 +1983,14 @@ body, html {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  height: 350px;
+  height: 400px;
   overflow-x: hidden;
   overflow-y: hidden;
   width: 1125px;
   position: static;
   z-index: 1;
   margin-left: 15px;
-  margin-top: -80px;
+  margin-top: -90px;
   min-width: 750px;
   max-height: 500px;
   background: transparent;
@@ -2165,66 +2099,65 @@ body, html {
           transform: translate(160px);
 }
 
-@media only screen and (min-width: 414px) and (max-width: 1024px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .five {
-    position: relative;
+    width: 100vw;
   }
   .five .line {
     border: 0px;
+    margin: 0 auto;
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0;
   }
   .five .line .up-to-date {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 100vw;
     margin: 0 auto;
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 3fr;
+        grid-template-columns: 3fr;
+    width: 100vw;
+    margin-left: 0;
   }
   .five .line .up-to-date .text-opacity {
     position: relative;
-    width: 100%;
-    margin-top: 0px;
-    margin-left: 0px;
-    bottom: 15;
-  }
-  .five .line .up-to-date .text-opacity p {
-    margin: 0 auto;
+    width: 100vw;
+    height: 10em;
     text-align: center;
-  }
-  .five .line .up-to-date .text-opacity p span {
+    margin-top: 0px;
     margin-left: 0px;
   }
   .five .line .up-to-date .text-opacity .read-update {
     margin-left: 0px;
+    margin: 0 auto;
   }
   .five .line .up-to-date .text-opacity .read-and-get {
     margin-left: 0px;
+    margin: 0 auto;
   }
   .five .line .up-to-date .slide_group {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    overflow-x: auto;
-    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    width: 100vw;
+    -ms-grid-row: 2;
+    grid-row: 2;
     min-width: 0px;
+    overflow-x: auto;
   }
   .five .line .up-to-date .slide_group .card {
-    -webkit-transform: translate(0px);
-            transform: translate(0px);
-    margin-left: 0px;
+    height: 370px;
+    -webkit-transform: translate(10vw);
+            transform: translate(10vw);
   }
   .five .line .up-to-date .slide_group .card_1 {
-    margin-left: 20px;
-    -webkit-transform: translate(0px);
-            transform: translate(0px);
+    height: 370px;
+    -webkit-transform: translate(20vw);
+            transform: translate(20vw);
   }
   .five .line .up-to-date .slide_group .card_2 {
-    margin-left: 20px;
-    -webkit-transform: translate(0px);
-            transform: translate(0px);
+    height: 370px;
+    -webkit-transform: translate(30vw);
+            transform: translate(30vw);
   }
 }
 
@@ -2325,10 +2258,17 @@ body, html {
   border: 0px dashed #BFBFBF;
 }
 
+.six .rotate-img .fb-snap .space .fb-page {
+  position: absolute;
+  width: 100vw;
+}
+
 .six .rotate-img .fb-snap .fb_text {
-  width: 80%;
+  width: 100%;
   position: relative;
   height: 45px;
+  margin: 0px auto auto 2em;
+  text-align: center;
 }
 
 .six .rotate-img .fb-snap .fb_text p {
@@ -2341,7 +2281,6 @@ body, html {
   letter-spacing: normal;
   color: #a3a3a3;
   position: absolute;
-  right: 0;
 }
 
 .six .rotate-img .fb-snap .fb_download {
@@ -2375,7 +2314,7 @@ body, html {
       grid-template-columns: 2fr 2fr 1fr 2fr;
   margin-top: 30px;
   color: white;
-  height: 315px;
+  height: auto;
 }
 
 .footer .fungry_logo {
@@ -2500,183 +2439,94 @@ body, html {
   margin-top: 5px;
 }
 
-@media only screen and (min-width: 414px) and (max-width: 1024px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .six {
     position: relative;
-    width: 100%;
-    margin-top: 100px;
+    width: 100vw;
+    margin-top: 8em;
   }
   .six .rotate-img {
-    position: relative;
-    width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    margin-top: 0;
+    margin: 0 auto;
+    width: 100vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 3fr;
+        grid-template-columns: 3fr;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 140px;
-    height: 500px;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: (1fr)[2];
-        grid-template-rows: repeat(2, 1fr);
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .six .rotate-img .rotation {
     position: relative;
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
   }
   .six .rotate-img .rotation .circle {
-    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin: 0 auto;
     width: 300px;
     height: 300px;
-    border: 2px dashed #BFBFBF;
-    margin: 0 auto;
   }
   .six .rotate-img .rotation .circle .cir-img1 {
-    margin-left: 60px;
-    margin-top: -10px;
-    left: 0;
-    width: 40;
-    height: 40;
+    margin-left: 55px;
+    margin-top: -20px;
   }
   .six .rotate-img .rotation .circle .cir-img2 {
-    margin-left: 195px;
-    margin-top: -5px;
-    width: 40;
-    height: 40;
+    margin-left: 190px;
+    margin-top: -10px;
   }
   .six .rotate-img .rotation .circle .cir-img3 {
-    margin-top: 80px;
     margin-left: -10px;
-    width: 40;
-    height: 40;
+    margin-top: 65px;
   }
   .six .rotate-img .rotation .circle .cir-img4 {
-    margin-top: 75px;
-    margin-left: 270px;
-    width: 40;
-    height: 40;
+    margin-left: 265px;
+    margin-top: 65px;
   }
   .six .rotate-img .rotation .circle .cir-img5 {
-    margin-top: 185px;
     margin-left: -12px;
-    width: 40;
-    height: 40;
+    margin-top: 190px;
   }
   .six .rotate-img .rotation .circle .cir-img6 {
-    margin-top: 180px;
     margin-left: 270px;
-    width: 40;
-    height: 40;
+    margin-top: 185px;
   }
   .six .rotate-img .rotation .circle .cir-img7 {
-    margin-top: 265px;
-    margin-left: 65px;
-    width: 40;
-    height: 40;
+    margin-left: 60px;
+    margin-top: 250px;
   }
   .six .rotate-img .rotation .circle .cir-img8 {
-    margin-top: 270px;
     margin-left: 200px;
-    width: 40;
-    height: 40;
+    margin-top: 262px;
   }
   .six .rotate-img .rotation figure {
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-    bottom: 230px;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-  .six .rotate-img .rotation figure img {
-    position: relative;
-  }
-  .six .rotate-img .rotation figure figcaption {
-    position: relative;
+    margin-left: 0;
+    margin-top: -225px;
   }
   .six .rotate-img .fb-snap {
-    position: absolute;
-    margin-left: 50px;
-    margin-top: 450px;
-    left: 0;
-    top: 0;
     margin: 0 auto;
-    -ms-grid-row: 2;
-    grid-row: 2;
-  }
-  .six .rotate-img .fb-snap .space {
-    margin-left: 100px;
-  }
-  .six .rotate-img .fb-snap .fb_text {
-    width: 414px;
-    position: absolute;
-    text-align: center;
-  }
-  .six .rotate-img .fb-snap .fb_text p {
-    font-size: 15px;
-    right: 30px;
-  }
-  .six .rotate-img .fb-snap .fb_download {
-    position: absolute;
-    width: 0;
-    margin-top: 40px;
-  }
-  .six .rotate-img .fb-snap .fb_download a {
-    margin-left: 71px;
-  }
-  .six .rotate-img .fb-snap .fb_download a img {
-    width: 250px;
-    height: 105px;
-    margin-left: 22px;
-  }
-  .six .rotate-img .fb-snap .fb_download a .playstore {
-    width: 200px;
-    height: 60px;
-    margin-top: 15px;
-    position: absolute;
-    margin-left: 50px;
-  }
-  .six .rotate-img .fb-snap {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     width: 100vw;
+    margin-top: 8em;
     margin-left: 0px;
-    margin-top: 0px;
-    width: 100%;
-    margin: 0 auto;
-    -ms-grid-row: 2;
-    grid-row: 2;
   }
-  .six .rotate-img .fb-snap .space {
-    position: relative;
-    margin: 0 auto;
-  }
-  .six .rotate-img .fb-snap .space #fb-root {
-    width: 100%;
+  .six .rotate-img .fb-snap .space .fb-page {
+    position: absolute;
+    width: 100vw;
   }
   .six .rotate-img .fb-snap .fb_text {
-    position: relative;
-    margin: 0 auto;
     width: 100%;
-    text-align: center;
-  }
-  .six .rotate-img .fb-snap .fb_text p {
-    right: 0px;
     position: relative;
+    height: 8em;
+    text-align: center;
   }
   .six .rotate-img .fb-snap .fb_download {
     position: relative;
-    margin: 0 auto;
-    margin-top: 0px;
+    width: 100%;
+    height: 14em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2688,145 +2538,50 @@ body, html {
         -ms-flex-align: center;
             align-items: center;
   }
-  .six .rotate-img .fb-snap .fb_download a {
-    margin-left: 0px;
-  }
   .six .rotate-img .fb-snap .fb_download a img {
     margin-left: 0px;
-    position: relative;
-    margin: 0 auto;
   }
   .six .rotate-img .fb-snap .fb_download a .playstore {
-    margin-top: 0px;
-    margin-left: 0px;
     position: relative;
+    margin-top: 0px;
   }
   .six .footer {
-    position: relative;
+    width: 100vw;
     background: #2F313D;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 2fr;
         grid-template-columns: 2fr;
-    margin-top: 320px;
     color: white;
     height: auto;
-    width: 100%;
-  }
-  .six .footer .fungry_logo {
-    padding-top: 70px;
-    padding-left: 0px;
-    height: 222px;
-    margin: 0 auto;
-    position: relative;
-  }
-  .six .footer .fungry_logo img {
-    width: 110px;
-    height: 100px;
-    border-radius: 5px;
-    position: absolute;
-  }
-  .six .footer .fungry_logo .fun_text {
-    margin-top: 21px;
-    left: 140px;
-    font-size: 25px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #bfbfbf;
-    position: absolute;
-  }
-  .six .footer .fungry_logo p {
-    margin-top: 100px;
-    color: #6b8aff;
-    height: 20px;
-    line-height: 1.5;
-    font-size: 18px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .six .footer .address {
-    padding-left: 0;
-    padding-top: 0;
-    color: #6b8aff;
-    position: relative;
     margin: 0 auto;
-  }
-  .six .footer .address p {
-    margin-top: 40px;
-    font-size: 15px;
-    margin-left: 35px;
+    position: relative;
+    text-align: center;
+    padding-top: 0px;
   }
   .six .footer .menu {
-    position: relative;
-    padding-top: 0;
-    margin: 0 auto;
-  }
-  .six .footer .menu ul {
     text-align: center;
+    padding-top: 0px;
   }
   .six .footer .menu ul li .half-line {
-    content: "";
-    display: block;
-    width: 50%;
     margin: 0 auto;
-    border-bottom: 3px solid #6b8aff;
-  }
-  .six .footer .menu ul li a:first-child {
-    color: #6b8aff;
-    font-family: Helvetica;
-    font-size: 14px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2;
-    letter-spacing: normal;
-  }
-  .six .footer .menu ul li:nth-child(1n+2) a {
-    color: #BFBFBF;
-    font-size: 12px;
-    font-family: Helvetica;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
+    width: 13%;
   }
   .six .footer .help {
-    position: relative;
-    margin: 0 auto;
-  }
-  .six .footer .help ul {
     text-align: center;
+    padding-top: 0px;
   }
   .six .footer .help ul li .half-line1 {
-    content: "";
-    display: block;
     margin: 0 auto;
-    width: 15%;
-    border-bottom: 3px solid #6b8aff;
-  }
-  .six .footer .help ul li a:first-child {
-    color: #6b8aff;
-    font-family: Helvetica;
-    font-size: 14px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2;
-    letter-spacing: normal;
-  }
-  .six .footer .help ul li:nth-child(1n+2) a {
-    color: #BFBFBF;
-    font-size: 12px;
-    font-family: Helvetica;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
+    width: 12%;
   }
   .six .footer .social-media {
+    margin-top: 0;
     width: 100%;
   }
 }

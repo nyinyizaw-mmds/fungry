@@ -19,11 +19,6 @@
             bottom:0;
         }
 
-        // .three_column{
-        //     display: grid;
-        //     grid-template-columns: 2fr 3fr 1fr;
-        //     height: 20px;
-
             .one_col{
                .ani_button{
                 .btn1,.btn2,.btn3,.btn5,.btn6{
@@ -253,61 +248,7 @@
                     }
                 }
             }
-        //}
 
-       
-    
- 
-    
-       
-    
-           
-    
-            // .fruit{
-            //     position: absolute;
-            //     width:30px;
-            //     height: 30px;
-            //     margin-top: 280px;
-            //     margin-left: 1220px;
-            // }
-    
-            // figure{
-            //     position: absolute;
-            //     margin-top: 580px;
-            //     margin-left: 1060px;
-            //     text-align:center;
-            //     font-size:15px;
-            //    .search{
-            //     width:50px;
-            //     height:50px;
-            //    }
-            // }
-    
-        
-        
-    
-        
-
-        // .right-corner{
-        //     position:relative;
-        //     z-index:3;
-        //     margin-left: 1115px;
-        //     margin-top: -170px;
-        //     width: 200px;
-        //     height: 250px;
-        
-        //     background:$circle_underline;
-        //     -webkit-border-radius: 74% 25% 95% 48% / 95% 0% 100% 48%;
-        //     -moz-border-radius: 74% 25% 95% 48% / 95% 0% 100% 48%;
-        //     border-radius: 74% 25% 95% 48% / 95% 0% 100% 48%;
-
-        //     img{
-        //         height: 150px;
-        //         margin-top: 70px;
-        //         margin-left: 40px;
-            
-        //     }
-        // }
 
         
         .largescale{
@@ -361,7 +302,7 @@
 
     }
 
-    @media only screen and (min-width:414px) and (max-width:768px){
+    @media only screen and (min-width:320px) and (max-width:768px){
         .three{
             width:100vw;
             height:900px;
@@ -460,6 +401,8 @@
                             margin-left: 30vw;
                             margin-top: -30px;
                             width: 170px;
+                            background:white;
+
                         }
 
                         .btn6{
@@ -514,6 +457,7 @@
                             margin-left:-10vw;
                             margin-top:-35px;
                             width:170px;
+                            background:white;
                         }
 
 
@@ -523,6 +467,7 @@
                             border:2px solid powderblue;
                             position:relative;
                             width:120px;
+                            background:white;
                         }
           
 
