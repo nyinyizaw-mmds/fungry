@@ -75,14 +75,14 @@
 
                     display: flex;
                     flex-wrap: nowrap;
-                    height: 350px;
+                    height: 400px;
                     overflow-x: hidden;
                     overflow-y:hidden;
                     width: 1125px;
                     position: static;
                     z-index: 1;
                     margin-left: 15px;
-                    margin-top:-80px;
+                    margin-top:-90px;
                     min-width:750px;
                     max-height:500px;
                     background:transparent;
@@ -224,73 +224,137 @@
 
 }
 
-@media only screen and (min-width:414px) and (max-width:1024px){
+@media only screen and (min-width:320px) and (max-width:768px){
     .five{
-        position:relative;
-
+        width:100vw;
         .line{
             border:0px;
+            margin:0 auto;
             width:100%;
-            margin-left:0px;
-
+            margin-left:0;
 
             .up-to-date{
-               
-                display: flex;
-                flex-wrap: wrap;
-                width:100vw;
-                margin:0 auto;
+                margin: 0 auto;
+                position: relative;
+                display: grid;
+                grid-template-columns: 3fr;
+                width: 100vw;
+                margin-left: 0;
 
                 .text-opacity{
-                    position:relative;
-                    width:100%;
+                    position: relative;
+                    width: 100vw;
+                    height:10em;
+                    text-align: center;
                     margin-top:0px;
                     margin-left:0px;
-                    bottom:15;
-                    p{
-                        margin:0 auto;
-                        text-align:center;
-                        span{
-                            margin-left:0px;
-                        }
-                    }
 
                     .read-update{
                         margin-left:0px;
-                    }
-                    .read-and-get{
-                        margin-left:0px;
+                        margin:0 auto;
                     }
 
-                   
+                    .read-and-get{
+                        margin-left:0px;
+                        margin:0 auto;
+                    }
                 }
 
                 .slide_group{
-                    
-                    display: flex;
-                    overflow-x: auto;
-                    width:100%;
-                    min-width:0px;
+                    position: relative;
+                    margin: 0 auto;
+                    width: 100vw;
+                    grid-row: 2;
+                    min-width: 0px;
+                    overflow-x:auto;
 
                     .card{
-                        transform:translate(0px);
-                        margin-left:0px;
+                        height:370px;
+                        transform:translate(10vw);
                     }
 
                     .card_1{
-                        margin-left:20px;
-                        transform:translate(0px);
+                        height:370px;
+                        transform:translate(20vw);
                     }
 
                     .card_2{
-                        margin-left:20px;
-                        transform:translate(0px);
+                        height:370px;
+                        transform:translate(30vw);
                     }
                 }
             }
         }
     }
 }
+
+// @media only screen and (min-width:414px) and (max-width:1024px){
+//     .five{
+//         position:relative;
+
+//         .line{
+//             border:0px;
+//             width:100%;
+//             margin-left:0px;
+            
+
+//             .up-to-date{
+               
+//                 display: flex;
+//                 flex-wrap: wrap;
+//                 width:100vw;
+//                 margin:0 auto;
+
+//                 .text-opacity{
+//                     position:relative;
+//                     width:100%;
+//                     margin-top:0px;
+//                     margin-left:0px;
+//                     bottom:15;
+//                     p{
+//                         margin:0 auto;
+//                         text-align:center;
+//                         span{
+//                             margin-left:0px;
+//                         }
+//                     }
+
+//                     .read-update{
+//                         margin-left:0px;
+//                     }
+//                     .read-and-get{
+//                         margin-left:0px;
+//                     }
+
+                   
+//                 }
+
+//                 .slide_group{
+                    
+//                     display: flex;
+//                     overflow-x: auto;
+//                     width:100%;
+//                     min-width:0px;
+
+//                     .card{
+//                         transform:translate(0px);
+//                         margin-left:0px;
+//                     }
+
+//                     .card_1{
+//                         margin-left:20px;
+//                         transform:translate(0px);
+//                     }
+
+//                     .card_2{
+//                         margin-left:20px;
+//                         transform:translate(0px);
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 
 // @media only screen and (min-width: 414px) and (max-width:768px) {
 //     .five{

@@ -308,7 +308,7 @@ $(function() {
             header.classList.add("sticky");
           }   
         else {
-            header.classList.remove("sticky");
+            // header.classList.remove("sticky");
           }
         }
     } else {

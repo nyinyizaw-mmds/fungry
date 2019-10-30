@@ -158,7 +158,7 @@
         
     }
 
-@media only screen and (min-width:320px) and (max-width:414px){
+@media only screen and (min-width:320px) and (max-width:768px){
     .four{
         width:100%;
         position:relative;
@@ -202,96 +202,96 @@
     }
 }
 
- @media only screen and (min-width: 414px) and (max-width:768px){
-    .four{
-        width:100%;
-        position:relative;
+//  @media only screen and (min-width: 414px) and (max-width:768px){
+//     .four{
+//         width:100%;
+//         position:relative;
 
-        .add_ani{
-            position: relative;
-            left:0;
-            margin: 0;
-            height:300px;
-            margin-left:0px;
-            top: 0;
-            display: flex;
-            flex-wrap: nowrap;
-            overflow-x: auto;
-            width:auto;
+//         .add_ani{
+//             position: relative;
+//             left:0;
+//             margin: 0;
+//             height:300px;
+//             margin-left:0px;
+//             top: 0;
+//             display: flex;
+//             flex-wrap: nowrap;
+//             overflow-x: auto;
+//             width:auto;
         
 
-            .three_one{
-                position:absolute;
-                left:0;
-                margin-left:30px;
-            }
+//             .three_one{
+//                 position:absolute;
+//                 left:0;
+//                 margin-left:30px;
+//             }
 
-            .three_two{
-                position:absolute;
-                margin-left: 370px;
-                left:0;
-            }
+//             .three_two{
+//                 position:absolute;
+//                 margin-left: 370px;
+//                 left:0;
+//             }
 
-            .three_three{
-                position:absolute;
-                margin-left: 710px;
-                left:0;
-            }
-        }
+//             .three_three{
+//                 position:absolute;
+//                 margin-left: 710px;
+//                 left:0;
+//             }
+//         }
 
        
          
-        .meal{
-            display:none;
-        }
-    }
- }
+//         .meal{
+//             display:none;
+//         }
+//     }
+//  }
 
 
- @media only screen and (min-width: 768px) and (max-width:1024px){
-    .four{
-        width:100%;
-        position:relative;
+//  @media only screen and (min-width: 768px) and (max-width:1024px){
+//     .four{
+//         width:100%;
+//         position:relative;
 
-        .add_ani{
-            position: relative;
-            margin-left:0px;
-            height:300px;
-            left:0;
-            margin: 0;
-            top: 0;
-            display: flex;
-            flex-wrap: nowrap;
-            overflow-x: auto;
-            width:auto;
+//         .add_ani{
+//             position: relative;
+//             margin-left:0px;
+//             height:300px;
+//             left:0;
+//             margin: 0;
+//             top: 0;
+//             display: flex;
+//             flex-wrap: nowrap;
+//             overflow-x: auto;
+//             width:auto;
         
 
-            .three_one{
-                position:absolute;
-                left:0;
-                margin-left:60px;
-            }
+//             .three_one{
+//                 position:absolute;
+//                 left:0;
+//                 margin-left:60px;
+//             }
 
-            .three_two{
-                position:absolute;
-                margin-left:410px;
-                left:0;
-            }
+//             .three_two{
+//                 position:absolute;
+//                 margin-left:410px;
+//                 left:0;
+//             }
 
-            .three_three{
-                position:absolute;
-                margin-left:755px;
-                left:0;
-            }
-        }
+//             .three_three{
+//                 position:absolute;
+//                 margin-left:755px;
+//                 left:0;
+//             }
+//         }
 
-        .meal{
-            img{
-                right:80;
-            }
-        }
-    }
- }
+//         .meal{
+//             img{
+//                 right:80;
+//             }
+//         }
+//     }
+//  }
 
 //  @media only screen and (min-width: 768px) and (max-width:1024px){
 //     .four{

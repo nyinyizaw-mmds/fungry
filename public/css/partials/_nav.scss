@@ -10,6 +10,7 @@
     color: $header_color;
     justify-content: space-between;
     background:white; 
+    // margin-right: 50px;
     font-family: 'Roboto', sans-serif;
 .logo1{
     display: flex;
@@ -132,7 +133,6 @@
     .header{
         width: 100vw;
     }
-
     .campaign{
                 img{
                   width:414px;
