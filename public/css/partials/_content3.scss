@@ -17,6 +17,10 @@
             text-align:center;
             margin-left:-50px;
             bottom:0;
+
+            b{
+                font-size:17px;
+            }
         }
 
             .one_col{
@@ -95,7 +99,7 @@
                     @extend %inside_btn_text;
         
                     p{
-                        margin-top:1px;
+                       // margin-top:1px;
                     }
                 }
             
@@ -306,8 +310,15 @@
         .three{
             width:100vw;
             height:900px;
-            p{
+           
+            .p_text{
                 margin:0 auto;
+                width:100vw;
+                text-align:center;
+
+                p{
+                    margin:0 auto;
+                }
             }
 
             .column_three{
@@ -345,7 +356,7 @@
                             height: 35%;
                             background: #5B8EDC;
                             margin-left: 50px;
-                            margin-top: -30px;
+                            margin-top: -40px;
                         }
 
                         .btn2{
@@ -367,7 +378,7 @@
                             width: 10%;
                             height: 35%;
                             background: #5B8EDC;
-                            margin-top: -22px;
+                            margin-top: -35px;
                             margin-left: 50px;
                         }
 
@@ -391,7 +402,7 @@
                             width: 10%;
                             height: 35%;
                             background: #5B8EDC;
-                            margin-top: -25px;
+                            margin-top: -40px;
                             margin-left: 50px;
                         }
 
@@ -432,7 +443,7 @@
                             position:relative;
                             width:160px;
                             margin-left:10vw;
-                            margin-top:-30px;
+                            margin-top:-20px;
                         }
 
                         .btn5:after{
@@ -447,7 +458,7 @@
                             width: 10%;
                             height: 35%;
                             background: #5B8EDC;
-                            margin-top: -20px;
+                            margin-top: -35px;
                             margin-left: 60px;
                         }
 
@@ -489,7 +500,7 @@
                         margin:0 auto;
 
                         .phimg{
-                            margin-top: 115vh;
+                            margin-top: 705px;
                             height: 450px;
                             position: absolute;
                             margin-left: 0;
@@ -508,34 +519,39 @@
                    }
 
                    .middle_two{
-                       margin-top:8vh;
-                       position:relative;
-                       margin:0 auto;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100vw;
+                        right: 0;
                    }
 
                    .foo{
                     margin: 0 auto;
-                    width: 200px;
                     height: 200px;
-                    position: relative;
-                    bottom: 35px;
-                    top: -92px;
+                    position: absolute;
+                    bottom: 0px;
                     right: 0;
+                    width: 100vw;
                     
                        .right-corner{
-                           background:transparent;
-                           position: relative;
-                           z-index: 3;
-                           width: 200px;
-                           height: 250px;
-                           right: 0;
+                        display:none;
+                        background: transparent;
+                        position: absolute;
+                        z-index: 3;
+                        height: 250px;
+                        margin: 0 auto;
+                        width: 100vw;
+                        right:0px;
 
                            img{
                             height: 150px;
-                            margin-top: 70px;
-                            margin-left: 55vw;
+                            position: absolute;
+                            right: -70px;
+                            display:none;
+                        }
+
                            
-                           }
+                           
                        }
                    }
                 }
