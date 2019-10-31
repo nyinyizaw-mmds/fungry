@@ -10,7 +10,7 @@
     color: $header_color;
     justify-content: space-between;
     background:white; 
-    // margin-right: 50px;
+    margin-right: 50px;
     font-family: 'Roboto', sans-serif;
 .logo1{
     display: flex;
@@ -132,6 +132,7 @@
 
     .header{
         width: 100vw;
+        margin-right: 0px;
     }
     .campaign{
                 img{
@@ -160,13 +161,19 @@
                 text-decoration: none;
             }
      }
+        
+     .nav.close{
+         .menu{
+             display: none;
+         }
+     }
 
      .nav ul.open{
         display: flex;
-        // background-color: mistyrose;
         flex-direction: column;
-        margin-top: 15px;
+        margin-top: 25px;
         width: 100vw;
+        line-height: 0;
         overflow: hidden;
         margin-left: -227px;
  

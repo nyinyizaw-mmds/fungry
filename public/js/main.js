@@ -274,24 +274,21 @@ function step3(){
 $('.num').counterUp({delay:15,time:1000});
 
 $(function() {
-    $('.toggleNav').on('click',function() {
+    $('.toggleNav').on('click',function(e) {
       $('.nav ul').toggleClass('open');
-    });
-  });
-  $(function() {
-    $('.about').on('click',function() {
-      $('.nav ul').toggleClass('open');
+      $('.nav').toggleClass('close');   
     });
   });
 
   $(function() {
-    $('.three').on('click',function() {
-      $('.nav ul').toggleClass('open');
+    $('.cross').on('click',function(e) {
+      e.preventDefault();
     });
   });
+
   $(function() {
-    $('.special').on('click',function() {
-      $('.nav ul').toggleClass('open');
+    $('.menu').on('click',function(e) {
+      e.preventDefault();
     });
   });
 
@@ -314,7 +311,7 @@ $(function() {
     } else {
     }
    }
-   var x = window.matchMedia("(max-width: 414px)");
+   var x = window.matchMedia("(max-width: 1024px)");
    myFunction1(x) // Call listener function at run time
    x.addListener(myFunction1) // Attach listener function on state change
 

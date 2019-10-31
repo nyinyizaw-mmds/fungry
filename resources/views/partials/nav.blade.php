@@ -8,17 +8,17 @@
     </div>
     
         <nav class="nav">
-            <a href="#" class="toggleNav">☰</a>
+            <a href="#" class="toggleNav menu">☰</a>
 
             <ul>
                 <div class="close">
-                    <a href="#" class="toggleNav"><img src="{{asset('/images/delete.png') }}" alt="logo" class="close"></a>
+                    <a href="#" class="toggleNav cross"><img src="{{asset('/images/delete.png') }}" alt="logo" class="close"></a>
                 </div>
-                <li  class="home"><a href="#home">Home</a></li>
-                <li><a href="#about" class="about">About</a></li>
-                <li><a href="#three" class="three">Features</a></li>
-                <li><a href="#special" class="special">How It Works</a></li>
-                <li><button class="btn1"><a href="#slide-six">Get the App</a></button></li>
+                <li class="toggleNav"><a href="#main">Home</a></li>
+                <li class="toggleNav"><a href="#about">About</a></li>
+                <li class="toggleNav"><a href="#three">Features</a></li>
+                <li class="toggleNav"><a href="#special">How It Works</a></li>
+                <li class="toggleNav"><button class="btn1"><a href="#slide-six">Get the App</a></button></li>
             </ul>
         </nav>    
  </div>

@@ -1,5 +1,5 @@
-<div class="section1-and-two">
-    <div class="section">
+<div class="section1-and-two" >
+    <div class="section" id="main">
         <div class="one">
             <div class="font-align">
                 <p class="corner"></p>
