@@ -78,11 +78,11 @@
                     height: 400px;
                     overflow-x: hidden;
                     overflow-y:hidden;
-                    width: 1125px;
+                    width: 1190px;
                     position: static;
                     z-index: 1;
                     margin-left: 15px;
-                    margin-top:-90px;
+                    margin-top:-100px;
                     min-width:750px;
                     max-height:500px;
                     background:transparent;
@@ -204,20 +204,7 @@
                     .card_2{
                         transform:translate(160px);
                     }
-                    // .card,.card_1,.card_2{
-                       
-                    //    transform:translateX(100px);
-                     
-                    // }
-
-                    // .card_1{
-                    //     margin-left:295px
-                    // }
-        
-
-                    // .card_2{
-                    //     margin-left:590px;
-                    // }
+                   
                 }
             }
         }
@@ -227,6 +214,7 @@
 @media only screen and (min-width:320px) and (max-width:768px){
     .five{
         width:100vw;
+        margin-top:-150px;
         .line{
             border:0px;
             margin:0 auto;
@@ -288,281 +276,40 @@
     }
 }
 
-// @media only screen and (min-width:414px) and (max-width:1024px){
-//     .five{
-//         position:relative;
+@media only screen and (min-width:768px) and (max-width:1349px){
+    .five{
+        width:100vw;
 
-//         .line{
-//             border:0px;
-//             width:100%;
-//             margin-left:0px;
-            
+        .line{
+            width:70vw;
+            .up-to-date{
+                .text-opacity{
+                    position:relative;
+                }
+                .slide_group{
+                    position: relative;
+                    margin: -300 auto 0 140px;
+                    width: 65vw;
+                    grid-row: 2;
+                    min-width: 0px;
+                    overflow-x:auto;
 
-//             .up-to-date{
-               
-//                 display: flex;
-//                 flex-wrap: wrap;
-//                 width:100vw;
-//                 margin:0 auto;
+                    .card{
+                        height:370px;
+                        transform: translateX(200px);
+                    }
 
-//                 .text-opacity{
-//                     position:relative;
-//                     width:100%;
-//                     margin-top:0px;
-//                     margin-left:0px;
-//                     bottom:15;
-//                     p{
-//                         margin:0 auto;
-//                         text-align:center;
-//                         span{
-//                             margin-left:0px;
-//                         }
-//                     }
+                    .card_1{
+                        height:370px;
+                        transform: translateX(220px);
+                    }
 
-//                     .read-update{
-//                         margin-left:0px;
-//                     }
-//                     .read-and-get{
-//                         margin-left:0px;
-//                     }
-
-                   
-//                 }
-
-//                 .slide_group{
-                    
-//                     display: flex;
-//                     overflow-x: auto;
-//                     width:100%;
-//                     min-width:0px;
-
-//                     .card{
-//                         transform:translate(0px);
-//                         margin-left:0px;
-//                     }
-
-//                     .card_1{
-//                         margin-left:20px;
-//                         transform:translate(0px);
-//                     }
-
-//                     .card_2{
-//                         margin-left:20px;
-//                         transform:translate(0px);
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
-
-// @media only screen and (min-width: 414px) and (max-width:768px) {
-//     .five{
-//         position:relative;
-//         width:100vw;
-
-//         .line{
-//             display:none;
-//         }
-
-//         .up-to-date{
-
-           
-//             .text-opacity{
-//                 width: 100%;
-//                 margin-top: 0;
-//                 text-align:center;
-//                 p{
-//                     left:0;
-//                     margin-left:0px;
-//                     text-align:center;
-
-//                     span{
-//                         margin-left:35px;
-//                     }
-//                 }
-
-//                 span{
-//                     margin-left:0px;
-//                     text-align:center;
-//                     span{
-//                         margin-left:0px;
-//                     }
-//                 }
-//             }
-           
-//             .slide_group{
-//                 // display: flex;
-//                  margin-top: 200px;
-//                 // flex-wrap: nowrap;
-//                 // left: 0;
-//                 // overflow-x: auto;
-//                 // margin-left: 0;
-//                 // position: absolute;
-//                 // min-width: 415px;
-//                 // width:0px !important;
-//                 position: absolute;
-//                 margin-left:0px;
-//                 height:300px;
-//                 left:0;
-//                 margin: 0;
-//                 top: 0;
-//                 display: flex;
-//                 flex-wrap: nowrap;
-//                 overflow-x: auto;
-//                 width:auto;
-//                 margin-top:200px;
-
-//                 .card{
-//                     position:absolute;
-//                     left:0;
-//                     transform:translateX(40px);
-//                 }
-
-//                 .card_1{
-//                     position:absolute;
-//                     left:0;
-//                     transform:translateX(330px);
-//                 }
-
-//                 .card_2{
-//                     position:absolute;
-//                     left:0;
-//                     transform:translateX(620px);
-//                 }
-//             }
-//         }
-
-//     }
-// }
-
-// @media only screen and (min-width: 768px) and (max-width:1024px) {
-//     .five{
-//         position:relative;
-//         width:100%;
-
-//         .slide_group{
-//             position: static;
-//                 margin-left:0px;
-//                 height:300px;
-//                 left:0;
-//                 margin: 0;
-//                 top: 0;
-//                 display: flex;
-//                 flex-wrap: nowrap;
-//                 overflow-x: auto;
-//                 width:auto;
-            
-//         }
-//     }
-// }
-
-// @media only screen and (min-width: 1024px) {
-//     .five{
-//         position:relative;
-//         width:100%;
-
-//         .slide_group{
-//             min-width:800px;
-//             position:absolute;
-//         }
-//     }
-// }
-
-// @media only screen and (min-width: 414px) and (max-width:768px) {
-//     .five{
-//         margin-top:-230px;
-//         width:100vvw;
-//         .meal{
-//             border:0px;
-//             width:0px;
-//             .up-to-date {
-//                 margin-left: -90px;
-//                 margin-top: -10px;
-//                 font-weight: bolder;
-
-//                 h1{
-//                     line-height: 0.5;
-
-//                     span h1{
-//                         margin-left:50px;
-//                     }
-//                 }
-
-//                 .read-and-get   {
-//                     font-size: 20px;
-//                     opacity: 0.7;
-//                     font-weight: normal;
-
-//                    span{
-//                        margin-left:50px;
-//                        font-size:22px;
-//                    }
-//                 }
-
-//                 .slide_group {
-                    
-//                     width:414px;
-//                     margin-left: -350px;
-//                     margin-top: 20px; 
-//                      display: flex;
-//                     flex-wrap: nowrap;
-//                     height: 360px;
-//                     overflow-x: auto;
-
-//                     .card .container {
-//                         margin-top: 10px;
-//                         padding: 0px 15px;
-//                         opacity: 0.5;
-//                     }
-
-//                     .card_1 .container {
-//                         margin-top: 10px;
-//                         padding: 0px 15px;
-//                         opacity: 0.5;
-//                     }
-
-//                     .card_2 .container {
-//                         margin-top: 10px;
-//                         padding: 0px 15px;
-//                         opacity: 0.5;
-//                     }
-                
-//                 }
-//             }
-
-           
-//         }
-//     }
-//  }
-
-//  @media only screen and (min-width: 768px) and (max-width:1024px){
-//         .five{
-//             width:100vw;
-//             margin-top:-70%;
-
-//             .meal .up-to-date {
-//                 margin-left: 100px;
-
-//                 .slide_group {
-//                     width: 100%;
-//                     margin-left: -243px;
-
-//                     .card{
-//                         transform:translateX(50px);
-//                     }
-
-//                     .card_1{
-//                         transform:translateX(90px);
-//                     }
-
-//                     .card_2{
-//                         transform:translateX(130px);
-//                     }
-//                 }
-
-
-//             }
-
-//         }
-//  }
+                    .card_2{
+                        height:370px;
+                        transform: translateX(240px);
+                    }
+                }
+            }
+        }
+    }
+}

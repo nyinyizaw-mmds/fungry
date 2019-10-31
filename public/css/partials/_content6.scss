@@ -94,7 +94,7 @@
             
                     .fb-page{
                         position:absolute;
-                        // width:100vw;
+
                     }
             
             }
@@ -103,7 +103,7 @@
             // width: 100%;
             position: relative;
             height: 45px;
-            // margin: 0px auto auto 2em;
+
             text-align: center;
             
             p{
@@ -116,8 +116,7 @@
                 letter-spacing: normal;
                 color: #a3a3a3;
                 position: absolute;
-                padding-left: 2em;
-               
+                padding-left:2em;
             }
            }
 
@@ -158,43 +157,45 @@
     color:white;
     height:auto;
    .fungry_logo{
-       padding-top:70px;
-       padding-left:70px;
-       height:222px;
-       img{
-           width:75px;
-           height:75px;
-           border-radius:5px;
-       }
-
-       
-        .fun_text{
-            margin-top: 21px;
-            left: 160px;
-            font-size: 20px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: normal;
-            letter-spacing: normal;
-            color: #bfbfbf;
-            position: absolute;
+    .footer_logo{
+        padding-top:70px;
+        padding-left:70px;
+        height:222px;
+        img{
+            width:75px;
+            height:75px;
+            border-radius:5px;
         }
-
-        p{
-            margin-top: 100px;
-            color:$footer_colo_text_color;
-            height: 20px;
-            line-height: 1.5;
-            font-size:$footer_font_size;
-        }
-
-        span{
-            font-size:$footer_font_size;
-            line-height: 8;
-            color:$footer_normal_text;
-        }
-       
+ 
+        
+         .fun_text{
+             margin-top: 21px;
+             left: 160px;
+             font-size: 20px;
+             font-weight: normal;
+             font-stretch: normal;
+             font-style: normal;
+             line-height: normal;
+             letter-spacing: normal;
+             color: #bfbfbf;
+             position: absolute;
+         }
+ 
+         p{
+             margin-top: 100px;
+             color:$footer_colo_text_color;
+             height: 20px;
+             line-height: 1.5;
+             font-size:$footer_font_size;
+         }
+ 
+         span{
+             font-size:$footer_font_size;
+             line-height: 8;
+             color:$footer_normal_text;
+         }
+        
+    }
    }
 
    .address{
@@ -211,12 +212,12 @@
       @extend %footer_menu;
       li .half-line{
              
-        content: ""; /* This is necessary for the pseudo element to work. */ 
-        display: block; /* This will put the pseudo element on its own line. */
-        margin: 0 auto; /* This will center the border. */
-        width: 10%; /* Change this to whatever width you want. */
-        padding-top: 0px; /* This creates some space between the element and the border. */
-        border-bottom: 3px solid $footer_colo_text_color; /* This creates the border. Replace black with whatever color you want. */
+        content: ""; 
+        display: block;
+        margin: 0 auto; 
+        width: 10%; 
+        padding-top: 0px; 
+        border-bottom: 3px solid $footer_colo_text_color; 
         margin-left:-2px;
     }
    }
@@ -225,12 +226,12 @@
         @extend %footer_menu;
         li .half-line1{
              
-            content: ""; /* This is necessary for the pseudo element to work. */ 
-            display: block; /* This will put the pseudo element on its own line. */
-            margin: 0 auto; /* This will center the border. */
-            width: 5%; /* Change this to whatever width you want. */
-            padding-top: 0px; /* This creates some space between the element and the border. */
-            border-bottom: 3px solid $footer_colo_text_color; /* This creates the border. Replace black with whatever color you want. */
+            content: ""; 
+            display: block;
+            margin: 0 auto; 
+            width: 5%; 
+            padding-top: 0px; 
+            border-bottom: 3px solid $footer_colo_text_color; 
             margin-left:-2px;
         }
     }
@@ -278,7 +279,7 @@
         .six{
             position:relative;
             width:100vw;
-            margin-top:8em;
+            margin-top:10em;
 
             .rotate-img{
                 margin-top:0;
@@ -293,7 +294,7 @@
                     position: relative;
                     width: 100vw;
                     margin: 0 auto;
-
+                    height:400px;
                     .circle{
                         margin-top: 0px;
                         margin-left: 0px;
@@ -343,8 +344,8 @@
                     }
 
                     figure{
-                        margin-left:0;
-                        margin-top: -225px;
+                        margin-left: 45px;
+                        margin-top: -230px;
                     }
                 }
 
@@ -357,8 +358,17 @@
                     .space{
                         .fb-page{
                             position:absolute;
-                         
+
+                            width:100vw;
+                            span{
+                                width:100vw;
+                                iframe{
+                                    width:100vw;
+                                }
+                            }
+
                         }
+                      
                     }
 
                     .fb_text{
@@ -366,6 +376,12 @@
                         position: relative;
                         height: 8em;
                         text-align: center;
+                        margin:0 auto;
+
+                        p{
+                            position:relative;
+                            padding-left:0em;
+                        }
                     }
 
                     .fb_download{
@@ -398,11 +414,48 @@
                 height: auto;
                 align-items: center;
 
+                .fungry_logo{
+                    margin:0 auto;
+                    .footer_logo{
+                        position: relative;
+                        padding-top:0px;
+                        padding-left:0px;
+
+                        .fun_text{
+                            left:0;
+                        }
+                    
+
+                        img{
+                            width: 75px;
+                            height: 75px;
+                            border-radius: 5px;
+                            position:relative;
+                        }
+
+                        p{
+                       
+                            color: #6b8aff;
+                            height: 20px;
+                            line-height: 1.5;
+                            font-size: 12px;
+                            position:relative;
+                          
+                        }
+                    }
+                }
+
                 .address{
                     margin:0 auto;
                     position: relative;
                     text-align: center;
                     padding-top:0px;
+                    width:100vw;
+
+                    p{
+                        margin-top:0;
+                        margin-left:auto;
+                    }
                 }
 
                 .menu{
@@ -433,828 +486,146 @@
                 }
 
                 .social-media{
-                    margin-top:0;
-                    width:100%;
+                    margin-top: 0;
+                    width: 100vw;
+                    position: absolute;
+                    background: #2F313D;
+
+                    ul{
+                        margin-left: 0px;
+                        margin: 0 auto;
+                        li{
+                            float: right;
+                        
+                        }
+                    }
                 }
             }
         }
     }
 
-    // @media only screen and (min-width:414px) and (max-width:1024px){
-    //     .six{
-    //         position:relative;
-    //         width:100%;
-    //         margin-top:100px;
-    //         .rotate-img{
-                
-    //             position: relative;
-    //             width: 100%;
-    //             align-items: center;
-    //             justify-content: center;
-    //             margin-top:140px;
-    //             height: 500px;
-    //             grid-template-columns: 1fr;
-    //             grid-template-rows: repeat(2, 1fr);
-            
-    //             .rotation{
-    //                 position: relative;
-    //                 width: 100%;
-    //                 margin:0 auto;
-    //                 .circle{
-    //                     position: relative;
-    //                     width: 300px;
-    //                     height: 300px;
-    //                     border: 2px dashed #BFBFBF;
-    //                     margin: 0 auto;
-                     
-
-    //                     .cir-img1{
-    //                         margin-left: 60px;
-    //                         margin-top: -10px;
-    //                         left: 0;
-    //                         width: 40;
-    //                         height: 40;
-    //                     }
-
-    //                     .cir-img2{
-    //                         margin-left: 195px;
-    //                         margin-top: -5px;
-    //                         width: 40;
-    //                         height: 40;
-    //                     }
-
-    //                     .cir-img3{
-    //                         margin-top: 80px;
-    //                         margin-left: -10px;
-    //                         width: 40;
-    //                         height: 40;
-    //                     }
-
-    //                     .cir-img4{
-    //                         margin-top: 75px;
-    //                         margin-left: 270px;
-    //                         width: 40;
-    //                         height: 40;
-    //                     }
-
-    //                     .cir-img5{
-    //                         margin-top: 185px;
-    //                         margin-left: -12px;
-    //                         width: 40;
-    //                         height: 40;
-    //                     }
-
-    //                     .cir-img6{
-    //                         margin-top: 180px;
-    //                         margin-left: 270px;
-    //                         width: 40;
-    //                         height: 40;
-    //                     }
-
-    //                     .cir-img7{
-    //                         margin-top: 265px;
-    //                         margin-left: 65px;
-    //                         width: 40;
-    //                         height: 40;
-    //                     }
-
-    //                     .cir-img8{
-    //                         margin-top: 270px;
-    //                         margin-left: 200px;
-    //                         width: 40;
-    //                         height: 40;
-    //                     }
-    //                 }
-
-    //                figure{
-    //                 position: relative;
-    //                 margin: 0 auto;
-    //                 text-align: center;
-    //                 bottom: 230px;
-    //                 margin-top: 0px;
-    //                 margin-left: 0px;
-    //                    img{
-    //                        position:relative;
-    //                    }
-
-    //                    figcaption{
-    //                        position:relative;
-    //                    }
-    //                }
-                    
-    //             }
-
-    //             .fb-snap{
-    //                 position: absolute;
-    //                 margin-left: 50px;
-    //                 margin-top: 450px;
-    //                 left: 0;
-    //                 top: 0;
-    //                 margin: 0 auto;
-    //                 grid-row: 2;
-    //                 .space{
-    //                     margin-left:100px;
-    //                 }
-
-    //                 .fb_text{
-    //                     width:414px;
-    //                     position: absolute;
-    //                     text-align: center;
-
-    //                     p{
-    //                         font-size:15px;
-    //                         right:30px;
-    //                     }
-    //                 }
-
-    //                 .fb_download{
-    //                     position: absolute;
-    //                     width: 0;
-    //                     margin-top: 40px;
-
-    //                     a{
-    //                         margin-left:71px;
-    //                         img{
-    //                             width: 250px;
-    //                             height: 105px;
-    //                             margin-left: 22px;
-    //                         }
-    //                         .playstore{
-    //                             width: 200px;
-    //                             height: 60px;
-    //                             margin-top: 15px;
-    //                             position: absolute;
-    //                             margin-left: 50px;
-    //                         }
-    //                     }
-    //                 }
-    //              }
-
-    //              .fb-snap{
-    //                 position: relative;
-    //                 display: flex;
-    //                 flex-direction: column;
-    //                 width: 100vw;
-    //                 margin-left:0px;
-    //                 margin-top:0px;
-    //                 width: 100%;
-    //                 margin: 0 auto;
-    //                 -ms-grid-row: 2;
-    //                 grid-row: 2;
-                    
-    //                 .space{
-    //                     position: relative;
-    //                     margin: 0 auto;
-
-    //                     #fb-root{
-    //                         width:100%;
-    //                     }
-    //                 }
-
-    //                 .fb_text{
-    //                     position: relative;
-    //                     margin: 0 auto;
-    //                     width:100%;
-    //                     text-align:center;
-    //                     p{
-    //                         right:0px;
-    //                         position:relative;
-    //                     }
-    //                 }
-
-    //                 .fb_download{
-    //                     position: relative;
-    //                     margin: 0 auto;
-    //                     margin-top:0px;
-    //                     display: flex;
-    //                     flex-direction: column;
-    //                     align-items: center;
-
-    //                     a{
-    //                         margin-left:0px;
-
-    //                         img{
-    //                             margin-left:0px;
-    //                             position:relative;
-    //                             margin:0 auto;
-    //                         }
-
-    //                         .playstore{
-    //                             margin-top:0px;
-    //                             margin-left:0px;
-    //                             position:relative;
-    //                         }
-    //                     }
-    //                 }
-    //              }
-    //         }
-
-    //         .footer{
-    //             position: relative;
-    //             background: #2F313D;
-    //             display: grid;
-    //             grid-template-columns: 2fr;
-    //             margin-top: 320px;
-    //             color: white;
-    //             height: auto;
-    //             width: 100%;
-
-    //             .fungry_logo{
-    //                 padding-top: 70px;
-    //                 padding-left: 0px;
-    //                 height: 222px;
-    //                 margin:0 auto;
-    //                 position: relative;
-
-    //                 img{
-    //                     width: 110px;
-    //                     height: 100px;
-    //                     border-radius: 5px;
-    //                     position: absolute;
-
-    //                 }
-
-    //                 .fun_text{
-    //                     margin-top: 21px;
-    //                     left: 140px;
-    //                     font-size: 25px;
-    //                     font-weight: normal;
-    //                     font-stretch: normal;
-    //                     font-style: normal;
-    //                     line-height: normal;
-    //                     letter-spacing: normal;
-    //                     color: #bfbfbf;
-    //                     position: absolute;
-    //                 }
-
-    //                 p{
-    //                     margin-top: 100px;
-    //                     color: #6b8aff;
-    //                     height: 20px;
-    //                     line-height: 1.5;
-    //                     font-size: 18px;
-    //                 }
-    //                 }
-
-    //                 .address{
-    //                     padding-left: 0;
-    //                     padding-top:0;
-    //                     color: #6b8aff;
-    //                     position: relative;
-    //                     margin:0 auto;
-
-    //                     p{
-    //                         margin-top: 40px;
-    //                         font-size: 15px;
-    //                         margin-left: 35px;
-    //                     }
-    //                 }
-
-    //                 .menu{
-    //                     position: relative;
-    //                     padding-top:0;
-    //                     margin:0 auto;
-
-    //                     ul{
-    //                        text-align:center;
-
-    //                         li{
-    //                             .half-line{
-    //                                 content: "";
-    //                                 display: block;
-    //                                 width: 50%;
-    //                                 margin:0 auto;
-    //                                 border-bottom: 3px solid #6b8aff;
-                                    
-    //                             }
-
-    //                             a:first-child{
-    //                                 color: #6b8aff;
-    //                                 font-family: Helvetica;
-    //                                 font-size: 14px;
-    //                                 font-weight: bold;
-    //                                 font-stretch: normal;
-    //                                 font-style: normal;
-    //                                 line-height: 2;
-    //                                 letter-spacing: normal;
-                                
-    //                             }
-    //                         }
-                            
-        
-                            
-    //                         li:nth-child(1n+2){
-                               
-    //                             a{
-    //                             color:$footer_normal_text;
-    //                             //font-size: 18px;
-    //                             //margin-left: -80%;
-    //                             //color: #BFBFBF;
-    //                             font-size: 12px;
-    //                             font-family: Helvetica;
-    //                             font-weight: normal;
-    //                             font-stretch: normal;
-    //                             font-style: normal;
-    //                             line-height: normal;
-    //                             letter-spacing: normal;
-    //                             }
-    //                         }
-    //                     }
-    //                 }
-
-    //                 .help{
-    //                     position:relative;
-    //                     margin:0 auto;
-    //                     ul{
-    //                        text-align:center;
-
-    //                         li{
-    //                             .half-line1{
-    //                                 content: "";
-    //                                 display: block;
-    //                                 margin: 0 auto;
-    //                                 width: 15%;
-    //                                 border-bottom: 3px solid #6b8aff;
-    //                             }
-
-    //                             a:first-child{
-    //                                 color: #6b8aff;
-    //                                 font-family: Helvetica;
-    //                                 font-size: 14px;
-    //                                 font-weight: bold;
-    //                                 font-stretch: normal;
-    //                                 font-style: normal;
-    //                                 line-height: 2;
-    //                                 letter-spacing: normal;
-                                
-    //                             }
-    //                         }
-                            
-        
-                            
-    //                         li:nth-child(1n+2){
-                               
-    //                             a{
-    //                             color:$footer_normal_text;
-    //                             //font-size: 18px;
-    //                             //margin-left: -80%;
-    //                             //color: #BFBFBF;
-    //                             font-size: 12px;
-    //                             font-family: Helvetica;
-    //                             font-weight: normal;
-    //                             font-stretch: normal;
-    //                             font-style: normal;
-    //                             line-height: normal;
-    //                             letter-spacing: normal;
-    //                             }
-    //                         }
-    //                     }
-    //                 }
-
-    //                 .social-media{
-    //                     width:100%;
-    //                 }
-    //         }
-
-            
-    //     }
-    // }
-
-    // @media only screen and (min-width: 414px) and (max-width:768px) {
-
-    //    .six{
-    //        width:100vw;
-    //    }
-    //     .six .rotate-img{
-    //         display:grid;
-    //         grid-template-columns: 3fr;
-
-    //         .rotation .circle {
-    //             width: 300px;
-    //             height: 300px;
-    //             border: 2px dashed #BFBFBF;
-    //             border-radius: 50%;
-    //             margin-left: 55px;
-    //             margin-top: -130px;
-
-    //             .cir-img1{
-    //                 margin-left: 55px;
-                   
-    //             }
-    
-    //             .cir-img2{
-    //                 margin-top: -15px;
-    //                 margin-left: 190px;
-    //             }
-    //             .cir-img3{
-    //                 margin-top: 70px;
-    //                 margin-left: -20;
-    //             }
-    
-    //             .cir-img4{
-    //                 margin-top: 70px;
-    //                 margin-left: 265px;
-    //             }
-    
-    //             .cir-img5{
-    //                 margin-top: 170px;
-    //                 margin-left: -20px;
-    //             }
-    
-    //             .cir-img6{
-    //                 margin-top: 170px;
-    //                 margin-left: 270px;
-    //             }
-                
-    //             .cir-img7{
-    //                 margin-top: 250px;
-    //                 margin-left: 55px;
-    //             }
-    
-    //             .cir-img8{
-    //                 margin-top: 250px;
-    //                 margin-left: 200px;
-                
-    //             }
-    //         }
-
-    //         .fb-snap{
-    //             margin-top: 200px;
-
-    //             .fb_iframe_widget {
-    //                 display: inline-block;
-    //                 position: relative;
-    //                 width: 400px;
-    //                 height: 00px;
-    //                 margin-left: -50px;
-    //             }
-
-    //             p{
-    //                 font-family: Helvetica;
-    //                 font-size: 18px;
-    //                 font-weight: normal;
-    //                 font-stretch: normal;
-    //                 font-style: normal;
-    //                 line-height: normal;
-    //                 letter-spacing: normal;
-    //                 color: #a3a3a3;
-    //             }
-
-    //             a img{
-    //                 width: 250px;
-    //                 height: 100px;
-    //                 margin-left: 55px;
-    //             }
-
-    //             a .playstore{
-    //                 margin-top: 100px;
-    //                 margin-left: -225px;
-    //                 width: 200px;
-    //                 height: 60px;
-    //             }
-    //         }
-
-    //         .rotation figure img{
-    //             margin-top: -20%;
-    //             margin-left: -10%;
-    //         }
-            
-
-          
-    //     }
-
-    //     .six .footer{
-    //         margin-top:80px;
-    //         height:1100px;
-    //         display:grid;
-    //         grid-template-columns:2fr;
-
-    //         .fungry_logo{
-    //             margin-top:0px;
-
-    //             img{
-    //                 width:30%;
-    //                 height:50%;
-    //             }
-
-    //             h3{
-    //                 font-size:30px;
-    //             }
-
-    //             p{
-    //                 margin-top:120px;
-    //             }
-
-    //             span{
-    //                 line-height:4;
-    //             }
-    //         }
-
-    //         .address{
-    //             margin-top: -75%;
-    //             margin-left: 35px;
-
-    //             p{
-    //                 font-size:14px;
-    //             }
-    //         }
-
-    //         .menu{
-    //             margin-top:-70%;
-
-    //             ul{
-    //                 margin-left:35%;
-    //                 text-align:center;
-    //                 li a:first-child{
-    //                     font-size:20px;
-    //                 }
-
-                    
-    //                 li:nth-child(1n+2){
-    //                     a{
-    //                     color:$footer_normal_text;
-    //                     font-size: 18px;
-    //                     margin-left: -80%;
-
-    //                     }
-    //                 }
-    //             }
-
-    //             li .half-line{
-             
-    //                 content: ""; /* This is necessary for the pseudo element to work. */ 
-    //                 display: block; /* This will put the pseudo element on its own line. */
-    //                 margin: 0 auto; /* This will center the border. */
-    //                 width: 21%; /* Change this to whatever width you want. */
-    //                 padding-top: 0px; /* This creates some space between the element and the border. */
-    //                 border-bottom: 3px solid $footer_colo_text_color; /* This creates the border. Replace black with whatever color you want. */
-    //                 margin-left:0px;
-    //             }
-    //         }
-
-    //         .help{
-            
-    //             margin-top:-55%;
-    //             ul{
-    //                 margin-left:35%;
-    //                 text-align:center;
-    //                 li a:first-child{
-    //                     font-size:20px;
-    //                 }
-
-                    
-    //                 li:nth-child(1n+2){
-    //                     a{
-    //                     color:$footer_normal_text;
-    //                     font-size: 18px;
-    //                     margin-left: -80%;
-
-    //                     }
-    //                 }
-    //             }
-
-    //             li .half-line1{
-             
-    //                 content: ""; /* This is necessary for the pseudo element to work. */ 
-    //                 display: block; /* This will put the pseudo element on its own line. */
-    //                 margin: 0 auto; /* This will center the border. */
-    //                 width: 17%; /* Change this to whatever width you want. */
-    //                 padding-top: 0px; /* This creates some space between the element and the border. */
-    //                 border-bottom: 3px solid $footer_colo_text_color; /* This creates the border. Replace black with whatever color you want. */
-    //                 margin-left:0px;
-    //             }
-
-
-    //         }
-
-    //         .social-media ul{
-    //             margin-top:30px;
-    //             margin-left: 85px;
-    //             li {
-    //                 list-style-type: none;
-    //                 float: left;
-    //                 padding-left: 30px;
-    //             }
-
-    //             .fa-envelope{
-    //                 margin-left:-5px;
-    //             }
-    //         } 
-            
-    //     }
-
-    // }
-
-    // @media only screen and (min-width: 768px) and (max-width:1024px){
-    //     .six{
-    //         width:100vw;
-
-    //         .rotate-img{
-    //             .rotation{
-    //                 figure img{
-    //                     margin-top: 0;
-    //                     margin-left: 0;
-    //                 }
-
-    //                 .circle{
-    //                     width: 500px;
-    //                     height: 500px;
-    //                     border: 2px dashed #BFBFBF;
-    //                     border-radius: 50%;
-    //                     margin-left: 17%;
-    //                     margin-top: -60%;
-
-    //                     .cir-img1 {
-    //                         margin-left: -2%;
-    //                         margin-top: 23%;
-    //                         -webkit-transform: rotate(-45deg);
-    //                         transform: rotate(-45deg);
-    //                     }
-
-    //                     .cir-img2 {
-    //                         transform: rotate(-35deg);
-    //                         margin-top: -25px;
-    //                     }
-
-    //                     .cir-img3 {
-    //                         margin-top: 58%;
-    //                         margin-left: -20;
-    //                         transform: rotate(-43deg);
-    //                     }
-
-    //                     .cir-img4 {
-    //                         transform: rotate(-37deg);
-    //                         margin-top: 0%;
-    //                         margin-left: 66%;
-    //                     }
-
-    //                     .cir-img5 {
-    //                         margin-top: 89%;
-    //                         margin-left: 19%;
-    //                         transform: rotate(-40deg);
-    //                     }480
-
-    //                     .cir-img6 {
-    //                         margin-top: 25%;
-    //                         margin-left: 92%;
-    //                         transform: rotate(-39deg);
-    //                     }
-
-    //                     .cir-img7 {
-    //                         margin-top: 93%;
-    //                         margin-left: 57%;
-    //                         transform: rotate(-40deg);
-    //                     }
-
-    //                     .cir-img8 {
-    //                         margin-top: 58%;
-    //                         margin-left: 95%;
-    //                         transform: rotate(-40deg);
-    //                     }
-                        
-                        
-                        
-    //                 }
-
-               
-    //                 }
-
-    //                 .fb-snap {
-    //                     .space{
-    //                         margin-left:25%;
-    //                     }
-
-    //                     p{
-    //                         font-family: Helvetica;
-    //                         font-size: 18px;
-    //                         font-weight: normal;
-    //                         font-stretch: normal;
-    //                         font-style: normal;
-    //                         line-height: normal;
-    //                         letter-spacing: normal;
-    //                         color: #a3a3a3;
-    //                     }
-
-    //                     a{
-    //                         img {
-    //                             width: 250px;
-    //                             height: 100px;
-    //                             margin-left: 15%;
-    //                         }
-
-    //                         .playstore {
-    //                             margin-top: 19px;
-    //                             margin-left: -2%;
-    //                             width: 200px;
-    //                             height: 60px;
-    //                         }
-    //                     }
-                        
-    //                 }
-    //             }
-
-    //             .footer{
-    //                 .fungry_logo{
-    //                     img {
-    //                         width: 25%;
-    //                         height: 80%;
-    //                         margin-left:20%;
-    //                     }
-
-    //                     h3 {
-    //                         font-size: 30px;
-    //                         margin-left: 30%;
-    //                     }
-
-    //                     p {
-    //                         margin-top: 30%;
-    //                         margin-left: 15%;
-    //                         font-size: 15px;
-    //                     }
-
-    //                     span {
-    //                         line-height: 4;
-    //                         margin-left: 15%;
-    //                         font-size: 15px;
-    //                     }
-    //                 }
-
-    //                 .address {
-    //                     margin-top: -44%;
-    //                     margin-left: 50%;
-
-    //                     p{
-    //                         font-size:15px;
-    //                     }
-    //                 }
-
-    //                 .menu{
-    //                     margin-top: -47%;
-    //                     margin-left: -25%;
-
-    //                     ul{
-    //                         text-align:center;
-    //                         li{
-    //                             a:first-child{
-    //                                 margin-left:30px;
-    //                             }
-    //                             .half-line{
-    //                                 content: "";
-    //                                 display: block;
-    //                                 margin: 0 auto;
-    //                                 width: 9%;
-    //                                 padding-top: 0px;
-    //                                 border-bottom: 3px solid #6B8AFF;
-                                   
-    //                             }
-    //                         }
-
-    //                         li:nth-child(1n+2){
-    //                             a{
-    //                             // color:$footer_normal_text;
-    //                             // font-size: 18px;
-    //                             margin-left: -80%;
-                                
-    //                             }
-    //                         }
-    //                     }
-    //                 }
-
-    //                 .social-media ul {
-    //                     margin-top: -17px;
-    //                     margin-left: 53%;
-    //                 }
-    
-    //             }
-
+    @media only screen and (min-width:768px) and (max-width:1349px){
+        .six{
+            width:100vw;
+            margin-top:10em;
+            .rotate-img{
+                .rotation{
+                    .circle{
+                        width: 300px;
+                        height: 300px;
+                        border: 2px dashed #BFBFBF;
+                        border-radius: 50%;
+                        margin-left:0px;
+                        margin-top:0px;
+                        margin: 0 auto;
+                        .cir-img1{
+                            margin-left:55px;
+                            margin-top:-20px;
+                        }
+
+                        .cir-img2{
+                            margin-left:190px;
+                            margin-top:-10px;
+                        }
+
+                        .cir-img3{
+                            margin-left:-10px;
+                            margin-top:65px;
+                        }
+
+                        .cir-img4{
+                            margin-left:265px;
+                            margin-top:65px;
+                        }
+
+                        .cir-img5{
+                            margin-left:-12px;
+                            margin-top:190px;
+                        }
+
+                        .cir-img6{
+                            margin-left:270px;
+                            margin-top:185px;
+                        }
+
+                        .cir-img7{
+                            margin-left:60px;
+                            margin-top:250px;
+                        }
+
+                        .cir-img8{
+                            margin-left:200px;
+                            margin-top:262px;
+                        }
+                    }
+
+                    figure{
+                        margin-left: 45px;
+                        margin-top: -230px;
+                    }
+                }
+
+                .fb-snap{
+                    margin: 0 auto;
               
-    //             .help {
-    //                 margin-top: -73%;
-    //                 margin-left: 30%;
+                    margin-top: 0px;
+                    margin-left:0px;
 
-    //                 ul {
-    //                     margin-left: 35%;
-    //                     margin-top: -23%;
-    //                     text-align: center;
+                    .space{
+                        .fb-page{
+                            position:absolute;
+                            width:100vw;
+                            span{
+                                width:100vw;
+                                iframe{
+                                    width:50vw;
+                                }
+                            }
+                        }
+                      
+                    }
 
-    //                     li{
-    //                         a:first-child {
-    //                             font-size: 20px;
-    //                             margin-left: 10px;
-    //                         }
+                    .fb_text{
+                        width: 100%;
+                        position: relative;
+                     
+                        text-align: center;
+                        margin:0 auto;
 
-    //                         .half-line1 {
-    //                             content: "";
-    //                             display: block;
-    //                             margin: 0 auto;
-    //                             width: 13%;
-    //                             padding-top: 0px;
-    //                             border-bottom: 3px solid #6B8AFF;
-                               
-    //                         }
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-    
+                        p{
+                            position:relative;
+                            padding-left:0em;
+                        }
+                    }
+
+                    .fb_download{
+                        position: relative;
+                        display: grid;
+                        grid-template-columns: 3fr 3fr;
+                        margin: 0 auto;
+                        margin-left: 0px;
+                        margin-top: 0px;
+                        
+                        a{
+                            img{
+                                margin-left:0px;
+                            }
+                            .playstore{
+                                position:relative;
+                                margin-top:15px;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            .footer{
+               .social-media{
+                   ul{
+                       margin-left:0px;
+                   }
+               }
+            }
+        }
+    }
