@@ -119,6 +119,10 @@
   padding: 5px;
 }
 
+.three p .btn b {
+  font-size: 17px;
+}
+
 .four .add_ani .three_one, .four .add_ani .three_two, .four .add_ani .three_three {
   width: 250px;
   height: 170px;
@@ -177,7 +181,7 @@
   -webkit-transition: 0.3s;
   transition: 0.3s;
   width: 270px;
-  height: 365px;
+  height: 375px;
   -webkit-box-shadow: 0px 5px 10px 0px rgba(170, 170, 170, 0.54);
           box-shadow: 0px 5px 10px 0px rgba(170, 170, 170, 0.54);
 }
@@ -364,7 +368,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 50;
   }
   .sticky {
@@ -882,16 +886,17 @@ body, html {
     margin-left: 21%;
   }
   .section .one .wrapper {
+    width: 100vw;
     padding-top: 40px;
   }
   .section .one .wrapper .shadow1 img {
     margin-top: 50px;
-    width: 255px;
+    width: 230px;
     height: 265px;
   }
   .section .one .wrapper .shadow2 img {
     position: relative;
-    width: 255px;
+    width: 240px;
     height: 330px;
     z-index: 9;
   }
@@ -1304,6 +1309,10 @@ body, html {
   bottom: 0;
 }
 
+.three .next-btn b {
+  font-size: 17px;
+}
+
 .three .one_col .ani_button .btn1 {
   margin-top: 190px;
   margin-left: 500px;
@@ -1340,10 +1349,6 @@ body, html {
   margin-top: 490px;
   margin-left: 230px;
   background: #87be51;
-}
-
-.three .one_col .ani_button .btn6 p {
-  margin-top: 1px;
 }
 
 .three .one_col .ani_button .btn7 {
@@ -1522,7 +1527,12 @@ body, html {
     width: 100vw;
     height: 900px;
   }
-  .three p {
+  .three .p_text {
+    margin: 0 auto;
+    width: 100vw;
+    text-align: center;
+  }
+  .three .p_text p {
     margin: 0 auto;
   }
   .three .column_three {
@@ -1571,7 +1581,7 @@ body, html {
     height: 35%;
     background: #5B8EDC;
     margin-left: 50px;
-    margin-top: -30px;
+    margin-top: -40px;
   }
   .three .column_three .one_col .ani_button .btn2 {
     margin-left: 10vw;
@@ -1591,7 +1601,7 @@ body, html {
     width: 10%;
     height: 35%;
     background: #5B8EDC;
-    margin-top: -22px;
+    margin-top: -35px;
     margin-left: 50px;
   }
   .three .column_three .one_col .ani_button .btn3 {
@@ -1612,7 +1622,7 @@ body, html {
     width: 10%;
     height: 35%;
     background: #5B8EDC;
-    margin-top: -25px;
+    margin-top: -40px;
     margin-left: 50px;
   }
   .three .column_three .one_col .ani_button .btn8 {
@@ -1648,7 +1658,7 @@ body, html {
     position: relative;
     width: 160px;
     margin-left: 10vw;
-    margin-top: -30px;
+    margin-top: -20px;
   }
   .three .column_three .one_col .ani_button .btn5:after {
     content: "\f00c";
@@ -1662,7 +1672,7 @@ body, html {
     width: 10%;
     height: 35%;
     background: #5B8EDC;
-    margin-top: -20px;
+    margin-top: -35px;
     margin-left: 60px;
   }
   .three .column_three .one_col .ani_button .btn7 {
@@ -1696,7 +1706,7 @@ body, html {
     margin: 0 auto;
   }
   .three .column_three .two_col .rotate-img .phimg {
-    margin-top: 115vh;
+    margin-top: 705px;
     height: 450px;
     position: absolute;
     margin-left: 0;
@@ -1709,31 +1719,34 @@ body, html {
     display: none;
   }
   .three .column_three .three_col .middle_two {
-    margin-top: 8vh;
-    position: relative;
+    position: absolute;
     margin: 0 auto;
+    width: 100vw;
+    right: 0;
   }
   .three .column_three .three_col .foo {
     margin: 0 auto;
-    width: 200px;
     height: 200px;
-    position: relative;
-    bottom: 35px;
-    top: -92px;
+    position: absolute;
+    bottom: 0px;
     right: 0;
+    width: 100vw;
   }
   .three .column_three .three_col .foo .right-corner {
+    display: none;
     background: transparent;
-    position: relative;
+    position: absolute;
     z-index: 3;
-    width: 200px;
     height: 250px;
-    right: 0;
+    margin: 0 auto;
+    width: 100vw;
+    right: 0px;
   }
   .three .column_three .three_col .foo .right-corner img {
     height: 150px;
-    margin-top: 70px;
-    margin-left: 55vw;
+    position: absolute;
+    right: -70px;
+    display: none;
   }
   .three .next-btn {
     position: absolute;
@@ -1867,7 +1880,7 @@ body, html {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 1349px) {
   .four {
     width: 100%;
     position: relative;
@@ -1890,16 +1903,16 @@ body, html {
   .four .add_ani .three_one {
     position: absolute;
     left: 0;
-    margin-left: 10px;
+    margin-left: 40px;
   }
   .four .add_ani .three_two {
     position: absolute;
-    margin-left: 345px;
+    margin-left: 385px;
     left: 0;
   }
   .four .add_ani .three_three {
     position: absolute;
-    margin-left: 680px;
+    margin-left: 730px;
     left: 0;
   }
   .four .meal {
@@ -1986,11 +1999,11 @@ body, html {
   height: 400px;
   overflow-x: hidden;
   overflow-y: hidden;
-  width: 1125px;
+  width: 1190px;
   position: static;
   z-index: 1;
   margin-left: 15px;
-  margin-top: -90px;
+  margin-top: -100px;
   min-width: 750px;
   max-height: 500px;
   background: transparent;
@@ -2102,6 +2115,7 @@ body, html {
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .five {
     width: 100vw;
+    margin-top: -150px;
   }
   .five .line {
     border: 0px;
@@ -2158,6 +2172,42 @@ body, html {
     height: 370px;
     -webkit-transform: translate(30vw);
             transform: translate(30vw);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1349px) {
+  .five {
+    width: 100vw;
+  }
+  .five .line {
+    width: 70vw;
+  }
+  .five .line .up-to-date .text-opacity {
+    position: relative;
+  }
+  .five .line .up-to-date .slide_group {
+    position: relative;
+    margin: -300 auto 0 140px;
+    width: 65vw;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    min-width: 0px;
+    overflow-x: auto;
+  }
+  .five .line .up-to-date .slide_group .card {
+    height: 370px;
+    -webkit-transform: translateX(200px);
+            transform: translateX(200px);
+  }
+  .five .line .up-to-date .slide_group .card_1 {
+    height: 370px;
+    -webkit-transform: translateX(220px);
+            transform: translateX(220px);
+  }
+  .five .line .up-to-date .slide_group .card_2 {
+    height: 370px;
+    -webkit-transform: translateX(240px);
+            transform: translateX(240px);
   }
 }
 
@@ -2260,14 +2310,12 @@ body, html {
 
 .six .rotate-img .fb-snap .space .fb-page {
   position: absolute;
-  width: 100vw;
 }
 
 .six .rotate-img .fb-snap .fb_text {
   width: 100%;
   position: relative;
   height: 45px;
-  margin: 0px auto auto 2em;
   text-align: center;
 }
 
@@ -2281,6 +2329,7 @@ body, html {
   letter-spacing: normal;
   color: #a3a3a3;
   position: absolute;
+  padding-left: 2em;
 }
 
 .six .rotate-img .fb-snap .fb_download {
@@ -2317,19 +2366,19 @@ body, html {
   height: auto;
 }
 
-.footer .fungry_logo {
+.footer .fungry_logo .footer_logo {
   padding-top: 70px;
   padding-left: 70px;
   height: 222px;
 }
 
-.footer .fungry_logo img {
+.footer .fungry_logo .footer_logo img {
   width: 75px;
   height: 75px;
   border-radius: 5px;
 }
 
-.footer .fungry_logo .fun_text {
+.footer .fungry_logo .footer_logo .fun_text {
   margin-top: 21px;
   left: 160px;
   font-size: 20px;
@@ -2342,7 +2391,7 @@ body, html {
   position: absolute;
 }
 
-.footer .fungry_logo p {
+.footer .fungry_logo .footer_logo p {
   margin-top: 100px;
   color: #6b8aff;
   height: 20px;
@@ -2350,7 +2399,7 @@ body, html {
   font-size: 12px;
 }
 
-.footer .fungry_logo span {
+.footer .fungry_logo .footer_logo span {
   font-size: 12px;
   line-height: 8;
   color: #BFBFBF;
@@ -2369,33 +2418,21 @@ body, html {
 
 .footer .menu li .half-line {
   content: "";
-  /* This is necessary for the pseudo element to work. */
   display: block;
-  /* This will put the pseudo element on its own line. */
   margin: 0 auto;
-  /* This will center the border. */
   width: 10%;
-  /* Change this to whatever width you want. */
   padding-top: 0px;
-  /* This creates some space between the element and the border. */
   border-bottom: 3px solid #6b8aff;
-  /* This creates the border. Replace black with whatever color you want. */
   margin-left: -2px;
 }
 
 .footer .help li .half-line1 {
   content: "";
-  /* This is necessary for the pseudo element to work. */
   display: block;
-  /* This will put the pseudo element on its own line. */
   margin: 0 auto;
-  /* This will center the border. */
   width: 5%;
-  /* Change this to whatever width you want. */
   padding-top: 0px;
-  /* This creates some space between the element and the border. */
   border-bottom: 3px solid #6b8aff;
-  /* This creates the border. Replace black with whatever color you want. */
   margin-left: -2px;
 }
 
@@ -2443,7 +2480,7 @@ body, html {
   .six {
     position: relative;
     width: 100vw;
-    margin-top: 8em;
+    margin-top: 10em;
   }
   .six .rotate-img {
     margin-top: 0;
@@ -2463,6 +2500,7 @@ body, html {
     position: relative;
     width: 100vw;
     margin: 0 auto;
+    height: 400px;
   }
   .six .rotate-img .rotation .circle {
     margin-top: 0px;
@@ -2504,8 +2542,8 @@ body, html {
     margin-top: 262px;
   }
   .six .rotate-img .rotation figure {
-    margin-left: 0;
-    margin-top: -225px;
+    margin-left: 45px;
+    margin-top: -230px;
   }
   .six .rotate-img .fb-snap {
     margin: 0 auto;
@@ -2517,11 +2555,22 @@ body, html {
     position: absolute;
     width: 100vw;
   }
+  .six .rotate-img .fb-snap .space .fb-page span {
+    width: 100vw;
+  }
+  .six .rotate-img .fb-snap .space .fb-page span iframe {
+    width: 100vw;
+  }
   .six .rotate-img .fb-snap .fb_text {
     width: 100%;
     position: relative;
     height: 8em;
     text-align: center;
+    margin: 0 auto;
+  }
+  .six .rotate-img .fb-snap .fb_text p {
+    position: relative;
+    padding-left: 0em;
   }
   .six .rotate-img .fb-snap .fb_download {
     position: relative;
@@ -2558,11 +2607,40 @@ body, html {
         -ms-flex-align: center;
             align-items: center;
   }
+  .six .footer .fungry_logo {
+    margin: 0 auto;
+  }
+  .six .footer .fungry_logo .footer_logo {
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  .six .footer .fungry_logo .footer_logo .fun_text {
+    left: 0;
+  }
+  .six .footer .fungry_logo .footer_logo img {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .six .footer .fungry_logo .footer_logo p {
+    color: #6b8aff;
+    height: 20px;
+    line-height: 1.5;
+    font-size: 12px;
+    position: relative;
+  }
   .six .footer .address {
     margin: 0 auto;
     position: relative;
     text-align: center;
     padding-top: 0px;
+    width: 100vw;
+  }
+  .six .footer .address p {
+    margin-top: 0;
+    margin-left: auto;
   }
   .six .footer .menu {
     text-align: center;
@@ -2582,7 +2660,113 @@ body, html {
   }
   .six .footer .social-media {
     margin-top: 0;
+    width: 100vw;
+    position: absolute;
+    background: #2F313D;
+  }
+  .six .footer .social-media ul {
+    margin-left: 0px;
+    margin: 0 auto;
+  }
+  .six .footer .social-media ul li {
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1349px) {
+  .six {
+    width: 100vw;
+    margin-top: 10em;
+  }
+  .six .rotate-img .rotation .circle {
+    width: 300px;
+    height: 300px;
+    border: 2px dashed #BFBFBF;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin: 0 auto;
+  }
+  .six .rotate-img .rotation .circle .cir-img1 {
+    margin-left: 55px;
+    margin-top: -20px;
+  }
+  .six .rotate-img .rotation .circle .cir-img2 {
+    margin-left: 190px;
+    margin-top: -10px;
+  }
+  .six .rotate-img .rotation .circle .cir-img3 {
+    margin-left: -10px;
+    margin-top: 65px;
+  }
+  .six .rotate-img .rotation .circle .cir-img4 {
+    margin-left: 265px;
+    margin-top: 65px;
+  }
+  .six .rotate-img .rotation .circle .cir-img5 {
+    margin-left: -12px;
+    margin-top: 190px;
+  }
+  .six .rotate-img .rotation .circle .cir-img6 {
+    margin-left: 270px;
+    margin-top: 185px;
+  }
+  .six .rotate-img .rotation .circle .cir-img7 {
+    margin-left: 60px;
+    margin-top: 250px;
+  }
+  .six .rotate-img .rotation .circle .cir-img8 {
+    margin-left: 200px;
+    margin-top: 262px;
+  }
+  .six .rotate-img .rotation figure {
+    margin-left: 45px;
+    margin-top: -230px;
+  }
+  .six .rotate-img .fb-snap {
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .six .rotate-img .fb-snap .space .fb-page {
+    position: absolute;
+    width: 100vw;
+  }
+  .six .rotate-img .fb-snap .space .fb-page span {
+    width: 100vw;
+  }
+  .six .rotate-img .fb-snap .space .fb-page span iframe {
+    width: 50vw;
+  }
+  .six .rotate-img .fb-snap .fb_text {
     width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .six .rotate-img .fb-snap .fb_text p {
+    position: relative;
+    padding-left: 0em;
+  }
+  .six .rotate-img .fb-snap .fb_download {
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 3fr 3fr;
+        grid-template-columns: 3fr 3fr;
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .six .rotate-img .fb-snap .fb_download a img {
+    margin-left: 0px;
+  }
+  .six .rotate-img .fb-snap .fb_download a .playstore {
+    position: relative;
+    margin-top: 15px;
+  }
+  .six .footer .social-media ul {
+    margin-left: 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */

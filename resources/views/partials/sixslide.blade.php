@@ -46,13 +46,15 @@
         
     <div class="footer">
        <div class="fungry_logo">
+           <div class="footer_logo">
             <img src="{{asset('/images/Fungry-Noti-Outer.png')}}" alt="phone" align="left">
             <p class="fun_text">Fungry.AI</p>
           
             <p>Product of <br/>MM Digital Solutions</p>
 
             <span>Copyright &copy; 2019</span>
-       </div>
+        </div>
+           </div>
        <div class="address">
             <p>
                 117/119 Golden Gate Tower,<br/>

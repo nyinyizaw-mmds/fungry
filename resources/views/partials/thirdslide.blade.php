@@ -1,6 +1,8 @@
 <div class="three" id="three">
-    <p><button class="btn"><b>Exclusive Feature for You</b></button></p>
+    <div class="p_text">
+        <p><button class="btn"><b>Exclusive Feature for You</b></button></p>
     
+    </div>
     <div class="column_three">
         <div class="one_col">
             <div class="ani_button">
@@ -75,10 +77,12 @@
         <div class="right-corner">
             <img src="{{asset('/images/image.png')}}" alt="phone" class="right-rotation">
         </div> --}}
+       <div class="p_text">
         <p id="special">
             <button class="btn next-btn"><b>Special Meals Around You</b></button>
             
         </p>
+       </div>
    
     
 </div>
