@@ -246,11 +246,12 @@
     .pizza {
         > img{
             position: static;
-            z-index: 1000;
-            width: 150px;
-            height: 150px;
-            margin-left: -165px;
-    }
+            // z-index: 5;
+            margin-top: -74px;
+            width: 72px;
+            height: 130px;
+            margin-left: -255px;
+        }
     }
     .section2{
         margin-top: 50px;
@@ -262,17 +263,8 @@
             z-index: 5;
             transform: rotate(-2deg);
             background:$seconde_pg_bg_color;
-            height: 780px;
-            .pizza{
-                .piz{
-                    position: absolute;
-                    z-index: 5;
-                    margin-top: -74px;
-                    width: 100px;
-                    height: 100px;
-                    margin-left: -15em;
-                }
-            }
+            height: 855px;
+          
             .border{
                 margin-top: -170px;
                 border: 3px solid #6b8aff;
@@ -287,10 +279,8 @@
                 color: $primary_text_color;
                 margin-left:65px;
                 margin-right: 566px;
-                font-size: 45px;
-                padding:2px;
-                height:60px;
-                font-weight: bolder;
+                font-size: 30px;
+                font-weight: normal;
                 margin-top:-100px;
                 background:$seconde_pg_bg_color;
             }
@@ -308,9 +298,9 @@
             .soup{
 
                 >img{
-                    width: 188px;
+                    width: 177px;
                     position: absolute;
-                    height: 183px;
+                    height: 160px;
                     margin-left: -79px;
                     z-index: 5;
                 }

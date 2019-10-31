@@ -252,6 +252,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   background: white;
+  margin-right: 50px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -356,6 +357,7 @@
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   .header {
     width: 100vw;
+    margin-right: 0px;
   }
   .campaign img {
     width: 414px;
@@ -364,7 +366,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 50;
   }
   .sticky {
@@ -376,6 +378,9 @@
     margin-top: 17px;
     text-decoration: none;
   }
+  .nav.close .menu {
+    display: none;
+  }
   .nav ul.open {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -384,8 +389,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 15px;
+    margin-top: 25px;
     width: 100vw;
+    line-height: 0;
     overflow: hidden;
     margin-left: -227px;
   }
@@ -882,28 +888,34 @@ body, html {
     margin-left: 21%;
   }
   .section .one .wrapper {
+    width: 100vw;
     padding-top: 40px;
   }
   .section .one .wrapper .shadow1 img {
     margin-top: 50px;
-    width: 255px;
+    width: 230px;
     height: 265px;
   }
   .section .one .wrapper .shadow2 img {
     position: relative;
-    width: 255px;
+    width: 240px;
     height: 330px;
     z-index: 9;
   }
   .section .one .wrapper .shadow3 img {
     margin-top: 50px;
-    width: 255px;
+    width: 230px;
     height: 265px;
   }
   .section .count {
     position: absolute;
     margin-top: 677px;
-    margin-left: 33%;
+    display: -ms-grid;
+    display: grid;
+    width: 100vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .section .count .numcount .verticals {
     border-right: none;
@@ -921,8 +933,28 @@ body, html {
     font-size: 12px;
   }
   .section .stores {
-    margin-left: 25%;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: -66px;
     margin-top: -30px;
+  }
+  .section .stores .playstore {
+    width: 126px;
+    height: 42px;
+    margin-top: 38px;
+  }
+  .section .stores .applestore {
+    width: 150px;
+    height: 76px;
+    margin-left: 20px;
+    /* padding-top: 20px; */
+    position: absolute;
+    margin-top: 18px;
   }
   .toggleNav {
     display: block;
@@ -1206,10 +1238,10 @@ body, html {
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   .pizza > img {
     position: static;
-    z-index: 1000;
-    width: 150px;
-    height: 150px;
-    margin-left: -165px;
+    margin-top: -74px;
+    width: 72px;
+    height: 130px;
+    margin-left: -255px;
   }
   .section2 {
     margin-top: 50px;
@@ -1225,15 +1257,7 @@ body, html {
     -webkit-transform: rotate(-2deg);
             transform: rotate(-2deg);
     background: #EEF3FF;
-    height: 780px;
-  }
-  .section2 .two .pizza .piz {
-    position: absolute;
-    z-index: 5;
-    margin-top: -74px;
-    width: 100px;
-    height: 100px;
-    margin-left: -15em;
+    height: 855px;
   }
   .section2 .two .border {
     margin-top: -170px;
@@ -1251,10 +1275,8 @@ body, html {
     color: #3D3D3D;
     margin-left: 65px;
     margin-right: 566px;
-    font-size: 45px;
-    padding: 2px;
-    height: 60px;
-    font-weight: bolder;
+    font-size: 30px;
+    font-weight: normal;
     margin-top: -100px;
     background: #EEF3FF;
   }
@@ -1266,9 +1288,9 @@ body, html {
     color: #757575;
   }
   .section2 .two .soup > img {
-    width: 188px;
+    width: 177px;
     position: absolute;
-    height: 183px;
+    height: 160px;
     margin-left: -79px;
     z-index: 5;
   }
@@ -2260,14 +2282,11 @@ body, html {
 
 .six .rotate-img .fb-snap .space .fb-page {
   position: absolute;
-  width: 100vw;
 }
 
 .six .rotate-img .fb-snap .fb_text {
-  width: 100%;
   position: relative;
   height: 45px;
-  margin: 0px auto auto 2em;
   text-align: center;
 }
 
@@ -2281,11 +2300,11 @@ body, html {
   letter-spacing: normal;
   color: #a3a3a3;
   position: absolute;
+  padding-left: 2em;
 }
 
 .six .rotate-img .fb-snap .fb_download {
   position: relative;
-  width: 80%;
   height: 100px;
 }
 
@@ -2515,7 +2534,6 @@ body, html {
   }
   .six .rotate-img .fb-snap .space .fb-page {
     position: absolute;
-    width: 100vw;
   }
   .six .rotate-img .fb-snap .fb_text {
     width: 100%;

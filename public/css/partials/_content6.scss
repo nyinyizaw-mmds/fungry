@@ -94,16 +94,16 @@
             
                     .fb-page{
                         position:absolute;
-                        width:100vw;
+                        // width:100vw;
                     }
             
             }
 
            .fb_text{
-            width: 100%;
+            // width: 100%;
             position: relative;
             height: 45px;
-            margin: 0px auto auto 2em;
+            // margin: 0px auto auto 2em;
             text-align: center;
             
             p{
@@ -116,6 +116,7 @@
                 letter-spacing: normal;
                 color: #a3a3a3;
                 position: absolute;
+                padding-left: 2em;
                
             }
            }
@@ -123,7 +124,7 @@
            .fb_download{
 
             position: relative;
-            width: 80%;
+            // width: 80%;
             height: 100px;
             a{
                 text-decoration:none;
@@ -356,7 +357,7 @@
                     .space{
                         .fb-page{
                             position:absolute;
-                            width:100vw;
+                         
                         }
                     }
 
