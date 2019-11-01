@@ -22,10 +22,10 @@
             </ul>
         </nav>    
  </div>
-{{-- <div class="campaign">
+<div class="campaign">
         @foreach ($image as $image)
         @if($image->is_active == 1)
            <img src="{{ asset ('images/'.$image->image)}}" alt="image" />
         @endif
        @endforeach
-</div> --}}
+</div>

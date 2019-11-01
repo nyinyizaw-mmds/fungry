@@ -308,8 +308,8 @@
                         margin-top: 0px;
                         margin-left: 0px;
                         margin: 0 auto;
-                        width:300px;
-                        height:300px;
+                        width:250px;
+                        height:250px;
 
                         .cir-img1{
                             margin-left:55px;
@@ -317,44 +317,48 @@
                         }
 
                         .cir-img2{
-                            margin-left:190px;
-                            margin-top:-10px;
+                            margin-left: 150px;
+                            margin-top: -15px;
                         }
 
                         .cir-img3{
-                            margin-left:-10px;
-                            margin-top:65px;
+                            margin-left: -18px;
+                            margin-top: 65px;
                         }
 
                         .cir-img4{
-                            margin-left:265px;
-                            margin-top:65px;
+                            margin-left: 218px;
+                            margin-top: 60px;
                         }
 
                         .cir-img5{
-                            margin-left:-12px;
-                            margin-top:190px;
+                            margin-left: -12px;
+                            margin-top: 160px;
                         }
 
                         .cir-img6{
-                            margin-left:270px;
-                            margin-top:185px;
+                            margin-left: 217px;
+                            margin-top: 152px;
                         }
 
                         .cir-img7{
-                            margin-left:60px;
-                            margin-top:250px;
+                            margin-left: 60px;
+                            margin-top: 212px;
                         }
 
                         .cir-img8{
-                            margin-left:200px;
-                            margin-top:262px;
+                            margin-left: 159px;
+                            margin-top: 211px;
                         }
                     }
 
                     figure{
                         margin-left: 45px;
-                        margin-top: -230px;
+                        margin-top: -183px;
+                        img{
+                            width: 100px;
+                            height: 100px;
+                        }
                     }
                 }
 
@@ -431,6 +435,8 @@
 
                 .fungry_logo{
                     margin:0 auto;
+                    background:#2F313D;
+                    text-align:center;
                     .footer_logo{
                         position: relative;
                         padding-top:0px;
@@ -446,6 +452,7 @@
                             height: 75px;
                             border-radius: 5px;
                             position:relative;
+                            margin-left:15px;
                         }
 
                         p{
@@ -461,6 +468,7 @@
                 }
 
                 .address{
+                    background:#2F313D;
                     margin:0 auto;
                     position: relative;
                     text-align: center;
@@ -474,9 +482,11 @@
                 }
 
                 .menu{
+                    background:#2F313D;
                     text-align:center;
                     padding-top:0px;
                     ul{
+                        margin-left:-40px;
                         li{
                             .half-line{
                                 margin:0 auto;
@@ -487,10 +497,12 @@
                 }
 
                 .help{
+                    background:#2F313D;
                     text-align:center;
                     padding-top:0px;
 
                     ul{
+                        margin-left:-40px;
                         li{
                             .half-line1{
                                 margin:0 auto;
@@ -503,7 +515,7 @@
                 .social-media{
                     margin-top: 0;
                     width: 100vw;
-                    position: absolute;
+                    position:relative;
                     background: #2F313D;
 
                     ul{
@@ -511,7 +523,14 @@
                         margin: 0 auto;
                         li{
                             float: right;
-                        
+                            a .fa-instagram{
+                                margin-top:0px;
+                            }
+                
+                            a .fa-envelope{
+                              
+                                margin-top:0px;
+                            }
                         }
                     }
                 }
@@ -519,7 +538,11 @@
         }
     }
 
-
+    @media only screen and (min-width:414px) and (max-width:768px) and (orientation: landscape){
+        .six{
+            margin-top:10em;
+        }
+    }
 
     @media only screen and (min-width:769px) and (max-width:1024px){
         .six{

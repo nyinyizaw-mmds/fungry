@@ -11,11 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-// Route::get('/','WelcomeController@index');
+Route::get('/','WelcomeController@index');
 
-// Route::get('/uploadimage','UploadImageController@index');
-// Route::post('/uploadfile','UploadImageController@store');
+Route::get('/uploadimage','UploadImageController@index');
+Route::post('/uploadfile','UploadImageController@store');

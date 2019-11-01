@@ -147,7 +147,7 @@
         left: 0;
         width: 100vw;
         // background-color: red;
-        z-index: 50;
+        z-index: 10000;
     }
 
       .sticky{
@@ -196,7 +196,15 @@
       }
         
     }
-    
+
+    .campaign{
+        width:100vw;
+        margin:0 auto;
+        img{
+          
+           width:100vw;
+        }
+    }
 }
 
 // @media only screen and (min-width:768px) and (max-width:1024px){
