@@ -913,13 +913,18 @@ body, html {
   }
   .section .count {
     position: absolute;
-    margin-top: 677px;
+    margin: 667 auto;
     display: -ms-grid;
     display: grid;
     width: 100vw;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .section .count .numcount {
+    margin-right: 0px;
+    text-align: center;
+    margin-left: 0px;
   }
   .section .count .numcount .verticals {
     border-right: none;
@@ -1727,7 +1732,7 @@ body, html {
     margin: 0 auto;
   }
   .three .column_three .two_col .rotate-img .phimg {
-    margin-top: 705px;
+    margin-top: 685px;
     height: 450px;
     position: absolute;
     margin-left: 0;
@@ -1770,9 +1775,65 @@ body, html {
     display: none;
   }
   .three .next-btn {
-    position: absolute;
+    position: relative;
+    margin-top: 235px;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .three {
+    width: 100vw;
+  }
+  .three .p_text {
+    margin: 0 auto;
+    width: 100vw;
     text-align: center;
-    margin-top: 0px;
+  }
+  .three .p_text p {
+    margin: 0 auto;
+  }
+  .three .one_col .ani_button .btn1 {
+    margin-top: 205px;
+  }
+  .three .two_col .rotate-img .phimg {
+    margin-top: 500px;
+  }
+  .three .three_col .upper {
+    width: 130px;
+    height: 90px;
+    position: relative;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+  }
+  .three .three_col .upper .back-img {
+    position: absolute;
+    width: 100;
+    height: 90px;
+    margin-left: 51vw;
+    margin-top: -35px;
+  }
+  .three .three_col .middle_one {
+    display: none;
+  }
+  .three .three_col .middle_two {
+    width: 285px;
+    height: 150px;
+    position: relative;
+    z-index: 5;
+    margin: 0 auto;
+  }
+  .three .three_col .middle_two figure {
+    margin-top: 530px;
+  }
+  .three .three_col .foo {
+    display: none;
+  }
+  .three .next-btn {
+    position: relative;
+    margin-top: 44px;
+    margin-left: 0px;
   }
 }
 
@@ -1901,10 +1962,49 @@ body, html {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1349px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .four {
     width: 100%;
     position: relative;
+  }
+  .four .add_ani {
+    position: relative;
+    margin-left: 0px;
+    height: 300px;
+    left: 0;
+    margin: 0;
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    overflow-x: auto;
+    width: auto;
+  }
+  .four .add_ani .three_one {
+    position: absolute;
+    left: 0;
+    margin-left: 40px;
+  }
+  .four .add_ani .three_two {
+    position: absolute;
+    margin-left: 385px;
+    left: 0;
+  }
+  .four .add_ani .three_three {
+    position: absolute;
+    margin-left: 730px;
+    left: 0;
+  }
+  .four .meal {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .four {
+    width: 100vw;
   }
   .four .add_ani {
     position: relative;
@@ -2020,7 +2120,7 @@ body, html {
   height: 400px;
   overflow-x: hidden;
   overflow-y: hidden;
-  width: 1190px;
+  width: 1120px;
   position: static;
   z-index: 1;
   margin-left: 15px;
@@ -2136,7 +2236,7 @@ body, html {
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .five {
     width: 100vw;
-    margin-top: -150px;
+    margin-top: -300px;
   }
   .five .line {
     border: 0px;
@@ -2196,36 +2296,53 @@ body, html {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1349px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .five {
     width: 100vw;
+    margin-top: -250px;
   }
   .five .line {
-    width: 70vw;
+    margin: 0 auto;
+    width: 80vw;
+  }
+  .five .line .up-to-date {
+    position: relative;
+    z-index: 5;
+    margin: 0 auto;
+    margin-left: 0px;
   }
   .five .line .up-to-date .text-opacity {
-    position: relative;
+    position: absolute;
+    width: 450px;
+    height: 200px;
+    margin-top: 115px;
+    background: white;
+    margin-left: -140px;
   }
   .five .line .up-to-date .slide_group {
     position: relative;
-    margin: -300 auto 0 140px;
-    width: 65vw;
+    margin: 0 auto 0 219px;
     -ms-grid-row: 2;
     grid-row: 2;
     min-width: 0px;
     overflow-x: auto;
+    width: 60vw;
+    height: 420px;
   }
   .five .line .up-to-date .slide_group .card {
+    margin-top: 40px;
     height: 370px;
     -webkit-transform: translateX(200px);
             transform: translateX(200px);
   }
   .five .line .up-to-date .slide_group .card_1 {
+    margin-top: 40px;
     height: 370px;
     -webkit-transform: translateX(220px);
             transform: translateX(220px);
   }
   .five .line .up-to-date .slide_group .card_2 {
+    margin-top: 40px;
     height: 370px;
     -webkit-transform: translateX(240px);
             transform: translateX(240px);
@@ -2331,6 +2448,12 @@ body, html {
 
 .six .rotate-img .fb-snap .space .fb-page {
   position: absolute;
+}
+
+.six .rotate-img .fb-snap .space .fb-page span iframe {
+  width: 50vw;
+  display: block;
+  margin: 0 auto;
 }
 
 .six .rotate-img .fb-snap .fb_text {
@@ -2499,7 +2622,7 @@ body, html {
   .six {
     position: relative;
     width: 100vw;
-    margin-top: 10em;
+    margin-top: 0em;
   }
   .six .rotate-img {
     margin-top: 0;
@@ -2572,12 +2695,19 @@ body, html {
   }
   .six .rotate-img .fb-snap .space .fb-page {
     position: absolute;
+    width: 100vw;
   }
   .six .rotate-img .fb-snap .space .fb-page span {
-    width: 100vw;
+    width: 0px;
+    display: block;
+    margin: 0 auto;
   }
   .six .rotate-img .fb-snap .space .fb-page span iframe {
+    position: absolute;
+    width: 0px;
     width: 100vw;
+    display: block;
+    margin: 0 auto;
   }
   .six .rotate-img .fb-snap .fb_text {
     width: 100%;
@@ -2691,10 +2821,10 @@ body, html {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1349px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .six {
     width: 100vw;
-    margin-top: 10em;
+    margin-top: -150px;
   }
   .six .rotate-img .rotation .circle {
     width: 300px;
@@ -2748,13 +2878,19 @@ body, html {
   }
   .six .rotate-img .fb-snap .space .fb-page {
     position: absolute;
-    width: 100vw;
+    width: 50vw;
   }
   .six .rotate-img .fb-snap .space .fb-page span {
-    width: 100vw;
+    width: 0px;
+    width: 50vw;
+    display: block;
+    margin: 0 auto;
   }
   .six .rotate-img .fb-snap .space .fb-page span iframe {
+    width: 0px;
     width: 50vw;
+    margin: 0 auto;
+    display: block;
   }
   .six .rotate-img .fb-snap .fb_text {
     width: 100%;

@@ -500,7 +500,7 @@
                         margin:0 auto;
 
                         .phimg{
-                            margin-top: 705px;
+                            margin-top: 685px;
                             height: 450px;
                             position: absolute;
                             margin-left: 0;
@@ -558,13 +558,103 @@
             }
 
             .next-btn{
-                position: absolute;
-                text-align: center;
-                margin-top:0px;
-              
+                position:relative;
+                margin-top:235px;
+                margin-left:0px;
             }
         }
     }
+
+    @media only screen and (min-width:769px) and (max-width:1024px){
+        .three{
+            width:100vw;
+            .p_text{
+                margin:0 auto;
+                width:100vw;
+                text-align:center;
+
+                p{
+                    margin:0 auto;
+                }
+            }
+            .one_col{
+                .ani_button{
+                    .btn1{
+                        margin-top:205px;
+                    }
+                }
+            }
+
+            .two_col{
+                .rotate-img{
+                    .phimg{
+                        margin-top: 500px;
+                    }
+                }
+            }
+            .three_col{
+                .upper{
+                    width: 130px;
+                    height: 90px;
+                    position: relative;
+                    right: 0;
+                    top: 0;
+                    margin: 0 auto;
+                    .back-img{
+                        position: absolute;
+                        width: 100;
+                        height: 90px;
+                        margin-left: 51vw;
+                        margin-top: -35px;
+                    }
+                }
+
+                .middle_one{
+                    display:none;
+                }
+
+                .middle_two{
+                    width: 285px;
+                    height: 150px;
+                  
+                    position: relative;
+                    
+                    z-index: 5;
+                    margin: 0 auto;
+
+                    figure{
+                        margin-top: 530px;
+                    }
+                }
+
+                .foo{
+                    display:none;
+                }
+            }
+
+            .next-btn{
+                position:relative; 
+                margin-top:44px;
+                margin-left:0px;
+            }
+        }
+    }
+
+
+    // @media only screen and (min-width:1024x) and (max-width:1520px){
+    //     .three{
+    //         width:100vw;
+
+    //        .column_three{
+    //         .three_col{
+
+    //             .foo{
+    //                 display:none;
+    //             }
+    //         }
+    //        }
+    //     }
+    // }
 
     // adding media query in content3
 

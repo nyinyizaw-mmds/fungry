@@ -77,12 +77,16 @@
         <div class="right-corner">
             <img src="{{asset('/images/image.png')}}" alt="phone" class="right-rotation">
         </div> --}}
-       <div class="p_text">
+       {{-- <div class="p_text">
         <p id="special">
             <button class="btn next-btn"><b>Special Meals Around You</b></button>
             
         </p>
-       </div>
+       </div> --}}
+       <div class="p_text">
+        <p><button class="btn next-btn"><b>Special Meals Around You</b></button></p>
+    
+        </div>
    
     
 </div>
