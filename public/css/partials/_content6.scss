@@ -94,6 +94,15 @@
             
                     .fb-page{
                         position:absolute;
+                        
+                        span{
+                            
+                            iframe{
+                                width:50vw;
+                                display:block;
+                                margin:0 auto;
+                            }
+                        }
 
                     }
             
@@ -279,7 +288,7 @@
         .six{
             position:relative;
             width:100vw;
-            margin-top:10em;
+            margin-top:0em;
 
             .rotate-img{
                 margin-top:0;
@@ -359,11 +368,17 @@
                         .fb-page{
                             position:absolute;
 
-                            width:100vw;
+                           width:100vw;
                             span{
-                                width:100vw;
+                                width:0px;
+                                display:block;
+                                margin:0 auto;
                                 iframe{
+                                    position:absolute;
+                                    width:0px;
                                     width:100vw;
+                                    display:block;
+                                    margin:0 auto;
                                 }
                             }
 
@@ -504,10 +519,12 @@
         }
     }
 
-    @media only screen and (min-width:768px) and (max-width:1349px){
+
+
+    @media only screen and (min-width:769px) and (max-width:1024px){
         .six{
             width:100vw;
-            margin-top:10em;
+            margin-top:-150px;
             .rotate-img{
                 .rotation{
                     .circle{
@@ -572,13 +589,20 @@
                     margin-left:0px;
 
                     .space{
+                     
                         .fb-page{
                             position:absolute;
-                            width:100vw;
+                            width:50vw;
                             span{
-                                width:100vw;
+                                width:0px;
+                                width:50vw;
+                                display:block;
+                                margin:0 auto;
                                 iframe{
+                                    width:0px;
                                     width:50vw;
+                                    margin:0 auto;
+                                    display:block;
                                 }
                             }
                         }

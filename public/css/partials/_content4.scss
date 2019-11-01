@@ -126,7 +126,7 @@
         
     }
 
-@media only screen and (min-width:320px) and (max-width:1349px){
+@media only screen and (min-width:320px) and (max-width:768px){
     .four{
         width:100%;
         position:relative;
@@ -169,4 +169,48 @@
         }
     }
 }
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .four{
+        width:100vw;
+
+        .add_ani{
+            position: relative;
+            margin-left:0px;
+            height:300px;
+            left:0;
+            margin: 0;
+            top: 0;
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            width:auto;
+        
+
+            .three_one{
+                position:absolute;
+                left:0;
+                margin-left:40px;
+            }
+
+            .three_two{
+                position:absolute;
+                margin-left: 385px;
+                left:0;
+            }
+
+            .three_three{
+                position:absolute;
+                margin-left: 730px;
+                left:0;
+            }
+        }
+
+        
+        .meal{
+          display:none;
+        }
+    }
+}
+
 

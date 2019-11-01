@@ -174,33 +174,7 @@ document.addEventListener("scroll", function () {
             });
            // console.log('two');
           }
-        //    const add = document.querySelector('.add_ani');
-
-        //    add.style.marginTop = -scrolled1 * 0.02 + "px";
-
-        //    const four = document.querySelector(".four");
-        //     isElementInViewport(four) ?
-        //     slide_four():
-        //     remslide_four();
-
-        //     function slide_four(){
-        //         // const four_slide = document.querySelectorAll('.three_one','.three_two','three_three');
-        //         // [].forEach.call(four_slide, el => {
-        //         //     el.classList.add('slidescale');
-                
-        //         // });
-        //         console.log('yes');
-        //     }
-
-        //     function remslide_four(){
-        //         // const four_slide1 = document.querySelectorAll('.three_one','.three_two','three_three');
-        //         // [].forEach.call(four_slide1, el => {
-        //         //     el.classList.remove('slidescale');
-                
-        //         // });
-        //         console.log('false');
-        //     }
-       
+   
      
             //for six slide
             const sixslide = document.querySelector("#slide-six");
@@ -236,8 +210,12 @@ slider.addEventListener('mousedown',(e) => {
 });
 
 function step2(){
-    var opacity = document.querySelector('.text-opacity');
-    opacity.style.opacity = 0.4;
+    var opacity = document.querySelectorAll('.read-update,.read-and-get');
+    [].forEach.call(opacity, el => {
+      el.style.opacity = 0.4;
+  
+  });
+    //opacity.style.opacity = 0.4;
 }
 
 slider.addEventListener('mouseleave',() => {
@@ -265,8 +243,13 @@ slider.addEventListener('mousemove',(e) => {
 });
 
 function step3(){
-    var opacity = document.querySelector('.text-opacity');
-    opacity.style.opacity = '';
+    // var opacity = document.querySelector('.text-opacity');
+    // opacity.style.opacity = '';
+    var opacity = document.querySelectorAll('.read-update,.read-and-get');
+    [].forEach.call(opacity, el => {
+      el.style.opacity ='';
+  
+  });
 }
 
 

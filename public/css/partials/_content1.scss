@@ -427,11 +427,14 @@ body,html{
         }
         .count{
             position: absolute;
-            margin-top: 677px;
+            margin: 667 auto;
             display: grid;
             width: 100vw;
             justify-content: center;
             .numcount{ 
+                margin-right:0px;
+                text-align:center;
+                margin-left:0px;
                  .verticals{
                      border-right: none;
                      text-align: center;

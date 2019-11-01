@@ -78,7 +78,7 @@
                     height: 400px;
                     overflow-x: hidden;
                     overflow-y:hidden;
-                    width: 1190px;
+                    width: 1120px;
                     position: static;
                     z-index: 1;
                     margin-left: 15px;
@@ -214,7 +214,7 @@
 @media only screen and (min-width:320px) and (max-width:768px){
     .five{
         width:100vw;
-        margin-top:-150px;
+        margin-top:-300px;
         .line{
             border:0px;
             margin:0 auto;
@@ -276,35 +276,52 @@
     }
 }
 
-@media only screen and (min-width:768px) and (max-width:1349px){
+
+@media only screen and (min-width:769px) and (max-width:1024px){
     .five{
         width:100vw;
-
+        margin-top:-250px;
         .line{
-            width:70vw;
+            margin:0 auto;
+            width:80vw;
             .up-to-date{
+                position: relative;
+                z-index: 5;
+                margin: 0 auto;
+                margin-left: 0px;
+
                 .text-opacity{
-                    position:relative;
+                    position: absolute;
+                    width: 450px;
+                    height: 200px;
+                    margin-top: 115px;
+                    background: white;
+                    margin-left: -140px;
                 }
                 .slide_group{
                     position: relative;
-                    margin: -300 auto 0 140px;
-                    width: 65vw;
+                    margin: 0 auto 0 219px;
+                    -ms-grid-row: 2;
                     grid-row: 2;
                     min-width: 0px;
-                    overflow-x:auto;
+                    overflow-x: auto;
+                    width: 60vw;
+                    height: 420px;
 
                     .card{
+                        margin-top:40px;
                         height:370px;
                         transform: translateX(200px);
                     }
 
                     .card_1{
+                        margin-top:40px;
                         height:370px;
                         transform: translateX(220px);
                     }
 
                     .card_2{
+                        margin-top:40px;
                         height:370px;
                         transform: translateX(240px);
                     }
@@ -312,4 +329,20 @@
             }
         }
     }
-}
+}   
+
+// @media only screen and (min-width:768px) and (max-width:1024px){
+//     .five{
+//         width:100vw;
+
+//         .line{
+//             width:70vw;
+//             .up-to-date{
+//                 .text-opacity{
+//                     position:relative;
+//                 }
+               
+//             }
+//         }
+//     }
+// }
