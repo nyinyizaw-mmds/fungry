@@ -84,7 +84,7 @@
         </p>
        </div> --}}
        <div class="p_text">
-        <p><button class="btn next-btn"><b>Special Meals Around You</b></button></p>
+        <p id="special"><button class="btn next-btn"><b>Special Meals Around You</b></button></p>
     
         </div>
    

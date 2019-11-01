@@ -371,7 +371,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    z-index: 50;
+    z-index: 10000;
   }
   .sticky {
     padding-top: 10px;
@@ -414,6 +414,13 @@
   }
   .nav ul.open li .btn1 {
     display: none;
+  }
+  .campaign {
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .campaign img {
+    width: 100vw;
   }
 }
 
@@ -2648,44 +2655,48 @@ body, html {
     margin-top: 0px;
     margin-left: 0px;
     margin: 0 auto;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   .six .rotate-img .rotation .circle .cir-img1 {
     margin-left: 55px;
     margin-top: -20px;
   }
   .six .rotate-img .rotation .circle .cir-img2 {
-    margin-left: 190px;
-    margin-top: -10px;
+    margin-left: 150px;
+    margin-top: -15px;
   }
   .six .rotate-img .rotation .circle .cir-img3 {
-    margin-left: -10px;
+    margin-left: -18px;
     margin-top: 65px;
   }
   .six .rotate-img .rotation .circle .cir-img4 {
-    margin-left: 265px;
-    margin-top: 65px;
+    margin-left: 218px;
+    margin-top: 60px;
   }
   .six .rotate-img .rotation .circle .cir-img5 {
     margin-left: -12px;
-    margin-top: 190px;
+    margin-top: 160px;
   }
   .six .rotate-img .rotation .circle .cir-img6 {
-    margin-left: 270px;
-    margin-top: 185px;
+    margin-left: 217px;
+    margin-top: 152px;
   }
   .six .rotate-img .rotation .circle .cir-img7 {
     margin-left: 60px;
-    margin-top: 250px;
+    margin-top: 212px;
   }
   .six .rotate-img .rotation .circle .cir-img8 {
-    margin-left: 200px;
-    margin-top: 262px;
+    margin-left: 159px;
+    margin-top: 211px;
   }
   .six .rotate-img .rotation figure {
     margin-left: 45px;
-    margin-top: -230px;
+    margin-top: -183px;
+  }
+  .six .rotate-img .rotation figure img {
+    width: 100px;
+    height: 100px;
   }
   .six .rotate-img .fb-snap {
     margin: 0 auto;
@@ -2757,6 +2768,8 @@ body, html {
   }
   .six .footer .fungry_logo {
     margin: 0 auto;
+    background: #2F313D;
+    text-align: center;
   }
   .six .footer .fungry_logo .footer_logo {
     position: relative;
@@ -2771,6 +2784,7 @@ body, html {
     height: 75px;
     border-radius: 5px;
     position: relative;
+    margin-left: 15px;
   }
   .six .footer .fungry_logo .footer_logo p {
     color: #6b8aff;
@@ -2780,6 +2794,7 @@ body, html {
     position: relative;
   }
   .six .footer .address {
+    background: #2F313D;
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -2791,16 +2806,24 @@ body, html {
     margin-left: auto;
   }
   .six .footer .menu {
+    background: #2F313D;
     text-align: center;
     padding-top: 0px;
+  }
+  .six .footer .menu ul {
+    margin-left: -40px;
   }
   .six .footer .menu ul li .half-line {
     margin: 0 auto;
     width: 13%;
   }
   .six .footer .help {
+    background: #2F313D;
     text-align: center;
     padding-top: 0px;
+  }
+  .six .footer .help ul {
+    margin-left: -40px;
   }
   .six .footer .help ul li .half-line1 {
     margin: 0 auto;
@@ -2809,7 +2832,7 @@ body, html {
   .six .footer .social-media {
     margin-top: 0;
     width: 100vw;
-    position: absolute;
+    position: relative;
     background: #2F313D;
   }
   .six .footer .social-media ul {
@@ -2818,6 +2841,18 @@ body, html {
   }
   .six .footer .social-media ul li {
     float: right;
+  }
+  .six .footer .social-media ul li a .fa-instagram {
+    margin-top: 0px;
+  }
+  .six .footer .social-media ul li a .fa-envelope {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) and (orientation: landscape) {
+  .six {
+    margin-top: 10em;
   }
 }
 
